@@ -1,0 +1,11 @@
+question,contexts,answer,ground_truth
+What is the capital of France?,"['Paris is the capital of France.', 'France is known for its culture and cuisine.']",Paris,Paris
+Who wrote '1984'?,"['George Orwell wrote the book 1984.', '1984 is a dystopian novel.']",George Orwell,George Orwell
+What is the largest mammal?,"['The blue whale is the largest mammal on Earth.', 'Whales are large aquatic mammals.']",Elephant,Blue Whale
+Where is the Great Wall located?,"['The Great Wall of China is in Asia.', 'It spans thousands of miles across northern China.']",China,India
+What is the boiling point of water?,"['Water boils at 100 degrees Celsius at sea level.', 'The boiling point of water depends on pressure.']",100 degrees Celsius,100 degrees Celsius
+Who developed the theory of relativity?,"['Albert Einstein developed the theory of relativity.', 'This theory changed modern physics.']",Albert Einstein,Albert Einstein
+What element does 'O' represent on the periodic table?,"[""Oxygen is represented by 'O' on the periodic table."", 'Oxygen is essential for respiration.']",Oxygen,Oxygen
+What is the tallest mountain?,"['Mount Everest is the tallest mountain above sea level.', 'Located in the Himalayas.']",K2,Mount Everest
+What gas do plants absorb?,"['Plants absorb carbon dioxide during photosynthesis.', 'They release oxygen as a byproduct.']",Carbon Dioxide,Carbon Dioxide
+What is the main ingredient in bread?,"['Flour is the main ingredient in most types of bread.', 'Bread is made by baking a dough of flour and water.']",Water,Flour

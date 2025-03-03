@@ -1,0 +1,698 @@
+,context1,context2,context3,context4,question,answer,answer_relevance,record_id,faithfulness,faithfulness_attributions,average_precision,context_relevance,context_relevances,hit_rate,ndcg,reciprocal_rank,retrieval_precision,unsuccessful_requests,coverage,density,abstractness
+0,"Last month, I announced our plan to supercharge  
+the Cancer Moonshot that President Obama asked me to lead six years ago. 
+
+Our goal is to cut the cancer death rate by at least 50% over the next 25 years, turn more cancers from death sentences into treatable diseases.  
+
+More support for patients and families. 
+
+To get there, I call on Congress to fund ARPA-H, the Advanced Research Projects Agency for Health. 
+
+It’s based on DARPA—the Defense Department project that led to the Internet, GPS, and so much more.  
+
+ARPA-H will have a singular purpose—to drive breakthroughs in cancer, Alzheimer’s, diabetes, and more. 
+
+A unity agenda for the nation. 
+
+We can do this. 
+
+My fellow Americans—tonight , we have gathered in a sacred space—the citadel of our democracy. 
+
+In this Capitol, generation after generation, Americans have debated great questions amid great strife, and have done great things. 
+
+We have fought for freedom, expanded liberty, defeated totalitarianism and terror.","We’re also ready with anti-viral treatments. If you get COVID-19, the Pfizer pill reduces your chances of ending up in the hospital by 90%.  
+
+We’ve ordered more of these pills than anyone in the world. And Pfizer is working overtime to get us 1 Million pills this month and more than double that next month.  
+
+And we’re launching the “Test to Treat” initiative so people can get tested at a pharmacy, and if they’re positive, receive antiviral pills on the spot at no cost.  
+
+If you’re immunocompromised or have some other vulnerability, we have treatments and free high-quality masks. 
+
+We’re leaving no one behind or ignoring anyone’s needs as we move forward. 
+
+And on testing, we have made hundreds of millions of tests available for you to order for free.   
+
+Even if you already ordered free tests tonight, I am announcing that you can order more from covidtests.gov starting next week.","For that purpose we’ve mobilized American ground forces, air squadrons, and ship deployments to protect NATO countries including Poland, Romania, Latvia, Lithuania, and Estonia. 
+
+As I have made crystal clear the United States and our Allies will defend every inch of territory of NATO countries with the full force of our collective power.  
+
+And we remain clear-eyed. The Ukrainians are fighting back with pure courage. But the next few days weeks, months, will be hard on them.  
+
+Putin has unleashed violence and chaos.  But while he may make gains on the battlefield – he will pay a continuing high price over the long run. 
+
+And a proud Ukrainian people, who have known 30 years  of independence, have repeatedly shown that they will not tolerate anyone who tries to take their country backwards.  
+
+To all Americans, I will be honest with you, as I’ve always promised. A Russian dictator, invading a foreign country, has costs around the world.","If you travel 20 miles east of Columbus, Ohio, you’ll find 1,000 empty acres of land. 
+
+It won’t look like much, but if you stop and look closely, you’ll see a “Field of dreams,” the ground on which America’s future will be built. 
+
+This is where Intel, the American company that helped build Silicon Valley, is going to build its $20 billion semiconductor “mega site”. 
+
+Up to eight state-of-the-art factories in one place. 10,000 new good-paying jobs. 
+
+Some of the most sophisticated manufacturing in the world to make computer chips the size of a fingertip that power the world and our everyday lives. 
+
+Smartphones. The Internet. Technology we have yet to invent. 
+
+But that’s just the beginning. 
+
+Intel’s CEO, Pat Gelsinger, who is here tonight, told me they are ready to increase their investment from  
+$20 billion to $100 billion. 
+
+That would be one of the biggest investments in manufacturing in American history. 
+
+And all they’re waiting for is for you to pass this bill.",What is ARPA-H?,"ARPA-H is the Advanced Research Projects Agency for Health, a new agency with a singular purpose to drive breakthroughs in cancer, Alzheimer's, diabetes, and other diseases.",0.9922,8d6d94eb-b50f-4fe0-8e5a-4f3845c51301,0.1777,"[{'attributions': [{'faithfulness_scores': [0.1777, 0.0204, 0.002], 'feature_name': 'context1', 'feature_values': ['It’s based on DARPA—the Defense Department project that led to the Internet, GPS, and so much more. ARPA-H will have a singular purpose—to drive breakthroughs in cancer, Alzheimer’s, diabetes, and more.', 'ARPA-H will have a singular purpose—to drive breakthroughs in cancer, Alzheimer’s, diabetes, and more. A unity agenda for the nation.', 'A unity agenda for the nation. We can do this.']}], 'faithfulness_score': 0.1777, 'output_text': ""ARPA-H is the Advanced Research Projects Agency for Health, a new agency with a singular purpose to drive breakthroughs in cancer, Alzheimer's, diabetes, and other diseases.""}]",1.0,0.8103,"{'context_columns': ['context1', 'context2', 'context3', 'context4'], 'context_relevances': [0.8103, 0.5807, 0.6411, 0.6468]}",1,0.9926,1.0,0.25,0,0.2751,0.1162,0.1154
+1,"So let’s not wait any longer. Send it to my desk. I’ll sign it.  
+
+And we will really take off. 
+
+And Intel is not alone. 
+
+There’s something happening in America. 
+
+Just look around and you’ll see an amazing story. 
+
+The rebirth of the pride that comes from stamping products “Made In America.” The revitalization of American manufacturing.   
+
+Companies are choosing to build new factories here, when just a few years ago, they would have built them overseas. 
+
+That’s what is happening. Ford is investing $11 billion to build electric vehicles, creating 11,000 jobs across the country. 
+
+GM is making the largest investment in its history—$7 billion to build electric vehicles, creating 4,000 jobs in Michigan. 
+
+All told, we created 369,000 new manufacturing jobs in America just last year. 
+
+Powered by people I’ve met like JoJo Burgess, from generations of union steelworkers from Pittsburgh, who’s here with us tonight.","If you travel 20 miles east of Columbus, Ohio, you’ll find 1,000 empty acres of land. 
+
+It won’t look like much, but if you stop and look closely, you’ll see a “Field of dreams,” the ground on which America’s future will be built. 
+
+This is where Intel, the American company that helped build Silicon Valley, is going to build its $20 billion semiconductor “mega site”. 
+
+Up to eight state-of-the-art factories in one place. 10,000 new good-paying jobs. 
+
+Some of the most sophisticated manufacturing in the world to make computer chips the size of a fingertip that power the world and our everyday lives. 
+
+Smartphones. The Internet. Technology we have yet to invent. 
+
+But that’s just the beginning. 
+
+Intel’s CEO, Pat Gelsinger, who is here tonight, told me they are ready to increase their investment from  
+$20 billion to $100 billion. 
+
+That would be one of the biggest investments in manufacturing in American history. 
+
+And all they’re waiting for is for you to pass this bill.","When we use taxpayer dollars to rebuild America – we are going to Buy American: buy American products to support American jobs. 
+
+The federal government spends about $600 Billion a year to keep the country safe and secure. 
+
+There’s been a law on the books for almost a century 
+to make sure taxpayers’ dollars support American jobs and businesses. 
+
+Every Administration says they’ll do it, but we are actually doing it. 
+
+We will buy American to make sure everything from the deck of an aircraft carrier to the steel on highway guardrails are made in America. 
+
+But to compete for the best jobs of the future, we also need to level the playing field with China and other competitors. 
+
+That’s why it is so important to pass the Bipartisan Innovation Act sitting in Congress that will make record investments in emerging technologies and American manufacturing. 
+
+Let me give you one example of why it’s so important to pass it.","It is going to transform America and put us on a path to win the economic competition of the 21st Century that we face with the rest of the world—particularly with China.  
+
+As I’ve told Xi Jinping, it is never a good bet to bet against the American people. 
+
+We’ll create good jobs for millions of Americans, modernizing roads, airports, ports, and waterways all across America. 
+
+And we’ll do it all to withstand the devastating effects of the climate crisis and promote environmental justice. 
+
+We’ll build a national network of 500,000 electric vehicle charging stations, begin to replace poisonous lead pipes—so every child—and every American—has clean water to drink at home and at school, provide affordable high-speed internet for every American—urban, suburban, rural, and tribal communities. 
+
+4,000 projects have already been announced. 
+
+And tonight, I’m announcing that this year we will start fixing over 65,000 miles of highway and 1,500 bridges in disrepair.",What is the investment of Ford and GM to build electric vehicles?,"Ford is investing $11 billion to build electric vehicles, creating 11,000 jobs across the country, while General Motors (GM) is making its largest investment in history - $7 billion to build electric vehicles, creating 4,000 jobs in Michigan.",0.985,a9b2f145-ba65-4628-8b55-54c521161e66,0.8897,"[{'attributions': [{'faithfulness_scores': [0.8897, 0.0523], 'feature_name': 'context1', 'feature_values': ['Ford is investing $11 billion to build electric vehicles, creating 11,000 jobs across the country. GM is making the largest investment in its history—$7 billion to build electric vehicles, creating 4,000 jobs in Michigan.', 'GM is making the largest investment in its history—$7 billion to build electric vehicles, creating 4,000 jobs in Michigan. All told, we created 369,000 new manufacturing jobs in America just last year.']}, {'faithfulness_scores': [0.0038], 'feature_name': 'context3', 'feature_values': ['That’s why it is so important to pass the Bipartisan Innovation Act sitting in Congress that will make record investments in emerging technologies and American manufacturing. Let me give you one example of why it’s so important to pass it.']}], 'faithfulness_score': 0.8897, 'output_text': 'Ford is investing $11 billion to build electric vehicles, creating 11,000 jobs across the country, while General Motors (GM) is making its largest investment in history - $7 billion to build electric vehicles, creating 4,000 jobs in Michigan.'}]",0.0,0.2005,"{'context_columns': ['context1', 'context2', 'context3', 'context4'], 'context_relevances': [0.2005, 0.0982, 0.034, 0.0215]}",0,1.0,0.0,0.0,0,0.272,0.2372,0.1316
+2,"My plan will cut the cost in half for most families and help parents, including millions of women, who left the workforce during the pandemic because they couldn’t afford child care, to be able to get back to work. 
+
+My plan doesn’t stop there. It also includes home and long-term care. More affordable housing. And Pre-K for every 3- and 4-year-old.  
+
+All of these will lower costs. 
+
+And under my plan, nobody earning less than $400,000 a year will pay an additional penny in new taxes. Nobody.  
+
+The one thing all Americans agree on is that the tax system is not fair. We have to fix it.  
+
+I’m not looking to punish anyone. But let’s make sure corporations and the wealthiest Americans start paying their fair share. 
+
+Just last year, 55 Fortune 500 corporations earned $40 billion in profits and paid zero dollars in federal income tax.  
+
+That’s simply not fair. That’s why I’ve proposed a 15% minimum tax rate for corporations.","We got more than 130 countries to agree on a global minimum tax rate so companies can’t get out of paying their taxes at home by shipping jobs and factories overseas. 
+
+That’s why I’ve proposed closing loopholes so the very wealthy don’t pay a lower tax rate than a teacher or a firefighter.  
+
+So that’s my plan. It will grow the economy and lower costs for families. 
+
+So what are we waiting for? Let’s get this done. And while you’re at it, confirm my nominees to the Federal Reserve, which plays a critical role in fighting inflation.  
+
+My plan will not only lower costs to give families a fair shot, it will lower the deficit. 
+
+The previous Administration not only ballooned the deficit with tax cuts for the very wealthy and corporations, it undermined the watchdogs whose job was to keep pandemic relief funds from being wasted. 
+
+But in my administration, the watchdogs have been welcomed back.","And unlike the $2 Trillion tax cut passed in the previous administration that benefitted the top 1% of Americans, the American Rescue Plan helped working people—and left no one behind. 
+
+And it worked. It created jobs. Lots of jobs. 
+
+In fact—our economy created over 6.5 Million new jobs just last year, more jobs created in one year  
+than ever before in the history of America. 
+
+Our economy grew at a rate of 5.7% last year, the strongest growth in nearly 40 years, the first step in bringing fundamental change to an economy that hasn’t worked for the working people of this nation for too long.  
+
+For the past 40 years we were told that if we gave tax breaks to those at the very top, the benefits would trickle down to everyone else. 
+
+But that trickle-down theory led to weaker economic growth, lower wages, bigger deficits, and the widest gap between those at the top and everyone else in nearly a century.","We’re going after the criminals who stole billions in relief money meant for small businesses and millions of Americans.  
+
+And tonight, I’m announcing that the Justice Department will name a chief prosecutor for pandemic fraud. 
+
+By the end of this year, the deficit will be down to less than half what it was before I took office.  
+
+The only president ever to cut the deficit by more than one trillion dollars in a single year. 
+
+Lowering your costs also means demanding more competition. 
+
+I’m a capitalist, but capitalism without competition isn’t capitalism. 
+
+It’s exploitation—and it drives up prices. 
+
+When corporations don’t have to compete, their profits go up, your prices go up, and small businesses and family farmers and ranchers go under. 
+
+We see it happening with ocean carriers moving goods in and out of America. 
+
+During the pandemic, these foreign-owned companies raised prices by as much as 1,000% and made record profits.",What is the proposed tax rate for corporations?,The proposed minimum tax rate for corporations under this plan is 15%.,0.9872,39917465-5e1b-4dc1-91a8-cc9a3d0e77d6,0.9925,"[{'attributions': [{'faithfulness_scores': [0.9925], 'feature_name': 'context1', 'feature_values': ['That’s simply not fair. That’s why I’ve proposed a 15% minimum tax rate for corporations.']}, {'faithfulness_scores': [0.0189], 'feature_name': 'context3', 'feature_values': ['It created jobs. Lots of jobs.']}], 'faithfulness_score': 0.9925, 'output_text': 'The proposed minimum tax rate for corporations under this plan is 15%.'}]",0.0,0.1992,"{'context_columns': ['context1', 'context2', 'context3', 'context4'], 'context_relevances': [0.1992, 0.0133, 0.0074, 0.0082]}",0,0.9997,0.0,0.0,0,0.1684,0.1837,0.0833
+3,"If you travel 20 miles east of Columbus, Ohio, you’ll find 1,000 empty acres of land. 
+
+It won’t look like much, but if you stop and look closely, you’ll see a “Field of dreams,” the ground on which America’s future will be built. 
+
+This is where Intel, the American company that helped build Silicon Valley, is going to build its $20 billion semiconductor “mega site”. 
+
+Up to eight state-of-the-art factories in one place. 10,000 new good-paying jobs. 
+
+Some of the most sophisticated manufacturing in the world to make computer chips the size of a fingertip that power the world and our everyday lives. 
+
+Smartphones. The Internet. Technology we have yet to invent. 
+
+But that’s just the beginning. 
+
+Intel’s CEO, Pat Gelsinger, who is here tonight, told me they are ready to increase their investment from  
+$20 billion to $100 billion. 
+
+That would be one of the biggest investments in manufacturing in American history. 
+
+And all they’re waiting for is for you to pass this bill.","So let’s not wait any longer. Send it to my desk. I’ll sign it.  
+
+And we will really take off. 
+
+And Intel is not alone. 
+
+There’s something happening in America. 
+
+Just look around and you’ll see an amazing story. 
+
+The rebirth of the pride that comes from stamping products “Made In America.” The revitalization of American manufacturing.   
+
+Companies are choosing to build new factories here, when just a few years ago, they would have built them overseas. 
+
+That’s what is happening. Ford is investing $11 billion to build electric vehicles, creating 11,000 jobs across the country. 
+
+GM is making the largest investment in its history—$7 billion to build electric vehicles, creating 4,000 jobs in Michigan. 
+
+All told, we created 369,000 new manufacturing jobs in America just last year. 
+
+Powered by people I’ve met like JoJo Burgess, from generations of union steelworkers from Pittsburgh, who’s here with us tonight.","When we use taxpayer dollars to rebuild America – we are going to Buy American: buy American products to support American jobs. 
+
+The federal government spends about $600 Billion a year to keep the country safe and secure. 
+
+There’s been a law on the books for almost a century 
+to make sure taxpayers’ dollars support American jobs and businesses. 
+
+Every Administration says they’ll do it, but we are actually doing it. 
+
+We will buy American to make sure everything from the deck of an aircraft carrier to the steel on highway guardrails are made in America. 
+
+But to compete for the best jobs of the future, we also need to level the playing field with China and other competitors. 
+
+That’s why it is so important to pass the Bipartisan Innovation Act sitting in Congress that will make record investments in emerging technologies and American manufacturing. 
+
+Let me give you one example of why it’s so important to pass it.","It is going to transform America and put us on a path to win the economic competition of the 21st Century that we face with the rest of the world—particularly with China.  
+
+As I’ve told Xi Jinping, it is never a good bet to bet against the American people. 
+
+We’ll create good jobs for millions of Americans, modernizing roads, airports, ports, and waterways all across America. 
+
+And we’ll do it all to withstand the devastating effects of the climate crisis and promote environmental justice. 
+
+We’ll build a national network of 500,000 electric vehicle charging stations, begin to replace poisonous lead pipes—so every child—and every American—has clean water to drink at home and at school, provide affordable high-speed internet for every American—urban, suburban, rural, and tribal communities. 
+
+4,000 projects have already been announced. 
+
+And tonight, I’m announcing that this year we will start fixing over 65,000 miles of highway and 1,500 bridges in disrepair.",What is Intel going to build?,"Intel is going to build its $20 billion semiconductor ""mega site"" which includes up to eight state-of-the-art factories, creating 10,000 new good-paying jobs.",0.9929,ad4e84bc-f381-49cf-88f6-62e6c345a4c1,0.0029,"[{'attributions': [{'faithfulness_scores': [0.0029, 0.0019], 'feature_name': 'context1', 'feature_values': ['Up to eight state-of-the-art factories in one place. 10,000 new good-paying jobs.', '10,000 new good-paying jobs. Some of the most sophisticated manufacturing in the world to make computer chips the size of a fingertip that power the world and our everyday lives.']}, {'faithfulness_scores': [0.0027], 'feature_name': 'context3', 'feature_values': ['That’s why it is so important to pass the Bipartisan Innovation Act sitting in Congress that will make record investments in emerging technologies and American manufacturing. Let me give you one example of why it’s so important to pass it.']}], 'faithfulness_score': 0.0029, 'output_text': 'Intel is going to build its $20 billion semiconductor ""mega site"" which includes up to eight state-of-the-art factories, creating 10,000 new good-paying jobs.'}]",1.0,0.8737,"{'context_columns': ['context1', 'context2', 'context3', 'context4'], 'context_relevances': [0.8737, 0.7133, 0.4553, 0.2424]}",1,1.0,1.0,0.25,0,0.2155,0.162,0.1739
+4,"So let’s not wait any longer. Send it to my desk. I’ll sign it.  
+
+And we will really take off. 
+
+And Intel is not alone. 
+
+There’s something happening in America. 
+
+Just look around and you’ll see an amazing story. 
+
+The rebirth of the pride that comes from stamping products “Made In America.” The revitalization of American manufacturing.   
+
+Companies are choosing to build new factories here, when just a few years ago, they would have built them overseas. 
+
+That’s what is happening. Ford is investing $11 billion to build electric vehicles, creating 11,000 jobs across the country. 
+
+GM is making the largest investment in its history—$7 billion to build electric vehicles, creating 4,000 jobs in Michigan. 
+
+All told, we created 369,000 new manufacturing jobs in America just last year. 
+
+Powered by people I’ve met like JoJo Burgess, from generations of union steelworkers from Pittsburgh, who’s here with us tonight.","If you travel 20 miles east of Columbus, Ohio, you’ll find 1,000 empty acres of land. 
+
+It won’t look like much, but if you stop and look closely, you’ll see a “Field of dreams,” the ground on which America’s future will be built. 
+
+This is where Intel, the American company that helped build Silicon Valley, is going to build its $20 billion semiconductor “mega site”. 
+
+Up to eight state-of-the-art factories in one place. 10,000 new good-paying jobs. 
+
+Some of the most sophisticated manufacturing in the world to make computer chips the size of a fingertip that power the world and our everyday lives. 
+
+Smartphones. The Internet. Technology we have yet to invent. 
+
+But that’s just the beginning. 
+
+Intel’s CEO, Pat Gelsinger, who is here tonight, told me they are ready to increase their investment from  
+$20 billion to $100 billion. 
+
+That would be one of the biggest investments in manufacturing in American history. 
+
+And all they’re waiting for is for you to pass this bill.","When we use taxpayer dollars to rebuild America – we are going to Buy American: buy American products to support American jobs. 
+
+The federal government spends about $600 Billion a year to keep the country safe and secure. 
+
+There’s been a law on the books for almost a century 
+to make sure taxpayers’ dollars support American jobs and businesses. 
+
+Every Administration says they’ll do it, but we are actually doing it. 
+
+We will buy American to make sure everything from the deck of an aircraft carrier to the steel on highway guardrails are made in America. 
+
+But to compete for the best jobs of the future, we also need to level the playing field with China and other competitors. 
+
+That’s why it is so important to pass the Bipartisan Innovation Act sitting in Congress that will make record investments in emerging technologies and American manufacturing. 
+
+Let me give you one example of why it’s so important to pass it.","As Ohio Senator Sherrod Brown says, “It’s time to bury the label “Rust Belt.” 
+
+It’s time. 
+
+But with all the bright spots in our economy, record job growth and higher wages, too many families are struggling to keep up with the bills.  
+
+Inflation is robbing them of the gains they might otherwise feel. 
+
+I get it. That’s why my top priority is getting prices under control. 
+
+Look, our economy roared back faster than most predicted, but the pandemic meant that businesses had a hard time hiring enough workers to keep up production in their factories. 
+
+The pandemic also disrupted global supply chains. 
+
+When factories close, it takes longer to make goods and get them from the warehouse to the store, and prices go up. 
+
+Look at cars. 
+
+Last year, there weren’t enough semiconductors to make all the cars that people wanted to buy. 
+
+And guess what, prices of automobiles went up. 
+
+So—we have a choice. 
+
+One way to fight inflation is to drive down wages and make Americans poorer.",How many new manufacturing jobs are created last year?,"Last year, 369,000 new manufacturing jobs were created in America.",0.9956,ad1a0240-b6c7-4c27-af2e-98d19a81acb1,0.9957,"[{'attributions': [{'faithfulness_scores': [0.9957, 0.9948], 'feature_name': 'context1', 'feature_values': ['All told, we created 369,000 new manufacturing jobs in America just last year. Powered by people I’ve met like JoJo Burgess, from generations of union steelworkers from Pittsburgh, who’s here with us tonight.', 'GM is making the largest investment in its history—$7 billion to build electric vehicles, creating 4,000 jobs in Michigan. All told, we created 369,000 new manufacturing jobs in America just last year.']}], 'faithfulness_score': 0.9957, 'output_text': 'Last year, 369,000 new manufacturing jobs were created in America.'}]",1.0,0.8313,"{'context_columns': ['context1', 'context2', 'context3', 'context4'], 'context_relevances': [0.8313, 0.3272, 0.0495, 0.0962]}",1,0.9971,1.0,0.25,0,0.1496,0.2431,0.0
+5,"So let’s not wait any longer. Send it to my desk. I’ll sign it.  
+
+And we will really take off. 
+
+And Intel is not alone. 
+
+There’s something happening in America. 
+
+Just look around and you’ll see an amazing story. 
+
+The rebirth of the pride that comes from stamping products “Made In America.” The revitalization of American manufacturing.   
+
+Companies are choosing to build new factories here, when just a few years ago, they would have built them overseas. 
+
+That’s what is happening. Ford is investing $11 billion to build electric vehicles, creating 11,000 jobs across the country. 
+
+GM is making the largest investment in its history—$7 billion to build electric vehicles, creating 4,000 jobs in Michigan. 
+
+All told, we created 369,000 new manufacturing jobs in America just last year. 
+
+Powered by people I’ve met like JoJo Burgess, from generations of union steelworkers from Pittsburgh, who’s here with us tonight.","If you travel 20 miles east of Columbus, Ohio, you’ll find 1,000 empty acres of land. 
+
+It won’t look like much, but if you stop and look closely, you’ll see a “Field of dreams,” the ground on which America’s future will be built. 
+
+This is where Intel, the American company that helped build Silicon Valley, is going to build its $20 billion semiconductor “mega site”. 
+
+Up to eight state-of-the-art factories in one place. 10,000 new good-paying jobs. 
+
+Some of the most sophisticated manufacturing in the world to make computer chips the size of a fingertip that power the world and our everyday lives. 
+
+Smartphones. The Internet. Technology we have yet to invent. 
+
+But that’s just the beginning. 
+
+Intel’s CEO, Pat Gelsinger, who is here tonight, told me they are ready to increase their investment from  
+$20 billion to $100 billion. 
+
+That would be one of the biggest investments in manufacturing in American history. 
+
+And all they’re waiting for is for you to pass this bill.","It is going to transform America and put us on a path to win the economic competition of the 21st Century that we face with the rest of the world—particularly with China.  
+
+As I’ve told Xi Jinping, it is never a good bet to bet against the American people. 
+
+We’ll create good jobs for millions of Americans, modernizing roads, airports, ports, and waterways all across America. 
+
+And we’ll do it all to withstand the devastating effects of the climate crisis and promote environmental justice. 
+
+We’ll build a national network of 500,000 electric vehicle charging stations, begin to replace poisonous lead pipes—so every child—and every American—has clean water to drink at home and at school, provide affordable high-speed internet for every American—urban, suburban, rural, and tribal communities. 
+
+4,000 projects have already been announced. 
+
+And tonight, I’m announcing that this year we will start fixing over 65,000 miles of highway and 1,500 bridges in disrepair.","Vice President Harris and I ran for office with a new economic vision for America. 
+
+Invest in America. Educate Americans. Grow the workforce. Build the economy from the bottom up  
+and the middle out, not from the top down.  
+
+Because we know that when the middle class grows, the poor have a ladder up and the wealthy do very well. 
+
+America used to have the best roads, bridges, and airports on Earth. 
+
+Now our infrastructure is ranked 13th in the world. 
+
+We won’t be able to compete for the jobs of the 21st Century if we don’t fix that. 
+
+That’s why it was so important to pass the Bipartisan Infrastructure Law—the most sweeping investment to rebuild America in history. 
+
+This was a bipartisan effort, and I want to thank the members of both parties who worked to make it happen. 
+
+We’re done talking about infrastructure weeks. 
+
+We’re going to have an infrastructure decade.",How many electric vehicle charging stations are built?,"500,000 electric vehicle charging stations will be built nationwide.",0.9827,2ae8bf61-a03b-4cf1-9faa-974f87c1e668,0.9949,"[{'attributions': [{'faithfulness_scores': [0.9949, 0.9873], 'feature_name': 'context3', 'feature_values': ['We’ll build a national network of 500,000 electric vehicle charging stations, begin to replace poisonous lead pipes—so every child—and every American—has clean water to drink at home and at school, provide affordable high-speed internet for every American—urban, suburban, rural, and tribal communities. 4,000 projects have already been announced.', 'And we’ll do it all to withstand the devastating effects of the climate crisis and promote environmental justice. We’ll build a national network of 500,000 electric vehicle charging stations, begin to replace poisonous lead pipes—so every child—and every American—has clean water to drink at home and at school, provide affordable high-speed internet for every American—urban, suburban, rural, and tribal communities.']}, {'faithfulness_scores': [0.0051], 'feature_name': 'context4', 'feature_values': ['Grow the workforce. Build the economy from the bottom up  \nand the middle out, not from the top down.']}], 'faithfulness_score': 0.9949, 'output_text': '500,000 electric vehicle charging stations will be built nationwide.'}]",0.0,0.5984,"{'context_columns': ['context1', 'context2', 'context3', 'context4'], 'context_relevances': [0.0602, 0.0134, 0.5984, 0.0058]}",0,0.6561,0.0,0.0,0,0.0814,0.35,0.1111
+6,"As Ohio Senator Sherrod Brown says, “It’s time to bury the label “Rust Belt.” 
+
+It’s time. 
+
+But with all the bright spots in our economy, record job growth and higher wages, too many families are struggling to keep up with the bills.  
+
+Inflation is robbing them of the gains they might otherwise feel. 
+
+I get it. That’s why my top priority is getting prices under control. 
+
+Look, our economy roared back faster than most predicted, but the pandemic meant that businesses had a hard time hiring enough workers to keep up production in their factories. 
+
+The pandemic also disrupted global supply chains. 
+
+When factories close, it takes longer to make goods and get them from the warehouse to the store, and prices go up. 
+
+Look at cars. 
+
+Last year, there weren’t enough semiconductors to make all the cars that people wanted to buy. 
+
+And guess what, prices of automobiles went up. 
+
+So—we have a choice. 
+
+One way to fight inflation is to drive down wages and make Americans poorer.","When we use taxpayer dollars to rebuild America – we are going to Buy American: buy American products to support American jobs. 
+
+The federal government spends about $600 Billion a year to keep the country safe and secure. 
+
+There’s been a law on the books for almost a century 
+to make sure taxpayers’ dollars support American jobs and businesses. 
+
+Every Administration says they’ll do it, but we are actually doing it. 
+
+We will buy American to make sure everything from the deck of an aircraft carrier to the steel on highway guardrails are made in America. 
+
+But to compete for the best jobs of the future, we also need to level the playing field with China and other competitors. 
+
+That’s why it is so important to pass the Bipartisan Innovation Act sitting in Congress that will make record investments in emerging technologies and American manufacturing. 
+
+Let me give you one example of why it’s so important to pass it.","So let’s not wait any longer. Send it to my desk. I’ll sign it.  
+
+And we will really take off. 
+
+And Intel is not alone. 
+
+There’s something happening in America. 
+
+Just look around and you’ll see an amazing story. 
+
+The rebirth of the pride that comes from stamping products “Made In America.” The revitalization of American manufacturing.   
+
+Companies are choosing to build new factories here, when just a few years ago, they would have built them overseas. 
+
+That’s what is happening. Ford is investing $11 billion to build electric vehicles, creating 11,000 jobs across the country. 
+
+GM is making the largest investment in its history—$7 billion to build electric vehicles, creating 4,000 jobs in Michigan. 
+
+All told, we created 369,000 new manufacturing jobs in America just last year. 
+
+Powered by people I’ve met like JoJo Burgess, from generations of union steelworkers from Pittsburgh, who’s here with us tonight.","And unlike the $2 Trillion tax cut passed in the previous administration that benefitted the top 1% of Americans, the American Rescue Plan helped working people—and left no one behind. 
+
+And it worked. It created jobs. Lots of jobs. 
+
+In fact—our economy created over 6.5 Million new jobs just last year, more jobs created in one year  
+than ever before in the history of America. 
+
+Our economy grew at a rate of 5.7% last year, the strongest growth in nearly 40 years, the first step in bringing fundamental change to an economy that hasn’t worked for the working people of this nation for too long.  
+
+For the past 40 years we were told that if we gave tax breaks to those at the very top, the benefits would trickle down to everyone else. 
+
+But that trickle-down theory led to weaker economic growth, lower wages, bigger deficits, and the widest gap between those at the top and everyone else in nearly a century.",How much did the economy grow?,"The American economy grew at a rate of 5.7% last year, which is the strongest growth in nearly 40 years.",0.9905,fe66cc57-6f62-440b-a3e7-dead2bdc4026,0.9942,"[{'attributions': [{'faithfulness_scores': [0.9942, 0.9815, 0.0123], 'feature_name': 'context4', 'feature_values': ['Our economy grew at a rate of 5.7% last year, the strongest growth in nearly 40 years, the first step in bringing fundamental change to an economy that hasn’t worked for the working people of this nation for too long. For the past 40 years we were told that if we gave tax breaks to those at the very top, the benefits would trickle down to everyone else.', 'In fact—our economy created over 6.5 Million new jobs just last year, more jobs created in one year  \nthan ever before in the history of America. Our economy grew at a rate of 5.7% last year, the strongest growth in nearly 40 years, the first step in bringing fundamental change to an economy that hasn’t worked for the working people of this nation for too long.', 'It created jobs. Lots of jobs.']}], 'faithfulness_score': 0.9942, 'output_text': 'The American economy grew at a rate of 5.7% last year, which is the strongest growth in nearly 40 years.'}]",0.2,0.8602,"{'context_columns': ['context1', 'context2', 'context3', 'context4'], 'context_relevances': [0.2427, 0.0338, 0.5079, 0.8602]}",1,0.6348,0.25,0.25,0,0.2566,0.3327,0.1
+7,"So let’s not wait any longer. Send it to my desk. I’ll sign it.  
+
+And we will really take off. 
+
+And Intel is not alone. 
+
+There’s something happening in America. 
+
+Just look around and you’ll see an amazing story. 
+
+The rebirth of the pride that comes from stamping products “Made In America.” The revitalization of American manufacturing.   
+
+Companies are choosing to build new factories here, when just a few years ago, they would have built them overseas. 
+
+That’s what is happening. Ford is investing $11 billion to build electric vehicles, creating 11,000 jobs across the country. 
+
+GM is making the largest investment in its history—$7 billion to build electric vehicles, creating 4,000 jobs in Michigan. 
+
+All told, we created 369,000 new manufacturing jobs in America just last year. 
+
+Powered by people I’ve met like JoJo Burgess, from generations of union steelworkers from Pittsburgh, who’s here with us tonight.","It is going to transform America and put us on a path to win the economic competition of the 21st Century that we face with the rest of the world—particularly with China.  
+
+As I’ve told Xi Jinping, it is never a good bet to bet against the American people. 
+
+We’ll create good jobs for millions of Americans, modernizing roads, airports, ports, and waterways all across America. 
+
+And we’ll do it all to withstand the devastating effects of the climate crisis and promote environmental justice. 
+
+We’ll build a national network of 500,000 electric vehicle charging stations, begin to replace poisonous lead pipes—so every child—and every American—has clean water to drink at home and at school, provide affordable high-speed internet for every American—urban, suburban, rural, and tribal communities. 
+
+4,000 projects have already been announced. 
+
+And tonight, I’m announcing that this year we will start fixing over 65,000 miles of highway and 1,500 bridges in disrepair.","If you travel 20 miles east of Columbus, Ohio, you’ll find 1,000 empty acres of land. 
+
+It won’t look like much, but if you stop and look closely, you’ll see a “Field of dreams,” the ground on which America’s future will be built. 
+
+This is where Intel, the American company that helped build Silicon Valley, is going to build its $20 billion semiconductor “mega site”. 
+
+Up to eight state-of-the-art factories in one place. 10,000 new good-paying jobs. 
+
+Some of the most sophisticated manufacturing in the world to make computer chips the size of a fingertip that power the world and our everyday lives. 
+
+Smartphones. The Internet. Technology we have yet to invent. 
+
+But that’s just the beginning. 
+
+Intel’s CEO, Pat Gelsinger, who is here tonight, told me they are ready to increase their investment from  
+$20 billion to $100 billion. 
+
+That would be one of the biggest investments in manufacturing in American history. 
+
+And all they’re waiting for is for you to pass this bill.","When we use taxpayer dollars to rebuild America – we are going to Buy American: buy American products to support American jobs. 
+
+The federal government spends about $600 Billion a year to keep the country safe and secure. 
+
+There’s been a law on the books for almost a century 
+to make sure taxpayers’ dollars support American jobs and businesses. 
+
+Every Administration says they’ll do it, but we are actually doing it. 
+
+We will buy American to make sure everything from the deck of an aircraft carrier to the steel on highway guardrails are made in America. 
+
+But to compete for the best jobs of the future, we also need to level the playing field with China and other competitors. 
+
+That’s why it is so important to pass the Bipartisan Innovation Act sitting in Congress that will make record investments in emerging technologies and American manufacturing. 
+
+Let me give you one example of why it’s so important to pass it.",How many jobs will be created?,"The passage does not provide a specific number of jobs that will be created by the Bipartisan Innovation Act, but instead emphasizes its importance in making record investments in emerging technologies and American manufacturing.",0.9916,8a7f5e35-d387-4fca-a732-098daaa1bd80,0.5227,"[{'attributions': [{'faithfulness_scores': [0.0021], 'feature_name': 'context1', 'feature_values': ['Companies are choosing to build new factories here, when just a few years ago, they would have built them overseas. That’s what is happening.']}, {'faithfulness_scores': [0.5227, 0.4031], 'feature_name': 'context4', 'feature_values': ['But to compete for the best jobs of the future, we also need to level the playing field with China and other competitors. That’s why it is so important to pass the Bipartisan Innovation Act sitting in Congress that will make record investments in emerging technologies and American manufacturing.', 'That’s why it is so important to pass the Bipartisan Innovation Act sitting in Congress that will make record investments in emerging technologies and American manufacturing. Let me give you one example of why it’s so important to pass it.']}], 'faithfulness_score': 0.5227, 'output_text': 'The passage does not provide a specific number of jobs that will be created by the Bipartisan Innovation Act, but instead emphasizes its importance in making record investments in emerging technologies and American manufacturing.'}]",1.0,0.8843,"{'context_columns': ['context1', 'context2', 'context3', 'context4'], 'context_relevances': [0.8843, 0.0501, 0.538, 0.0119]}",1,0.9491,1.0,0.25,0,0.2891,0.0903,0.2353
+8,"As Ohio Senator Sherrod Brown says, “It’s time to bury the label “Rust Belt.” 
+
+It’s time. 
+
+But with all the bright spots in our economy, record job growth and higher wages, too many families are struggling to keep up with the bills.  
+
+Inflation is robbing them of the gains they might otherwise feel. 
+
+I get it. That’s why my top priority is getting prices under control. 
+
+Look, our economy roared back faster than most predicted, but the pandemic meant that businesses had a hard time hiring enough workers to keep up production in their factories. 
+
+The pandemic also disrupted global supply chains. 
+
+When factories close, it takes longer to make goods and get them from the warehouse to the store, and prices go up. 
+
+Look at cars. 
+
+Last year, there weren’t enough semiconductors to make all the cars that people wanted to buy. 
+
+And guess what, prices of automobiles went up. 
+
+So—we have a choice. 
+
+One way to fight inflation is to drive down wages and make Americans poorer.","So let’s not wait any longer. Send it to my desk. I’ll sign it.  
+
+And we will really take off. 
+
+And Intel is not alone. 
+
+There’s something happening in America. 
+
+Just look around and you’ll see an amazing story. 
+
+The rebirth of the pride that comes from stamping products “Made In America.” The revitalization of American manufacturing.   
+
+Companies are choosing to build new factories here, when just a few years ago, they would have built them overseas. 
+
+That’s what is happening. Ford is investing $11 billion to build electric vehicles, creating 11,000 jobs across the country. 
+
+GM is making the largest investment in its history—$7 billion to build electric vehicles, creating 4,000 jobs in Michigan. 
+
+All told, we created 369,000 new manufacturing jobs in America just last year. 
+
+Powered by people I’ve met like JoJo Burgess, from generations of union steelworkers from Pittsburgh, who’s here with us tonight.","We’re going after the criminals who stole billions in relief money meant for small businesses and millions of Americans.  
+
+And tonight, I’m announcing that the Justice Department will name a chief prosecutor for pandemic fraud. 
+
+By the end of this year, the deficit will be down to less than half what it was before I took office.  
+
+The only president ever to cut the deficit by more than one trillion dollars in a single year. 
+
+Lowering your costs also means demanding more competition. 
+
+I’m a capitalist, but capitalism without competition isn’t capitalism. 
+
+It’s exploitation—and it drives up prices. 
+
+When corporations don’t have to compete, their profits go up, your prices go up, and small businesses and family farmers and ranchers go under. 
+
+We see it happening with ocean carriers moving goods in and out of America. 
+
+During the pandemic, these foreign-owned companies raised prices by as much as 1,000% and made record profits.","And so many families are living paycheck to paycheck, struggling to keep up with the rising cost of food, gas, housing, and so much more. 
+
+I understand. 
+
+I remember when my Dad had to leave our home in Scranton, Pennsylvania to find work. I grew up in a family where if the price of food went up, you felt it. 
+
+That’s why one of the first things I did as President was fight to pass the American Rescue Plan.  
+
+Because people were hurting. We needed to act, and we did. 
+
+Few pieces of legislation have done more in a critical moment in our history to lift us out of crisis. 
+
+It fueled our efforts to vaccinate the nation and combat COVID-19. It delivered immediate economic relief for tens of millions of Americans.  
+
+Helped put food on their table, keep a roof over their heads, and cut the cost of health insurance. 
+
+And as my Dad used to say, it gave people a little breathing room.",What caused issues with cars last year?,"The pandemic disrupted global supply chains, which led to factories closing and taking longer to make goods, resulting in higher prices for automobiles like cars.",0.9841,f9b5adb1-3d03-4877-b8d6-009650bb6183,0.0345,"[{'attributions': [{'faithfulness_scores': [0.0345, 0.0119, 0.0064], 'feature_name': 'context1', 'feature_values': ['When factories close, it takes longer to make goods and get them from the warehouse to the store, and prices go up. Look at cars.', 'And guess what, prices of automobiles went up. So—we have a choice.', 'Last year, there weren’t enough semiconductors to make all the cars that people wanted to buy. And guess what, prices of automobiles went up.']}], 'faithfulness_score': 0.0345, 'output_text': 'The pandemic disrupted global supply chains, which led to factories closing and taking longer to make goods, resulting in higher prices for automobiles like cars.'}]",1.0,0.9337,"{'context_columns': ['context1', 'context2', 'context3', 'context4'], 'context_relevances': [0.9337, 0.7161, 0.4692, 0.642]}",1,0.9937,1.0,0.25,0,0.2627,0.0651,0.24
+9,"I have a better plan to fight inflation. 
+
+Lower your costs, not your wages. 
+
+Make more cars and semiconductors in America. 
+
+More infrastructure and innovation in America. 
+
+More goods moving faster and cheaper in America. 
+
+More jobs where you can earn a good living in America. 
+
+And instead of relying on foreign supply chains, let’s make it in America. 
+
+Economists call it “increasing the productive capacity of our economy.” 
+
+I call it building a better America. 
+
+My plan to fight inflation will lower your costs and lower the deficit. 
+
+17 Nobel laureates in economics say my plan will ease long-term inflationary pressures. Top business leaders and most Americans support my plan. And here’s the plan: 
+
+First – cut the cost of prescription drugs. Just look at insulin. One in ten Americans has diabetes. In Virginia, I met a 13-year-old boy named Joshua Davis.","As Ohio Senator Sherrod Brown says, “It’s time to bury the label “Rust Belt.” 
+
+It’s time. 
+
+But with all the bright spots in our economy, record job growth and higher wages, too many families are struggling to keep up with the bills.  
+
+Inflation is robbing them of the gains they might otherwise feel. 
+
+I get it. That’s why my top priority is getting prices under control. 
+
+Look, our economy roared back faster than most predicted, but the pandemic meant that businesses had a hard time hiring enough workers to keep up production in their factories. 
+
+The pandemic also disrupted global supply chains. 
+
+When factories close, it takes longer to make goods and get them from the warehouse to the store, and prices go up. 
+
+Look at cars. 
+
+Last year, there weren’t enough semiconductors to make all the cars that people wanted to buy. 
+
+And guess what, prices of automobiles went up. 
+
+So—we have a choice. 
+
+One way to fight inflation is to drive down wages and make Americans poorer.","We got more than 130 countries to agree on a global minimum tax rate so companies can’t get out of paying their taxes at home by shipping jobs and factories overseas. 
+
+That’s why I’ve proposed closing loopholes so the very wealthy don’t pay a lower tax rate than a teacher or a firefighter.  
+
+So that’s my plan. It will grow the economy and lower costs for families. 
+
+So what are we waiting for? Let’s get this done. And while you’re at it, confirm my nominees to the Federal Reserve, which plays a critical role in fighting inflation.  
+
+My plan will not only lower costs to give families a fair shot, it will lower the deficit. 
+
+The previous Administration not only ballooned the deficit with tax cuts for the very wealthy and corporations, it undermined the watchdogs whose job was to keep pandemic relief funds from being wasted. 
+
+But in my administration, the watchdogs have been welcomed back.","We’re going after the criminals who stole billions in relief money meant for small businesses and millions of Americans.  
+
+And tonight, I’m announcing that the Justice Department will name a chief prosecutor for pandemic fraud. 
+
+By the end of this year, the deficit will be down to less than half what it was before I took office.  
+
+The only president ever to cut the deficit by more than one trillion dollars in a single year. 
+
+Lowering your costs also means demanding more competition. 
+
+I’m a capitalist, but capitalism without competition isn’t capitalism. 
+
+It’s exploitation—and it drives up prices. 
+
+When corporations don’t have to compete, their profits go up, your prices go up, and small businesses and family farmers and ranchers go under. 
+
+We see it happening with ocean carriers moving goods in and out of America. 
+
+During the pandemic, these foreign-owned companies raised prices by as much as 1,000% and made record profits.",How are we going to fight inflation?,"The speaker plans to fight inflation by lowering costs for families, not just raising wages, which will involve increasing the productive capacity of the economy through measures such as cutting prescription drug costs, making more cars and semiconductors in America, investing in infrastructure and innovation, improving supply chains, and growing jobs where Americans can earn a good living.",0.9924,de3f950b-eb84-4369-b081-0c119133adb3,0.2802,"[{'attributions': [{'faithfulness_scores': [0.0251, 0.0029], 'feature_name': 'context1', 'feature_values': ['And instead of relying on foreign supply chains, let’s make it in America. Economists call it “increasing the productive capacity of our economy.” \n\nI call it building a better America.', 'More jobs where you can earn a good living in America. And instead of relying on foreign supply chains, let’s make it in America.']}], 'faithfulness_score': 0.2802, 'output_text': 'The speaker plans to fight inflation by lowering costs for families, not just raising wages, which will involve increasing the productive capacity of the economy through measures such as cutting prescription drug costs, making more cars and semiconductors in America, investing in infrastructure and innovation, improving supply chains, and growing jobs where Americans can earn a good living.'}]",1.0,0.9754,"{'context_columns': ['context1', 'context2', 'context3', 'context4'], 'context_relevances': [0.8196, 0.9754, 0.7984, 0.0374]}",1,0.9699,1.0,0.5,0,0.3612,0.0369,0.3103
