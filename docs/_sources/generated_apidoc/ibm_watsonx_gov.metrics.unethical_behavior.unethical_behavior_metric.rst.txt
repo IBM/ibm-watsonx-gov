@@ -1,0 +1,7 @@
+Unethical Behavior Metric
+=========================
+
+.. automodule:: ibm_watsonx_gov.metrics.unethical_behavior.unethical_behavior_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

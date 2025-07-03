@@ -1,0 +1,7 @@
+Reciprocal Rank Metric
+======================
+
+.. automodule:: ibm_watsonx_gov.metrics.reciprocal_rank.reciprocal_rank_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

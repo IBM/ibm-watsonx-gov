@@ -1,0 +1,7 @@
+Average Precision Metric
+========================
+
+.. automodule:: ibm_watsonx_gov.metrics.average_precision.average_precision_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

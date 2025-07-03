@@ -1,0 +1,7 @@
+Harm Engagement Metric
+======================
+
+.. automodule:: ibm_watsonx_gov.metrics.harm_engagement.harm_engagement_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

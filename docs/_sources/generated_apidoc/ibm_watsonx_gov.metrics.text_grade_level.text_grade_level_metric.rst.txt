@@ -1,0 +1,7 @@
+Text Grade Level Metric
+=======================
+
+.. automodule:: ibm_watsonx_gov.metrics.text_grade_level.text_grade_level_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

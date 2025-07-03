@@ -1,0 +1,16 @@
+Pii
+===
+
+.. automodule:: ibm_watsonx_gov.metrics.pii
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.pii.pii_decorator
+   ibm_watsonx_gov.metrics.pii.pii_metric

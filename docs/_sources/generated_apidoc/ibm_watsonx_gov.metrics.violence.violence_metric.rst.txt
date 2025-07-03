@@ -1,0 +1,7 @@
+Violence Metric
+===============
+
+.. automodule:: ibm_watsonx_gov.metrics.violence.violence_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

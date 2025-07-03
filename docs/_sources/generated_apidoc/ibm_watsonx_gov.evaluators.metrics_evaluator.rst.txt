@@ -1,0 +1,7 @@
+Metrics Evaluator
+=================
+
+.. automodule:: ibm_watsonx_gov.evaluators.metrics_evaluator
+   :members:
+   :undoc-members:
+   :show-inheritance:

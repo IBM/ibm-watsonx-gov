@@ -1,0 +1,7 @@
+Jailbreak Decorator
+===================
+
+.. automodule:: ibm_watsonx_gov.metrics.jailbreak.jailbreak_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

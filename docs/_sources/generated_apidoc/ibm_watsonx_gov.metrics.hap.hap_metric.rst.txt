@@ -1,0 +1,7 @@
+Hap Metric
+==========
+
+.. automodule:: ibm_watsonx_gov.metrics.hap.hap_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

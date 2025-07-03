@@ -1,0 +1,16 @@
+Hit Rate
+========
+
+.. automodule:: ibm_watsonx_gov.metrics.hit_rate
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.hit_rate.hit_rate_decorator
+   ibm_watsonx_gov.metrics.hit_rate.hit_rate_metric

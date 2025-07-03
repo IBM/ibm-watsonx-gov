@@ -1,0 +1,7 @@
+Answer Similarity Metric
+========================
+
+.. automodule:: ibm_watsonx_gov.metrics.answer_similarity.answer_similarity_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

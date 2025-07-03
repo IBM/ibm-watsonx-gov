@@ -1,0 +1,7 @@
+Agents
+======
+
+.. automodule:: ibm_watsonx_gov.agent_catalog.core.agents
+   :members:
+   :undoc-members:
+   :show-inheritance:

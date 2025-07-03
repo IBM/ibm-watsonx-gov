@@ -1,0 +1,7 @@
+Text Grade Level Decorator
+==========================
+
+.. automodule:: ibm_watsonx_gov.metrics.text_grade_level.text_grade_level_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

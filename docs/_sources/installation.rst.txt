@@ -1,0 +1,37 @@
+Installation
+======================
+
+The ibm-watsonx-gov python library is available on PyPI
+
+
+------------
+
+To install the library, run:
+
+.. code-block:: bash
+
+   pip install ibm-watsonx-gov
+
+To install the library for evaluating agentic application using `Agentic Evaluator`, run:
+
+.. code-block:: bash
+
+   pip install ibm-watsonx-gov[agentic]
+
+To install the library for computing the AI metrics using `Metrics Evaluator`, run:
+
+.. code-block:: bash
+
+   pip install ibm-watsonx-gov[metrics]
+
+To install the library for evaluating foundational model risk using `Model Risk Evaluator`, run:
+
+.. code-block:: bash
+
+   pip install ibm-watsonx-gov[mre]
+
+To install the library for visualizing the results using `Model Insights`, run:
+
+.. code-block:: bash
+
+   pip install ibm-watsonx-gov[visualization]

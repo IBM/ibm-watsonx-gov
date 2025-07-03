@@ -1,0 +1,16 @@
+Tool Call Syntactic Accuracy
+============================
+
+.. automodule:: ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy.tool_call_syntactic_accuracy_decorator
+   ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy.tool_call_syntactic_accuracy_metric

@@ -1,0 +1,7 @@
+Retrieval Precision Metric
+==========================
+
+.. automodule:: ibm_watsonx_gov.metrics.retrieval_precision.retrieval_precision_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+Hit Rate Metric
+===============
+
+.. automodule:: ibm_watsonx_gov.metrics.hit_rate.hit_rate_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+Retrieval Precision Decorator
+=============================
+
+.. automodule:: ibm_watsonx_gov.metrics.retrieval_precision.retrieval_precision_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

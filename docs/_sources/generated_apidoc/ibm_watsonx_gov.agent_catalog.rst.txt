@@ -1,0 +1,18 @@
+Agent Catalog
+=============
+
+.. automodule:: ibm_watsonx_gov.agent_catalog
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.agent_catalog.clients
+   ibm_watsonx_gov.agent_catalog.core
+   ibm_watsonx_gov.agent_catalog.entities
+   ibm_watsonx_gov.agent_catalog.utils

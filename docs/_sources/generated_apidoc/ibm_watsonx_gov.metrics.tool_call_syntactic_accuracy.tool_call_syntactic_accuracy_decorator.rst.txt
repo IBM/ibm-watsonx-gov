@@ -1,0 +1,7 @@
+Tool Call Syntactic Accuracy Decorator
+======================================
+
+.. automodule:: ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy.tool_call_syntactic_accuracy_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

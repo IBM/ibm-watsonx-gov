@@ -1,0 +1,7 @@
+Gen AI Configuration
+====================
+
+.. automodule:: ibm_watsonx_gov.config.gen_ai_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:

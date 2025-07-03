@@ -1,0 +1,7 @@
+Pii Metric
+==========
+
+.. automodule:: ibm_watsonx_gov.metrics.pii.pii_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

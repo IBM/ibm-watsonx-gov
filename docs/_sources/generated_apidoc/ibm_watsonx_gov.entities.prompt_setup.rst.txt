@@ -1,0 +1,7 @@
+Prompt Setup
+============
+
+.. automodule:: ibm_watsonx_gov.entities.prompt_setup
+   :members:
+   :undoc-members:
+   :show-inheritance:

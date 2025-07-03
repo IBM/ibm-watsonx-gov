@@ -1,0 +1,7 @@
+Evasiveness Metric
+==================
+
+.. automodule:: ibm_watsonx_gov.metrics.evasiveness.evasiveness_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

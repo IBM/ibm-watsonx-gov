@@ -1,0 +1,7 @@
+Answer Relevance Metric
+=======================
+
+.. automodule:: ibm_watsonx_gov.metrics.answer_relevance.answer_relevance_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

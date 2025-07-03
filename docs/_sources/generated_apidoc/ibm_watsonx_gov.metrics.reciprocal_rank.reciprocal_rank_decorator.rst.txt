@@ -1,0 +1,7 @@
+Reciprocal Rank Decorator
+=========================
+
+.. automodule:: ibm_watsonx_gov.metrics.reciprocal_rank.reciprocal_rank_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

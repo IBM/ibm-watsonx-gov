@@ -1,0 +1,7 @@
+Metric Threshold
+================
+
+.. automodule:: ibm_watsonx_gov.entities.metric_threshold
+   :members:
+   :undoc-members:
+   :show-inheritance:

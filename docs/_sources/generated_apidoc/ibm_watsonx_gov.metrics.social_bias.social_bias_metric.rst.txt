@@ -1,0 +1,7 @@
+Social Bias Metric
+==================
+
+.. automodule:: ibm_watsonx_gov.metrics.social_bias.social_bias_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

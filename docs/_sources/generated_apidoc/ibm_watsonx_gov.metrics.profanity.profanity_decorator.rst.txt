@@ -1,0 +1,7 @@
+Profanity Decorator
+===================
+
+.. automodule:: ibm_watsonx_gov.metrics.profanity.profanity_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

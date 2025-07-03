@@ -1,0 +1,28 @@
+Ibm Watsonx Gov
+===============
+
+.. automodule:: ibm_watsonx_gov
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.agent_catalog
+   ibm_watsonx_gov.ai_experiments
+   ibm_watsonx_gov.clients
+   ibm_watsonx_gov.config
+   ibm_watsonx_gov.entities
+   ibm_watsonx_gov.evaluate
+   ibm_watsonx_gov.evaluators
+   ibm_watsonx_gov.metrics
+   ibm_watsonx_gov.prompt_evaluator
+   ibm_watsonx_gov.providers
+   ibm_watsonx_gov.tools
+   ibm_watsonx_gov.traces
+   ibm_watsonx_gov.utils
+   ibm_watsonx_gov.visualizations

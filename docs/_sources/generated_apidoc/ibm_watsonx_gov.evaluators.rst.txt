@@ -1,0 +1,19 @@
+Evaluators
+==========
+
+.. automodule:: ibm_watsonx_gov.evaluators
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.evaluators.agentic_evaluator
+   ibm_watsonx_gov.evaluators.agentic_traces_evaluator
+   ibm_watsonx_gov.evaluators.base_evaluator
+   ibm_watsonx_gov.evaluators.metrics_evaluator
+   ibm_watsonx_gov.evaluators.model_risk_evaluator

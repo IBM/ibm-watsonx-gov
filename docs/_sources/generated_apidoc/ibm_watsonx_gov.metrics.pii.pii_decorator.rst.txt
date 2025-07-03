@@ -1,0 +1,7 @@
+Pii Decorator
+=============
+
+.. automodule:: ibm_watsonx_gov.metrics.pii.pii_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

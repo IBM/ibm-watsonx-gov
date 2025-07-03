@@ -1,0 +1,7 @@
+Base Metric Decorator
+=====================
+
+.. automodule:: ibm_watsonx_gov.metrics.base_metric_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

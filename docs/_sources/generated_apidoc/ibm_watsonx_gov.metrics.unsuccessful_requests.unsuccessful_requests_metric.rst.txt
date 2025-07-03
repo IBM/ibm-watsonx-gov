@@ -1,0 +1,7 @@
+Unsuccessful Requests Metric
+============================
+
+.. automodule:: ibm_watsonx_gov.metrics.unsuccessful_requests.unsuccessful_requests_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

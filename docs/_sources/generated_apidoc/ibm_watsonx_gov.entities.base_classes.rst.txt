@@ -1,0 +1,7 @@
+Base Classes
+============
+
+.. automodule:: ibm_watsonx_gov.entities.base_classes
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+Harm Metric
+===========
+
+.. automodule:: ibm_watsonx_gov.metrics.harm.harm_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,16 @@
+Faithfulness
+============
+
+.. automodule:: ibm_watsonx_gov.metrics.faithfulness
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.faithfulness.faithfulness_decorator
+   ibm_watsonx_gov.metrics.faithfulness.faithfulness_metric

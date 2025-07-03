@@ -1,0 +1,7 @@
+Model Risk Configuration
+========================
+
+.. automodule:: ibm_watsonx_gov.config.model_risk_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:

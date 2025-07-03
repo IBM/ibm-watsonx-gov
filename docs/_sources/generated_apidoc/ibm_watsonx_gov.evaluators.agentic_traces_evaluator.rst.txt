@@ -1,0 +1,7 @@
+Agentic Traces Evaluator
+========================
+
+.. automodule:: ibm_watsonx_gov.evaluators.agentic_traces_evaluator
+   :members:
+   :undoc-members:
+   :show-inheritance:

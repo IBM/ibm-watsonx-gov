@@ -1,0 +1,15 @@
+Entities
+========
+
+.. automodule:: ibm_watsonx_gov.agent_catalog.entities
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.agent_catalog.entities.ai_agent

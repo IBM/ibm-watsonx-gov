@@ -1,0 +1,7 @@
+Span Node
+=========
+
+.. automodule:: ibm_watsonx_gov.traces.span_node
+   :members:
+   :undoc-members:
+   :show-inheritance:

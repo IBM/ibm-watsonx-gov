@@ -1,0 +1,7 @@
+AI Tools
+========
+
+.. automodule:: ibm_watsonx_gov.tools.entities.ai_tools
+   :members:
+   :undoc-members:
+   :show-inheritance:

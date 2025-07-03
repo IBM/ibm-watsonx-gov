@@ -1,0 +1,7 @@
+Foundation Model
+================
+
+.. automodule:: ibm_watsonx_gov.entities.foundation_model
+   :members:
+   :undoc-members:
+   :show-inheritance:

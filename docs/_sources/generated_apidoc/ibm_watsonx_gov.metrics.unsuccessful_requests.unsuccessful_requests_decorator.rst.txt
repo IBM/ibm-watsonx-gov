@@ -1,0 +1,7 @@
+Unsuccessful Requests Decorator
+===============================
+
+.. automodule:: ibm_watsonx_gov.metrics.unsuccessful_requests.unsuccessful_requests_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

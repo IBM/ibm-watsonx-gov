@@ -1,0 +1,7 @@
+Model Provider
+==============
+
+.. automodule:: ibm_watsonx_gov.entities.model_provider
+   :members:
+   :undoc-members:
+   :show-inheritance:

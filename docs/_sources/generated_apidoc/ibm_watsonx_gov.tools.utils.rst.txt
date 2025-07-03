@@ -1,0 +1,21 @@
+Utils
+=====
+
+.. automodule:: ibm_watsonx_gov.tools.utils
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.tools.utils.constants
+   ibm_watsonx_gov.tools.utils.display_utils
+   ibm_watsonx_gov.tools.utils.environment
+   ibm_watsonx_gov.tools.utils.package_utils
+   ibm_watsonx_gov.tools.utils.platform_url_mapping
+   ibm_watsonx_gov.tools.utils.python_utils
+   ibm_watsonx_gov.tools.utils.tool_utils

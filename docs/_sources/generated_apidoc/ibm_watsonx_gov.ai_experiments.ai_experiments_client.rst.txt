@@ -1,0 +1,7 @@
+AI Experiments Client
+=====================
+
+.. automodule:: ibm_watsonx_gov.ai_experiments.ai_experiments_client
+   :members:
+   :undoc-members:
+   :show-inheritance:

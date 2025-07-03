@@ -1,0 +1,16 @@
+Evasiveness
+===========
+
+.. automodule:: ibm_watsonx_gov.metrics.evasiveness
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.evasiveness.evasiveness_decorator
+   ibm_watsonx_gov.metrics.evasiveness.evasiveness_metric

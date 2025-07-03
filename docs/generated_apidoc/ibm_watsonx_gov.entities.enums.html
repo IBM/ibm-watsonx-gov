@@ -1,0 +1,1141 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Evaluation Result" href="ibm_watsonx_gov.entities.evaluation_result.html" /><link rel="prev" title="Credentials" href="ibm_watsonx_gov.entities.credentials.html" />
+
+    <!-- Generated with Sphinx 8.1.3 and Furo 2024.08.06 -->
+        <title>Enums - IBM watsonx.governance SDK 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
+    <link rel="stylesheet" type="text/css" href="../_static/autodoc_pydantic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=302659d7" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">IBM watsonx.governance SDK 1.0.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">IBM watsonx.governance SDK 1.0.0 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../setup_page.html">Setup</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Setup</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../setup_wx_gov_as_service.html">IBM watsonx.governance as a service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../setup_wx_gov.html">IBM watsonx.governance</a></li>
+</ul>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../api.html">API</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of API</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.config.html">Config</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Config</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.config.agentic_ai_configuration.html">Agentic AI Configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.config.gen_ai_configuration.html">Gen AI Configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.config.model_risk_configuration.html">Model Risk Configuration</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current has-children"><a class="reference internal" href="ibm_watsonx_gov.entities.html">Entities</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Entities</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.agentic_app.html">Agentic App</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.ai_evaluation.html">AI Evaluation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.ai_experiment.html">AI Experiment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.base_classes.html">Base Classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.container.html">Container</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.credentials.html">Credentials</a></li>
+<li class="toctree-l3 current current-page"><a class="current reference internal" href="#">Enums</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.evaluation_result.html">Evaluation Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html">Foundation Model</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.llm_judge.html">Llm Judge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.metric.html">Metric</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.metric_threshold.html">Metric Threshold</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.model_provider.html">Model Provider</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.model_risk_result.html">Model Risk Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.monitor.html">Monitor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.prompt_setup.html">Prompt Setup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.state.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.evaluate.html">Evaluate</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Evaluate</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluate.agentic_evaluation.html">Agentic Evaluation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluate.evaluate_metrics.html">Evaluate Metrics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluate.evaluate_model_risk.html">Evaluate Model Risk</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.html">Metrics</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of Metrics</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.answer_relevance.html">Answer Relevance</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of Answer Relevance</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.answer_relevance.answer_relevance_decorator.html">Answer Relevance Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.answer_relevance.answer_relevance_metric.html">Answer Relevance Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.answer_similarity.html">Answer Similarity</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle navigation of Answer Similarity</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.answer_similarity.answer_similarity_decorator.html">Answer Similarity Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.answer_similarity.answer_similarity_metric.html">Answer Similarity Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.average_precision.html">Average Precision</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle navigation of Average Precision</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.average_precision.average_precision_decorator.html">Average Precision Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.average_precision.average_precision_metric.html">Average Precision Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.context_relevance.html">Context Relevance</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle navigation of Context Relevance</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.context_relevance.context_relevance_decorator.html">Context Relevance Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.context_relevance.context_relevance_metric.html">Context Relevance Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.evasiveness.html">Evasiveness</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle navigation of Evasiveness</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.evasiveness.evasiveness_decorator.html">Evasiveness Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.evasiveness.evasiveness_metric.html">Evasiveness Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.faithfulness.html">Faithfulness</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><div class="visually-hidden">Toggle navigation of Faithfulness</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.faithfulness.faithfulness_decorator.html">Faithfulness Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.faithfulness.faithfulness_metric.html">Faithfulness Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.hap.html">Hap</a><input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" role="switch" type="checkbox"/><label for="toctree-checkbox-13"><div class="visually-hidden">Toggle navigation of Hap</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.hap.hap_decorator.html">Hap Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.hap.hap_metric.html">Hap Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.harm.html">Harm</a><input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" role="switch" type="checkbox"/><label for="toctree-checkbox-14"><div class="visually-hidden">Toggle navigation of Harm</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.harm.harm_decorator.html">Harm Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.harm.harm_metric.html">Harm Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.harm_engagement.html">Harm Engagement</a><input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" role="switch" type="checkbox"/><label for="toctree-checkbox-15"><div class="visually-hidden">Toggle navigation of Harm Engagement</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.harm_engagement.harm_engagement_decorator.html">Harm Engagement Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.harm_engagement.harm_engagement_metric.html">Harm Engagement Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.hit_rate.html">Hit Rate</a><input class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" role="switch" type="checkbox"/><label for="toctree-checkbox-16"><div class="visually-hidden">Toggle navigation of Hit Rate</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.hit_rate.hit_rate_decorator.html">Hit Rate Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.hit_rate.hit_rate_metric.html">Hit Rate Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.jailbreak.html">Jailbreak</a><input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" role="switch" type="checkbox"/><label for="toctree-checkbox-17"><div class="visually-hidden">Toggle navigation of Jailbreak</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.jailbreak.jailbreak_decorator.html">Jailbreak Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.jailbreak.jailbreak_metric.html">Jailbreak Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.ndcg.html">NDCG</a><input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" role="switch" type="checkbox"/><label for="toctree-checkbox-18"><div class="visually-hidden">Toggle navigation of NDCG</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.ndcg.ndcg_decorator.html">NDCG Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.ndcg.ndcg_metric.html">NDCG Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.pii.html">Pii</a><input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" role="switch" type="checkbox"/><label for="toctree-checkbox-19"><div class="visually-hidden">Toggle navigation of Pii</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.pii.pii_decorator.html">Pii Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.pii.pii_metric.html">Pii Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.profanity.html">Profanity</a><input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" role="switch" type="checkbox"/><label for="toctree-checkbox-20"><div class="visually-hidden">Toggle navigation of Profanity</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.profanity.profanity_decorator.html">Profanity Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.profanity.profanity_metric.html">Profanity Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.reciprocal_rank.html">Reciprocal Rank</a><input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" role="switch" type="checkbox"/><label for="toctree-checkbox-21"><div class="visually-hidden">Toggle navigation of Reciprocal Rank</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.reciprocal_rank.reciprocal_rank_decorator.html">Reciprocal Rank Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.reciprocal_rank.reciprocal_rank_metric.html">Reciprocal Rank Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.retrieval_precision.html">Retrieval Precision</a><input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" role="switch" type="checkbox"/><label for="toctree-checkbox-22"><div class="visually-hidden">Toggle navigation of Retrieval Precision</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.retrieval_precision.retrieval_precision_decorator.html">Retrieval Precision Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.retrieval_precision.retrieval_precision_metric.html">Retrieval Precision Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.sexual_content.html">Sexual Content</a><input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" role="switch" type="checkbox"/><label for="toctree-checkbox-23"><div class="visually-hidden">Toggle navigation of Sexual Content</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.sexual_content.sexual_content_decorator.html">Sexual Content Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.sexual_content.sexual_content_metric.html">Sexual Content Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.social_bias.html">Social Bias</a><input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" role="switch" type="checkbox"/><label for="toctree-checkbox-24"><div class="visually-hidden">Toggle navigation of Social Bias</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.social_bias.social_bias_decorator.html">Social Bias Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.social_bias.social_bias_metric.html">Social Bias Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_grade_level.html">Text Grade Level</a><input class="toctree-checkbox" id="toctree-checkbox-25" name="toctree-checkbox-25" role="switch" type="checkbox"/><label for="toctree-checkbox-25"><div class="visually-hidden">Toggle navigation of Text Grade Level</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_grade_level.text_grade_level_decorator.html">Text Grade Level Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_grade_level.text_grade_level_metric.html">Text Grade Level Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_reading_ease.html">Text Reading Ease</a><input class="toctree-checkbox" id="toctree-checkbox-26" name="toctree-checkbox-26" role="switch" type="checkbox"/><label for="toctree-checkbox-26"><div class="visually-hidden">Toggle navigation of Text Reading Ease</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_reading_ease.text_reading_ease_decorator.html">Text Reading Ease Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_reading_ease.text_reading_ease_metric.html">Text Reading Ease Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy.html">Tool Call Syntactic Accuracy</a><input class="toctree-checkbox" id="toctree-checkbox-27" name="toctree-checkbox-27" role="switch" type="checkbox"/><label for="toctree-checkbox-27"><div class="visually-hidden">Toggle navigation of Tool Call Syntactic Accuracy</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy.tool_call_syntactic_accuracy_decorator.html">Tool Call Syntactic Accuracy Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy.tool_call_syntactic_accuracy_metric.html">Tool Call Syntactic Accuracy Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.unethical_behavior.html">Unethical Behavior</a><input class="toctree-checkbox" id="toctree-checkbox-28" name="toctree-checkbox-28" role="switch" type="checkbox"/><label for="toctree-checkbox-28"><div class="visually-hidden">Toggle navigation of Unethical Behavior</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.unethical_behavior.unethical_behavior_decorator.html">Unethical Behavior Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.unethical_behavior.unethical_behavior_metric.html">Unethical Behavior Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.unsuccessful_requests.html">Unsuccessful Requests</a><input class="toctree-checkbox" id="toctree-checkbox-29" name="toctree-checkbox-29" role="switch" type="checkbox"/><label for="toctree-checkbox-29"><div class="visually-hidden">Toggle navigation of Unsuccessful Requests</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.unsuccessful_requests.unsuccessful_requests_decorator.html">Unsuccessful Requests Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.unsuccessful_requests.unsuccessful_requests_metric.html">Unsuccessful Requests Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.violence.html">Violence</a><input class="toctree-checkbox" id="toctree-checkbox-30" name="toctree-checkbox-30" role="switch" type="checkbox"/><label for="toctree-checkbox-30"><div class="visually-hidden">Toggle navigation of Violence</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.violence.violence_decorator.html">Violence Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.violence.violence_metric.html">Violence Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.metrics.base_metric_decorator.html">Base Metric Decorator</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.visualizations.html">Visualizations</a><input class="toctree-checkbox" id="toctree-checkbox-31" name="toctree-checkbox-31" role="switch" type="checkbox"/><label for="toctree-checkbox-31"><div class="visually-hidden">Toggle navigation of Visualizations</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.visualizations.metric_descriptions.html">Metric Descriptions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.visualizations.model_insights.html">Model Insights</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.visualizations.visualization_utils.html">Visualization Utils</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.prompt_evaluator.html">Prompt Evaluator</a><input class="toctree-checkbox" id="toctree-checkbox-32" name="toctree-checkbox-32" role="switch" type="checkbox"/><label for="toctree-checkbox-32"><div class="visually-hidden">Toggle navigation of Prompt Evaluator</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.prompt_evaluator.prompt_evaluator.html">Prompt Evaluator</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.evaluators.html">Evaluators</a><input class="toctree-checkbox" id="toctree-checkbox-33" name="toctree-checkbox-33" role="switch" type="checkbox"/><label for="toctree-checkbox-33"><div class="visually-hidden">Toggle navigation of Evaluators</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.agentic_evaluator.html">Agentic Evaluator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.agentic_traces_evaluator.html">Agentic Traces Evaluator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.base_evaluator.html">Base Evaluator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.metrics_evaluator.html">Metrics Evaluator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.model_risk_evaluator.html">Model Risk Evaluator</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.html">Tools</a><input class="toctree-checkbox" id="toctree-checkbox-34" name="toctree-checkbox-34" role="switch" type="checkbox"/><label for="toctree-checkbox-34"><div class="visually-hidden">Toggle navigation of Tools</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.clients.html">Clients</a><input class="toctree-checkbox" id="toctree-checkbox-35" name="toctree-checkbox-35" role="switch" type="checkbox"/><label for="toctree-checkbox-35"><div class="visually-hidden">Toggle navigation of Clients</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.clients.ai_tool_client.html">AI Tool Client</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.core.html">Core</a><input class="toctree-checkbox" id="toctree-checkbox-36" name="toctree-checkbox-36" role="switch" type="checkbox"/><label for="toctree-checkbox-36"><div class="visually-hidden">Toggle navigation of Core</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.core.tool_loader.html">Tool Loader</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.entities.html">Entities</a><input class="toctree-checkbox" id="toctree-checkbox-37" name="toctree-checkbox-37" role="switch" type="checkbox"/><label for="toctree-checkbox-37"><div class="visually-hidden">Toggle navigation of Entities</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.entities.ai_tools.html">AI Tools</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.utils.html">Utils</a><input class="toctree-checkbox" id="toctree-checkbox-38" name="toctree-checkbox-38" role="switch" type="checkbox"/><label for="toctree-checkbox-38"><div class="visually-hidden">Toggle navigation of Utils</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.utils.constants.html">Constants</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.utils.display_utils.html">Display Utils</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.utils.platform_url_mapping.html">Platform Url Mapping</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.html">Agent Catalog</a><input class="toctree-checkbox" id="toctree-checkbox-39" name="toctree-checkbox-39" role="switch" type="checkbox"/><label for="toctree-checkbox-39"><div class="visually-hidden">Toggle navigation of Agent Catalog</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.clients.html">Clients</a><input class="toctree-checkbox" id="toctree-checkbox-40" name="toctree-checkbox-40" role="switch" type="checkbox"/><label for="toctree-checkbox-40"><div class="visually-hidden">Toggle navigation of Clients</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.clients.ai_agent_client.html">AI Agent Client</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.core.html">Core</a><input class="toctree-checkbox" id="toctree-checkbox-41" name="toctree-checkbox-41" role="switch" type="checkbox"/><label for="toctree-checkbox-41"><div class="visually-hidden">Toggle navigation of Core</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.core.agent_loader.html">Agent Loader</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.core.agents.html">Agents</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.entities.html">Entities</a><input class="toctree-checkbox" id="toctree-checkbox-42" name="toctree-checkbox-42" role="switch" type="checkbox"/><label for="toctree-checkbox-42"><div class="visually-hidden">Toggle navigation of Entities</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.entities.ai_agent.html">AI Agent</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.utils.html">Utils</a><input class="toctree-checkbox" id="toctree-checkbox-43" name="toctree-checkbox-43" role="switch" type="checkbox"/><label for="toctree-checkbox-43"><div class="visually-hidden">Toggle navigation of Utils</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.utils.constants.html">Constants</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.utils.notebook_utils.html">Notebook Utils</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="../_sources/generated_apidoc/ibm_watsonx_gov.entities.enums.rst.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="module-ibm_watsonx_gov.entities.enums">
+<span id="enums"></span><h1>Enums<a class="headerlink" href="#module-ibm_watsonx_gov.entities.enums" title="Link to this heading">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.ContainerType">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ibm_watsonx_gov.entities.enums.</span></span><span class="sig-name descname"><span class="pre">ContainerType</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.ContainerType" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Enum</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.ContainerType.PROJECT">
+<span class="sig-name descname"><span class="pre">PROJECT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'project'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.ContainerType.PROJECT" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.ContainerType.SPACE">
+<span class="sig-name descname"><span class="pre">SPACE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'space'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.ContainerType.SPACE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluationProvider">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ibm_watsonx_gov.entities.enums.</span></span><span class="sig-name descname"><span class="pre">EvaluationProvider</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluationProvider" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Enum</span></code></p>
+<p>Supported evaluation providers for metrics computation</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluationProvider.DETECTORS">
+<span class="sig-name descname"><span class="pre">DETECTORS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'detectors'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluationProvider.DETECTORS" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluationProvider.UNITXT">
+<span class="sig-name descname"><span class="pre">UNITXT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'unitxt'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluationProvider.UNITXT" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluationProvider.WATSONX_GOV">
+<span class="sig-name descname"><span class="pre">WATSONX_GOV</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'watsonx_governance'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluationProvider.WATSONX_GOV" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluationProvider.values">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">values</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluationProvider.values" title="Link to this definition">¶</a></dt>
+<dd><p>Get all values of the enum</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluationStage">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ibm_watsonx_gov.entities.enums.</span></span><span class="sig-name descname"><span class="pre">EvaluationStage</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluationStage" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Enum</span></code></p>
+<p>Supported evaluation stages</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluationStage.DEVELOPMENT">
+<span class="sig-name descname"><span class="pre">DEVELOPMENT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'development'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluationStage.DEVELOPMENT" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluationStage.PRE_PRODUCTION">
+<span class="sig-name descname"><span class="pre">PRE_PRODUCTION</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'pre_production'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluationStage.PRE_PRODUCTION" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluationStage.PRODUCTION">
+<span class="sig-name descname"><span class="pre">PRODUCTION</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'production'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluationStage.PRODUCTION" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluatorFields">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ibm_watsonx_gov.entities.enums.</span></span><span class="sig-name descname"><span class="pre">EvaluatorFields</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Enum</span></code></p>
+<p>Fields used in the evaluator</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluatorFields.CONTEXT_FIELDS">
+<span class="sig-name descname"><span class="pre">CONTEXT_FIELDS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'context_fields'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.CONTEXT_FIELDS" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluatorFields.CONVERSATION_ID_FIELD">
+<span class="sig-name descname"><span class="pre">CONVERSATION_ID_FIELD</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'conversation_id_field'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.CONVERSATION_ID_FIELD" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluatorFields.INPUT_FIELDS">
+<span class="sig-name descname"><span class="pre">INPUT_FIELDS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'input_fields'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.INPUT_FIELDS" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluatorFields.INTERACTION_ID_FIELD">
+<span class="sig-name descname"><span class="pre">INTERACTION_ID_FIELD</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'interaction_id_field'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.INTERACTION_ID_FIELD" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluatorFields.OUTPUT_FIELDS">
+<span class="sig-name descname"><span class="pre">OUTPUT_FIELDS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'output_fields'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.OUTPUT_FIELDS" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluatorFields.PROMPT_FIELD">
+<span class="sig-name descname"><span class="pre">PROMPT_FIELD</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'prompt_field'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.PROMPT_FIELD" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluatorFields.RECORD_ID_FIELD">
+<span class="sig-name descname"><span class="pre">RECORD_ID_FIELD</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'record_id_field'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.RECORD_ID_FIELD" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluatorFields.RECORD_TIMESTAMP_FIELD">
+<span class="sig-name descname"><span class="pre">RECORD_TIMESTAMP_FIELD</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'record_timestamp_field'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.RECORD_TIMESTAMP_FIELD" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluatorFields.REFERENCE_FIELDS">
+<span class="sig-name descname"><span class="pre">REFERENCE_FIELDS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'reference_fields'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.REFERENCE_FIELDS" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluatorFields.TOOL_CALLS_FIELD">
+<span class="sig-name descname"><span class="pre">TOOL_CALLS_FIELD</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'tool_calls_field'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.TOOL_CALLS_FIELD" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.EvaluatorFields.get_default_fields_mapping">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_default_fields_mapping</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields" title="ibm_watsonx_gov.entities.enums.EvaluatorFields"><span class="pre">EvaluatorFields</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.get_default_fields_mapping" title="Link to this definition">¶</a></dt>
+<dd><p>Get the default fields mapping for the evaluator</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.GraniteGuardianRisks">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ibm_watsonx_gov.entities.enums.</span></span><span class="sig-name descname"><span class="pre">GraniteGuardianRisks</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Enum</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.EVASIVENESS">
+<span class="sig-name descname"><span class="pre">EVASIVENESS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'evasiveness'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.EVASIVENESS" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.HARM">
+<span class="sig-name descname"><span class="pre">HARM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'harm'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.HARM" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.HARM_ENGAGEMENT">
+<span class="sig-name descname"><span class="pre">HARM_ENGAGEMENT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'harm_engagement'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.HARM_ENGAGEMENT" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.JAILBREAK">
+<span class="sig-name descname"><span class="pre">JAILBREAK</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'jailbreak'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.JAILBREAK" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.PROFANITY">
+<span class="sig-name descname"><span class="pre">PROFANITY</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'profanity'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.PROFANITY" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.SEXUAL_CONTENT">
+<span class="sig-name descname"><span class="pre">SEXUAL_CONTENT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'sexual_content'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.SEXUAL_CONTENT" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.SOCIAL_BIAS">
+<span class="sig-name descname"><span class="pre">SOCIAL_BIAS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'social_bias'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.SOCIAL_BIAS" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.UNETHICAL_BEHAVIOR">
+<span class="sig-name descname"><span class="pre">UNETHICAL_BEHAVIOR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'unethical_behavior'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.UNETHICAL_BEHAVIOR" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.VIOLENCE">
+<span class="sig-name descname"><span class="pre">VIOLENCE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'violence'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.VIOLENCE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.values">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">values</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.values" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.InputDataType">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ibm_watsonx_gov.entities.enums.</span></span><span class="sig-name descname"><span class="pre">InputDataType</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.InputDataType" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Enum</span></code></p>
+<p>Supported input data types</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.InputDataType.IMAGE">
+<span class="sig-name descname"><span class="pre">IMAGE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'unstructured_image'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.InputDataType.IMAGE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.InputDataType.MULTIMODAL">
+<span class="sig-name descname"><span class="pre">MULTIMODAL</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'multimodal'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.InputDataType.MULTIMODAL" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.InputDataType.STRUCTURED">
+<span class="sig-name descname"><span class="pre">STRUCTURED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'structured'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.InputDataType.STRUCTURED" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.InputDataType.TEXT">
+<span class="sig-name descname"><span class="pre">TEXT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'unstructured_text'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.InputDataType.TEXT" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MetricGroup">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ibm_watsonx_gov.entities.enums.</span></span><span class="sig-name descname"><span class="pre">MetricGroup</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MetricGroup" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Enum</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MetricGroup.ANSWER_QUALITY">
+<span class="sig-name descname"><span class="pre">ANSWER_QUALITY</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'answer_quality'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MetricGroup.ANSWER_QUALITY" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MetricGroup.CONTENT_SAFETY">
+<span class="sig-name descname"><span class="pre">CONTENT_SAFETY</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'content_safety'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MetricGroup.CONTENT_SAFETY" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MetricGroup.PERFORMANCE">
+<span class="sig-name descname"><span class="pre">PERFORMANCE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'performance'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MetricGroup.PERFORMANCE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MetricGroup.READABILITY">
+<span class="sig-name descname"><span class="pre">READABILITY</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'readability'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MetricGroup.READABILITY" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MetricGroup.RETRIEVAL_QUALITY">
+<span class="sig-name descname"><span class="pre">RETRIEVAL_QUALITY</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'retrieval_quality'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MetricGroup.RETRIEVAL_QUALITY" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MetricGroup.TOOL_CALL_QUALITY">
+<span class="sig-name descname"><span class="pre">TOOL_CALL_QUALITY</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'tool_call_quality'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MetricGroup.TOOL_CALL_QUALITY" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MetricGroup.USAGE">
+<span class="sig-name descname"><span class="pre">USAGE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'usage'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MetricGroup.USAGE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MetricGroup.get_metrics">
+<span class="sig-name descname"><span class="pre">get_metrics</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="ibm_watsonx_gov.entities.metric.html#ibm_watsonx_gov.entities.metric.GenAIMetric" title="ibm_watsonx_gov.entities.metric.GenAIMetric"><span class="pre">GenAIMetric</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MetricGroup.get_metrics" title="Link to this definition">¶</a></dt>
+<dd><p>Helper method to return a list of metrics under each metric group</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>list of gen AI metrics for the specified metric group</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>list[<a class="reference internal" href="ibm_watsonx_gov.entities.metric.html#ibm_watsonx_gov.entities.metric.GenAIMetric" title="ibm_watsonx_gov.entities.metric.GenAIMetric">GenAIMetric</a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MistakeType">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ibm_watsonx_gov.entities.enums.</span></span><span class="sig-name descname"><span class="pre">MistakeType</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MistakeType" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Enum</span></code></p>
+<p>Enum for TCH Mistake Type</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MistakeType.ALLOWED_VALUES">
+<span class="sig-name descname"><span class="pre">ALLOWED_VALUES</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Allowed</span> <span class="pre">values'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MistakeType.ALLOWED_VALUES" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MistakeType.HALLUCINATED_CALL">
+<span class="sig-name descname"><span class="pre">HALLUCINATED_CALL</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Hallucinated</span> <span class="pre">API</span> <span class="pre">call'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MistakeType.HALLUCINATED_CALL" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MistakeType.HALLUCINATED_PARAM">
+<span class="sig-name descname"><span class="pre">HALLUCINATED_PARAM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Hallucinated</span> <span class="pre">parameter'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MistakeType.HALLUCINATED_PARAM" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MistakeType.NEED_MORE_APIS">
+<span class="sig-name descname"><span class="pre">NEED_MORE_APIS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Need</span> <span class="pre">more</span> <span class="pre">APIs'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MistakeType.NEED_MORE_APIS" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MistakeType.NEED_MORE_INFORMATION">
+<span class="sig-name descname"><span class="pre">NEED_MORE_INFORMATION</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Need</span> <span class="pre">more</span> <span class="pre">information'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MistakeType.NEED_MORE_INFORMATION" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MistakeType.NONE_FUNC">
+<span class="sig-name descname"><span class="pre">NONE_FUNC</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&quot;Not</span> <span class="pre">able</span> <span class="pre">to</span> <span class="pre">identify</span> <span class="pre">the</span> <span class="pre">user's</span> <span class="pre">intent.&quot;</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MistakeType.NONE_FUNC" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MistakeType.PARAM_TYPE">
+<span class="sig-name descname"><span class="pre">PARAM_TYPE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Incorrect</span> <span class="pre">parameter</span> <span class="pre">value</span> <span class="pre">type'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MistakeType.PARAM_TYPE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MistakeType.REQ_PARAM_MISSING">
+<span class="sig-name descname"><span class="pre">REQ_PARAM_MISSING</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Missing</span> <span class="pre">required</span> <span class="pre">parameter'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MistakeType.REQ_PARAM_MISSING" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MistakeType.WRONG_API_SELECTION">
+<span class="sig-name descname"><span class="pre">WRONG_API_SELECTION</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Wrong</span> <span class="pre">API</span> <span class="pre">selection'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MistakeType.WRONG_API_SELECTION" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MistakeType.WRONG_NUMBER_OF_APIS">
+<span class="sig-name descname"><span class="pre">WRONG_NUMBER_OF_APIS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Wrong</span> <span class="pre">number</span> <span class="pre">of</span> <span class="pre">APIs'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MistakeType.WRONG_NUMBER_OF_APIS" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MistakeType.WRONG_PARAMETER_VALUE">
+<span class="sig-name descname"><span class="pre">WRONG_PARAMETER_VALUE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Wrong</span> <span class="pre">parameter</span> <span class="pre">value'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MistakeType.WRONG_PARAMETER_VALUE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.MistakeType.WRONG_UNITS_TRANSFORMATION">
+<span class="sig-name descname"><span class="pre">WRONG_UNITS_TRANSFORMATION</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Wrong</span> <span class="pre">units</span> <span class="pre">transformation'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.MistakeType.WRONG_UNITS_TRANSFORMATION" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.ModelProviderType">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ibm_watsonx_gov.entities.enums.</span></span><span class="sig-name descname"><span class="pre">ModelProviderType</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.ModelProviderType" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Enum</span></code></p>
+<p>Supported model provider types for Generative AI</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.ModelProviderType.AZURE_OPENAI">
+<span class="sig-name descname"><span class="pre">AZURE_OPENAI</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'azure_openai'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.ModelProviderType.AZURE_OPENAI" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.ModelProviderType.CUSTOM">
+<span class="sig-name descname"><span class="pre">CUSTOM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'custom'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.ModelProviderType.CUSTOM" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.ModelProviderType.IBM_WATSONX_AI">
+<span class="sig-name descname"><span class="pre">IBM_WATSONX_AI</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ibm_watsonx.ai'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.ModelProviderType.IBM_WATSONX_AI" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.ModelProviderType.OPENAI">
+<span class="sig-name descname"><span class="pre">OPENAI</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'openai'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.ModelProviderType.OPENAI" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.ModelProviderType.RITS">
+<span class="sig-name descname"><span class="pre">RITS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'rits'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.ModelProviderType.RITS" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.ProblemType">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ibm_watsonx_gov.entities.enums.</span></span><span class="sig-name descname"><span class="pre">ProblemType</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.ProblemType" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Enum</span></code></p>
+<p>Supported problem types for predictive AI models</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.ProblemType.BINARY">
+<span class="sig-name descname"><span class="pre">BINARY</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'binary'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.ProblemType.BINARY" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.ProblemType.MULTICLASS">
+<span class="sig-name descname"><span class="pre">MULTICLASS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'multiclass'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.ProblemType.MULTICLASS" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.ProblemType.REGRESSION">
+<span class="sig-name descname"><span class="pre">REGRESSION</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'regression'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.ProblemType.REGRESSION" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.Region">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ibm_watsonx_gov.entities.enums.</span></span><span class="sig-name descname"><span class="pre">Region</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.Region" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Enum</span></code></p>
+<p>Supported IBM Cloud regions</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.Region.DALLAS">
+<span class="sig-name descname"><span class="pre">DALLAS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'us-south'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.Region.DALLAS" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.Region.FRANKFURT">
+<span class="sig-name descname"><span class="pre">FRANKFURT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'eu-de'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.Region.FRANKFURT" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.Region.LONDON">
+<span class="sig-name descname"><span class="pre">LONDON</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'eu-gb'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.Region.LONDON" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.Region.SYDNEY">
+<span class="sig-name descname"><span class="pre">SYDNEY</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'au-syd'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.Region.SYDNEY" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.Region.TOKYO">
+<span class="sig-name descname"><span class="pre">TOKYO</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'jp-tok'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.Region.TOKYO" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.Region.TORONTO">
+<span class="sig-name descname"><span class="pre">TORONTO</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ca-tor'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.Region.TORONTO" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.TaskType">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ibm_watsonx_gov.entities.enums.</span></span><span class="sig-name descname"><span class="pre">TaskType</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.TaskType" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Enum</span></code></p>
+<p>Supported task types for generative AI models</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.TaskType.CLASSIFICATION">
+<span class="sig-name descname"><span class="pre">CLASSIFICATION</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'classification'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.TaskType.CLASSIFICATION" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.TaskType.EXTRACTION">
+<span class="sig-name descname"><span class="pre">EXTRACTION</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'extraction'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.TaskType.EXTRACTION" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.TaskType.GENERATION">
+<span class="sig-name descname"><span class="pre">GENERATION</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'generation'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.TaskType.GENERATION" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.TaskType.QA">
+<span class="sig-name descname"><span class="pre">QA</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'question_answering'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.TaskType.QA" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.TaskType.RAG">
+<span class="sig-name descname"><span class="pre">RAG</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'retrieval_augmented_generation'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.TaskType.RAG" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.TaskType.SUMMARIZATION">
+<span class="sig-name descname"><span class="pre">SUMMARIZATION</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'summarization'</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.TaskType.SUMMARIZATION" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.TaskType.get_metrics">
+<span class="sig-name descname"><span class="pre">get_metrics</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="ibm_watsonx_gov.entities.metric.html#ibm_watsonx_gov.entities.metric.GenAIMetric" title="ibm_watsonx_gov.entities.metric.GenAIMetric"><span class="pre">GenAIMetric</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.TaskType.get_metrics" title="Link to this definition">¶</a></dt>
+<dd><p>Helper method to return a list of metrics for the task type</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>list of gen AI metrics for the specified task type</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>list[<a class="reference internal" href="ibm_watsonx_gov.entities.metric.html#ibm_watsonx_gov.entities.metric.GenAIMetric" title="ibm_watsonx_gov.entities.metric.GenAIMetric">GenAIMetric</a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.entities.enums.TaskType.values">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">values</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ibm_watsonx_gov.entities.enums.TaskType.values" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="ibm_watsonx_gov.entities.evaluation_result.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Evaluation Result</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="ibm_watsonx_gov.entities.credentials.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Credentials</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2025, IBM
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.ContainerType"><code class="docutils literal notranslate"><span class="pre">ContainerType</span></code></a><ul>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.ContainerType.PROJECT"><code class="docutils literal notranslate"><span class="pre">ContainerType.PROJECT</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.ContainerType.SPACE"><code class="docutils literal notranslate"><span class="pre">ContainerType.SPACE</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluationProvider"><code class="docutils literal notranslate"><span class="pre">EvaluationProvider</span></code></a><ul>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluationProvider.DETECTORS"><code class="docutils literal notranslate"><span class="pre">EvaluationProvider.DETECTORS</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluationProvider.UNITXT"><code class="docutils literal notranslate"><span class="pre">EvaluationProvider.UNITXT</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluationProvider.WATSONX_GOV"><code class="docutils literal notranslate"><span class="pre">EvaluationProvider.WATSONX_GOV</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluationProvider.values"><code class="docutils literal notranslate"><span class="pre">EvaluationProvider.values()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluationStage"><code class="docutils literal notranslate"><span class="pre">EvaluationStage</span></code></a><ul>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluationStage.DEVELOPMENT"><code class="docutils literal notranslate"><span class="pre">EvaluationStage.DEVELOPMENT</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluationStage.PRE_PRODUCTION"><code class="docutils literal notranslate"><span class="pre">EvaluationStage.PRE_PRODUCTION</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluationStage.PRODUCTION"><code class="docutils literal notranslate"><span class="pre">EvaluationStage.PRODUCTION</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields"><code class="docutils literal notranslate"><span class="pre">EvaluatorFields</span></code></a><ul>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.CONTEXT_FIELDS"><code class="docutils literal notranslate"><span class="pre">EvaluatorFields.CONTEXT_FIELDS</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.CONVERSATION_ID_FIELD"><code class="docutils literal notranslate"><span class="pre">EvaluatorFields.CONVERSATION_ID_FIELD</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.INPUT_FIELDS"><code class="docutils literal notranslate"><span class="pre">EvaluatorFields.INPUT_FIELDS</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.INTERACTION_ID_FIELD"><code class="docutils literal notranslate"><span class="pre">EvaluatorFields.INTERACTION_ID_FIELD</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.OUTPUT_FIELDS"><code class="docutils literal notranslate"><span class="pre">EvaluatorFields.OUTPUT_FIELDS</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.PROMPT_FIELD"><code class="docutils literal notranslate"><span class="pre">EvaluatorFields.PROMPT_FIELD</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.RECORD_ID_FIELD"><code class="docutils literal notranslate"><span class="pre">EvaluatorFields.RECORD_ID_FIELD</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.RECORD_TIMESTAMP_FIELD"><code class="docutils literal notranslate"><span class="pre">EvaluatorFields.RECORD_TIMESTAMP_FIELD</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.REFERENCE_FIELDS"><code class="docutils literal notranslate"><span class="pre">EvaluatorFields.REFERENCE_FIELDS</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.TOOL_CALLS_FIELD"><code class="docutils literal notranslate"><span class="pre">EvaluatorFields.TOOL_CALLS_FIELD</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.EvaluatorFields.get_default_fields_mapping"><code class="docutils literal notranslate"><span class="pre">EvaluatorFields.get_default_fields_mapping()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks"><code class="docutils literal notranslate"><span class="pre">GraniteGuardianRisks</span></code></a><ul>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.EVASIVENESS"><code class="docutils literal notranslate"><span class="pre">GraniteGuardianRisks.EVASIVENESS</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.HARM"><code class="docutils literal notranslate"><span class="pre">GraniteGuardianRisks.HARM</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.HARM_ENGAGEMENT"><code class="docutils literal notranslate"><span class="pre">GraniteGuardianRisks.HARM_ENGAGEMENT</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.JAILBREAK"><code class="docutils literal notranslate"><span class="pre">GraniteGuardianRisks.JAILBREAK</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.PROFANITY"><code class="docutils literal notranslate"><span class="pre">GraniteGuardianRisks.PROFANITY</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.SEXUAL_CONTENT"><code class="docutils literal notranslate"><span class="pre">GraniteGuardianRisks.SEXUAL_CONTENT</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.SOCIAL_BIAS"><code class="docutils literal notranslate"><span class="pre">GraniteGuardianRisks.SOCIAL_BIAS</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.UNETHICAL_BEHAVIOR"><code class="docutils literal notranslate"><span class="pre">GraniteGuardianRisks.UNETHICAL_BEHAVIOR</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.VIOLENCE"><code class="docutils literal notranslate"><span class="pre">GraniteGuardianRisks.VIOLENCE</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.GraniteGuardianRisks.values"><code class="docutils literal notranslate"><span class="pre">GraniteGuardianRisks.values()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.InputDataType"><code class="docutils literal notranslate"><span class="pre">InputDataType</span></code></a><ul>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.InputDataType.IMAGE"><code class="docutils literal notranslate"><span class="pre">InputDataType.IMAGE</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.InputDataType.MULTIMODAL"><code class="docutils literal notranslate"><span class="pre">InputDataType.MULTIMODAL</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.InputDataType.STRUCTURED"><code class="docutils literal notranslate"><span class="pre">InputDataType.STRUCTURED</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.InputDataType.TEXT"><code class="docutils literal notranslate"><span class="pre">InputDataType.TEXT</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MetricGroup"><code class="docutils literal notranslate"><span class="pre">MetricGroup</span></code></a><ul>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MetricGroup.ANSWER_QUALITY"><code class="docutils literal notranslate"><span class="pre">MetricGroup.ANSWER_QUALITY</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MetricGroup.CONTENT_SAFETY"><code class="docutils literal notranslate"><span class="pre">MetricGroup.CONTENT_SAFETY</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MetricGroup.PERFORMANCE"><code class="docutils literal notranslate"><span class="pre">MetricGroup.PERFORMANCE</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MetricGroup.READABILITY"><code class="docutils literal notranslate"><span class="pre">MetricGroup.READABILITY</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MetricGroup.RETRIEVAL_QUALITY"><code class="docutils literal notranslate"><span class="pre">MetricGroup.RETRIEVAL_QUALITY</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MetricGroup.TOOL_CALL_QUALITY"><code class="docutils literal notranslate"><span class="pre">MetricGroup.TOOL_CALL_QUALITY</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MetricGroup.USAGE"><code class="docutils literal notranslate"><span class="pre">MetricGroup.USAGE</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MetricGroup.get_metrics"><code class="docutils literal notranslate"><span class="pre">MetricGroup.get_metrics()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MistakeType"><code class="docutils literal notranslate"><span class="pre">MistakeType</span></code></a><ul>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MistakeType.ALLOWED_VALUES"><code class="docutils literal notranslate"><span class="pre">MistakeType.ALLOWED_VALUES</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MistakeType.HALLUCINATED_CALL"><code class="docutils literal notranslate"><span class="pre">MistakeType.HALLUCINATED_CALL</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MistakeType.HALLUCINATED_PARAM"><code class="docutils literal notranslate"><span class="pre">MistakeType.HALLUCINATED_PARAM</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MistakeType.NEED_MORE_APIS"><code class="docutils literal notranslate"><span class="pre">MistakeType.NEED_MORE_APIS</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MistakeType.NEED_MORE_INFORMATION"><code class="docutils literal notranslate"><span class="pre">MistakeType.NEED_MORE_INFORMATION</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MistakeType.NONE_FUNC"><code class="docutils literal notranslate"><span class="pre">MistakeType.NONE_FUNC</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MistakeType.PARAM_TYPE"><code class="docutils literal notranslate"><span class="pre">MistakeType.PARAM_TYPE</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MistakeType.REQ_PARAM_MISSING"><code class="docutils literal notranslate"><span class="pre">MistakeType.REQ_PARAM_MISSING</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MistakeType.WRONG_API_SELECTION"><code class="docutils literal notranslate"><span class="pre">MistakeType.WRONG_API_SELECTION</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MistakeType.WRONG_NUMBER_OF_APIS"><code class="docutils literal notranslate"><span class="pre">MistakeType.WRONG_NUMBER_OF_APIS</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MistakeType.WRONG_PARAMETER_VALUE"><code class="docutils literal notranslate"><span class="pre">MistakeType.WRONG_PARAMETER_VALUE</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.MistakeType.WRONG_UNITS_TRANSFORMATION"><code class="docutils literal notranslate"><span class="pre">MistakeType.WRONG_UNITS_TRANSFORMATION</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.ModelProviderType"><code class="docutils literal notranslate"><span class="pre">ModelProviderType</span></code></a><ul>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.ModelProviderType.AZURE_OPENAI"><code class="docutils literal notranslate"><span class="pre">ModelProviderType.AZURE_OPENAI</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.ModelProviderType.CUSTOM"><code class="docutils literal notranslate"><span class="pre">ModelProviderType.CUSTOM</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.ModelProviderType.IBM_WATSONX_AI"><code class="docutils literal notranslate"><span class="pre">ModelProviderType.IBM_WATSONX_AI</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.ModelProviderType.OPENAI"><code class="docutils literal notranslate"><span class="pre">ModelProviderType.OPENAI</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.ModelProviderType.RITS"><code class="docutils literal notranslate"><span class="pre">ModelProviderType.RITS</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.ProblemType"><code class="docutils literal notranslate"><span class="pre">ProblemType</span></code></a><ul>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.ProblemType.BINARY"><code class="docutils literal notranslate"><span class="pre">ProblemType.BINARY</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.ProblemType.MULTICLASS"><code class="docutils literal notranslate"><span class="pre">ProblemType.MULTICLASS</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.ProblemType.REGRESSION"><code class="docutils literal notranslate"><span class="pre">ProblemType.REGRESSION</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.Region"><code class="docutils literal notranslate"><span class="pre">Region</span></code></a><ul>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.Region.DALLAS"><code class="docutils literal notranslate"><span class="pre">Region.DALLAS</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.Region.FRANKFURT"><code class="docutils literal notranslate"><span class="pre">Region.FRANKFURT</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.Region.LONDON"><code class="docutils literal notranslate"><span class="pre">Region.LONDON</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.Region.SYDNEY"><code class="docutils literal notranslate"><span class="pre">Region.SYDNEY</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.Region.TOKYO"><code class="docutils literal notranslate"><span class="pre">Region.TOKYO</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.Region.TORONTO"><code class="docutils literal notranslate"><span class="pre">Region.TORONTO</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.TaskType"><code class="docutils literal notranslate"><span class="pre">TaskType</span></code></a><ul>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.TaskType.CLASSIFICATION"><code class="docutils literal notranslate"><span class="pre">TaskType.CLASSIFICATION</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.TaskType.EXTRACTION"><code class="docutils literal notranslate"><span class="pre">TaskType.EXTRACTION</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.TaskType.GENERATION"><code class="docutils literal notranslate"><span class="pre">TaskType.GENERATION</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.TaskType.QA"><code class="docutils literal notranslate"><span class="pre">TaskType.QA</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.TaskType.RAG"><code class="docutils literal notranslate"><span class="pre">TaskType.RAG</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.TaskType.SUMMARIZATION"><code class="docutils literal notranslate"><span class="pre">TaskType.SUMMARIZATION</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.TaskType.get_metrics"><code class="docutils literal notranslate"><span class="pre">TaskType.get_metrics()</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.entities.enums.TaskType.values"><code class="docutils literal notranslate"><span class="pre">TaskType.values()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=8d563738"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=5fa4622c"></script>
+    </body>
+</html>

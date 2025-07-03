@@ -1,0 +1,7 @@
+Hap Decorator
+=============
+
+.. automodule:: ibm_watsonx_gov.metrics.hap.hap_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:
