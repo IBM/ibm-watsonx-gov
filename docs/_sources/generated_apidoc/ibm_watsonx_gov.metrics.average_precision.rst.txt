@@ -1,0 +1,16 @@
+Average Precision
+=================
+
+.. automodule:: ibm_watsonx_gov.metrics.average_precision
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.average_precision.average_precision_decorator
+   ibm_watsonx_gov.metrics.average_precision.average_precision_metric

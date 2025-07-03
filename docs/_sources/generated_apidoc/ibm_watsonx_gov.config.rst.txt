@@ -1,0 +1,18 @@
+Config
+======
+
+.. automodule:: ibm_watsonx_gov.config
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.config.agentic_ai_configuration
+   ibm_watsonx_gov.config.gen_ai_configuration
+   ibm_watsonx_gov.config.model_risk_configuration
+   ibm_watsonx_gov.config.predictive_ai_configuration

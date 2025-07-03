@@ -1,0 +1,7 @@
+Context Relevance Decorator
+===========================
+
+.. automodule:: ibm_watsonx_gov.metrics.context_relevance.context_relevance_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

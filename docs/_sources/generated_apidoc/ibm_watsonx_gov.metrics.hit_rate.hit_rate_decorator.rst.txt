@@ -1,0 +1,7 @@
+Hit Rate Decorator
+==================
+
+.. automodule:: ibm_watsonx_gov.metrics.hit_rate.hit_rate_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+Model Risk Evaluator
+====================
+
+.. automodule:: ibm_watsonx_gov.evaluators.model_risk_evaluator
+   :members:
+   :undoc-members:
+   :show-inheritance:

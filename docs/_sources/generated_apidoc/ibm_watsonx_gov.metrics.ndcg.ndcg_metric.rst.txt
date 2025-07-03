@@ -1,0 +1,7 @@
+NDCG Metric
+===========
+
+.. automodule:: ibm_watsonx_gov.metrics.ndcg.ndcg_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

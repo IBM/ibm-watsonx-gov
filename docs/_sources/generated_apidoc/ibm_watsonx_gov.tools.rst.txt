@@ -1,0 +1,21 @@
+Tools
+=====
+
+.. automodule:: ibm_watsonx_gov.tools
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.tools.clients
+   ibm_watsonx_gov.tools.core
+   ibm_watsonx_gov.tools.entities
+   ibm_watsonx_gov.tools.ootb
+   ibm_watsonx_gov.tools.rest_api
+   ibm_watsonx_gov.tools.schemas
+   ibm_watsonx_gov.tools.utils

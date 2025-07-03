@@ -1,0 +1,7 @@
+Unethical Behavior Decorator
+============================
+
+.. automodule:: ibm_watsonx_gov.metrics.unethical_behavior.unethical_behavior_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+AI Evaluation
+=============
+
+.. automodule:: ibm_watsonx_gov.entities.ai_evaluation
+   :members:
+   :undoc-members:
+   :show-inheritance:

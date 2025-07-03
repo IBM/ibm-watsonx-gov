@@ -1,0 +1,7 @@
+Violence Decorator
+==================
+
+.. automodule:: ibm_watsonx_gov.metrics.violence.violence_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

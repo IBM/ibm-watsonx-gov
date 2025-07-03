@@ -1,0 +1,7 @@
+Agentic App
+===========
+
+.. automodule:: ibm_watsonx_gov.entities.agentic_app
+   :members:
+   :undoc-members:
+   :show-inheritance:

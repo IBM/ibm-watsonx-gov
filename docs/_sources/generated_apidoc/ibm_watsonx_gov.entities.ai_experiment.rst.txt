@@ -1,0 +1,7 @@
+AI Experiment
+=============
+
+.. automodule:: ibm_watsonx_gov.entities.ai_experiment
+   :members:
+   :undoc-members:
+   :show-inheritance:

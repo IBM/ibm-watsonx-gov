@@ -1,0 +1,7 @@
+Sexual Content Decorator
+========================
+
+.. automodule:: ibm_watsonx_gov.metrics.sexual_content.sexual_content_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+Agentic AI Configuration
+========================
+
+.. automodule:: ibm_watsonx_gov.config.agentic_ai_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:

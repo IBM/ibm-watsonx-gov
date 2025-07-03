@@ -1,0 +1,7 @@
+Evasiveness Decorator
+=====================
+
+.. automodule:: ibm_watsonx_gov.metrics.evasiveness.evasiveness_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

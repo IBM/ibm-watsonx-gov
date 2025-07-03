@@ -1,0 +1,23 @@
+Prompt Evaluator
+================
+
+.. automodule:: ibm_watsonx_gov.prompt_evaluator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.prompt_evaluator.impl
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.prompt_evaluator.prompt_evaluator

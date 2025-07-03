@@ -1,0 +1,7 @@
+NDCG Decorator
+==============
+
+.. automodule:: ibm_watsonx_gov.metrics.ndcg.ndcg_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

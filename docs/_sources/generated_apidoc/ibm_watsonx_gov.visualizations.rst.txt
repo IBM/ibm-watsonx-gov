@@ -1,0 +1,17 @@
+Visualizations
+==============
+
+.. automodule:: ibm_watsonx_gov.visualizations
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.visualizations.metric_descriptions
+   ibm_watsonx_gov.visualizations.model_insights
+   ibm_watsonx_gov.visualizations.visualization_utils

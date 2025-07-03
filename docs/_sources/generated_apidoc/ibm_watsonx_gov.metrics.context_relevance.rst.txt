@@ -1,0 +1,16 @@
+Context Relevance
+=================
+
+.. automodule:: ibm_watsonx_gov.metrics.context_relevance
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.context_relevance.context_relevance_decorator
+   ibm_watsonx_gov.metrics.context_relevance.context_relevance_metric

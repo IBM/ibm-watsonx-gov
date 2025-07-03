@@ -1,0 +1,7 @@
+Average Precision Decorator
+===========================
+
+.. automodule:: ibm_watsonx_gov.metrics.average_precision.average_precision_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

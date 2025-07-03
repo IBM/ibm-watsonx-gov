@@ -1,0 +1,7 @@
+Model Insights
+==============
+
+.. automodule:: ibm_watsonx_gov.visualizations.model_insights
+   :members:
+   :undoc-members:
+   :show-inheritance:

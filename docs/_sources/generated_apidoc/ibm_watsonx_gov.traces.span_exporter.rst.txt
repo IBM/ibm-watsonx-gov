@@ -1,0 +1,7 @@
+Span Exporter
+=============
+
+.. automodule:: ibm_watsonx_gov.traces.span_exporter
+   :members:
+   :undoc-members:
+   :show-inheritance:

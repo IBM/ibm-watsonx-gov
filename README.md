@@ -1,2 +1,3 @@
-# ibm-watsonx-governance
-IBM watsonx.governance documentation
+# IBM watsonx.governance SDK documentation
+
+IBM watsonx.governance SDK documentation

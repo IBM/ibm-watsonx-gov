@@ -1,0 +1,66 @@
+IBM watsonx.governance as a service
+===================================
+
+
+Requirements
+------------
+For information on how to start working with IBM watsonx.governance as a service, refer to:  `Getting started with IBM watsonx.governance as a Service. <https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/get-started-wdp.html?audience=wdp&context=wx>`_
+
+
+Authentication
+--------------
+
+.. note::
+   Depending on the region of your provisioned service instance, use one of the following as your URL:
+
+   .. code-block:: bash
+
+      Dallas: "https://api.aiopenscale.cloud.ibm.com"
+      Frankfurt: "https://eu-de.api.aiopenscale.cloud.ibm.com"
+      Sydney: "https://au-syd.api.aiopenscale.cloud.ibm.com"
+      Toronto: "https://ca-tor.api.aiopenscale.cloud.ibm.com"
+
+------------------------------------------------------------------------------
+
+.. note::
+   To determine your api_key, refer to IBM Cloud console API keys.
+
+To use the functionality in ibm-watsonx-gov, the required credentials can be set in enviroment variables or using APIClient object.
+
+Examples:
+   1. Set the credentials using environment variables.
+
+      .. code-block:: python
+
+         os.environ["WATSONX_APIKEY"] = "..."
+
+         # [Optional] Set the governance service instance id, incase you have multiple watsonx.governance instances.
+         os.environ["WXG_SERVICE_INSTANCE_ID"] = "..."
+
+         # [Optional] Set the governance url to use regions other than Dallas
+         os.environ["WXG_URL"] = "https://au-syd.api.aiopenscale.cloud.ibm.com"
+
+   2. Create APIClient with default parameters for Dallas region.
+
+      .. code-block:: python
+
+         from ibm_watsonx_gov.clients.api_client import APIClient
+         from ibm_watsonx_gov.credentials import Credentials
+
+         credentials = Credentials(api_key=WATSONX_APIKEY)
+         api_client = APIClient(credentials=credentials)
+
+         # Pass the api_client object as parameter to Evaluators
+         
+   2. Create APIClient with the credentials object for region other than Dallas. Example shown for Sydney region.
+
+      .. code-block:: python
+
+         from ibm_watsonx_gov.clients.api_client import APIClient
+         from ibm_watsonx_gov.credentials import Credentials
+
+         credentials = Credentials(url="https://au-syd.api.aiopenscale.cloud.ibm.com",
+                                 api_key=WATSONX_APIKEY)
+         api_client = APIClient(credentials=credentials)
+
+         # Pass the api_client object as parameter to Evaluators

@@ -1,0 +1,16 @@
+Text Grade Level
+================
+
+.. automodule:: ibm_watsonx_gov.metrics.text_grade_level
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.text_grade_level.text_grade_level_decorator
+   ibm_watsonx_gov.metrics.text_grade_level.text_grade_level_metric

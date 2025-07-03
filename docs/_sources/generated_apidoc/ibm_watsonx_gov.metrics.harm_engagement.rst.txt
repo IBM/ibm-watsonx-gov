@@ -1,0 +1,16 @@
+Harm Engagement
+===============
+
+.. automodule:: ibm_watsonx_gov.metrics.harm_engagement
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.harm_engagement.harm_engagement_decorator
+   ibm_watsonx_gov.metrics.harm_engagement.harm_engagement_metric

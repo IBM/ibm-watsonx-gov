@@ -1,0 +1,7 @@
+Visualization Utils
+===================
+
+.. automodule:: ibm_watsonx_gov.visualizations.visualization_utils
+   :members:
+   :undoc-members:
+   :show-inheritance:

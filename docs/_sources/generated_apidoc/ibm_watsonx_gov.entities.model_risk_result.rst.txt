@@ -1,0 +1,7 @@
+Model Risk Result
+=================
+
+.. automodule:: ibm_watsonx_gov.entities.model_risk_result
+   :members:
+   :undoc-members:
+   :show-inheritance:

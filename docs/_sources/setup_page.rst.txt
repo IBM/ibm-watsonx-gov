@@ -1,0 +1,9 @@
+Setup
+=====
+
+.. toctree::
+   :maxdepth: 2
+
+   setup_wx_gov_as_service
+   setup_wx_gov
+

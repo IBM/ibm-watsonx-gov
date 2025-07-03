@@ -1,0 +1,7 @@
+Notebook Utils
+==============
+
+.. automodule:: ibm_watsonx_gov.agent_catalog.utils.notebook_utils
+   :members:
+   :undoc-members:
+   :show-inheritance:

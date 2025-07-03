@@ -1,0 +1,15 @@
+Core
+====
+
+.. automodule:: ibm_watsonx_gov.tools.core
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.tools.core.tool_loader

@@ -1,0 +1,18 @@
+Traces
+======
+
+.. automodule:: ibm_watsonx_gov.traces
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.traces.span_exporter
+   ibm_watsonx_gov.traces.span_node
+   ibm_watsonx_gov.traces.span_util
+   ibm_watsonx_gov.traces.trace_utils

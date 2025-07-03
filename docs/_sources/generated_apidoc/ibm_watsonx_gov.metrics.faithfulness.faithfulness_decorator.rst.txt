@@ -1,0 +1,7 @@
+Faithfulness Decorator
+======================
+
+.. automodule:: ibm_watsonx_gov.metrics.faithfulness.faithfulness_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

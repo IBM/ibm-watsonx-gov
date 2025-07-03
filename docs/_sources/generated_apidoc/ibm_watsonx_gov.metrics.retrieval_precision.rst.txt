@@ -1,0 +1,16 @@
+Retrieval Precision
+===================
+
+.. automodule:: ibm_watsonx_gov.metrics.retrieval_precision
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.retrieval_precision.retrieval_precision_decorator
+   ibm_watsonx_gov.metrics.retrieval_precision.retrieval_precision_metric

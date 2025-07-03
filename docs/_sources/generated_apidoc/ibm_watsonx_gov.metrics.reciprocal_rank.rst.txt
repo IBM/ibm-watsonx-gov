@@ -1,0 +1,16 @@
+Reciprocal Rank
+===============
+
+.. automodule:: ibm_watsonx_gov.metrics.reciprocal_rank
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.reciprocal_rank.reciprocal_rank_decorator
+   ibm_watsonx_gov.metrics.reciprocal_rank.reciprocal_rank_metric

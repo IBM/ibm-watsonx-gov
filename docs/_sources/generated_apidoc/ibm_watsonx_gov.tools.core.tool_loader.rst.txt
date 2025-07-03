@@ -1,0 +1,7 @@
+Tool Loader
+===========
+
+.. automodule:: ibm_watsonx_gov.tools.core.tool_loader
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+AI Agent
+========
+
+.. automodule:: ibm_watsonx_gov.agent_catalog.entities.ai_agent
+   :members:
+   :undoc-members:
+   :show-inheritance:

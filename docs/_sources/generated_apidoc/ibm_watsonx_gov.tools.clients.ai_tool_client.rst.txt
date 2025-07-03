@@ -1,0 +1,7 @@
+AI Tool Client
+==============
+
+.. automodule:: ibm_watsonx_gov.tools.clients.ai_tool_client
+   :members:
+   :undoc-members:
+   :show-inheritance:

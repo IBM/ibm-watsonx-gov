@@ -1,0 +1,7 @@
+Display Utils
+=============
+
+.. automodule:: ibm_watsonx_gov.tools.utils.display_utils
+   :members:
+   :undoc-members:
+   :show-inheritance:

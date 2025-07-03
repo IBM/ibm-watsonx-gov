@@ -1,0 +1,7 @@
+Trace Utils
+===========
+
+.. automodule:: ibm_watsonx_gov.traces.trace_utils
+   :members:
+   :undoc-members:
+   :show-inheritance:

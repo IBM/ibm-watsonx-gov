@@ -1,0 +1,7 @@
+Prompt Evaluator
+================
+
+.. automodule:: ibm_watsonx_gov.prompt_evaluator.prompt_evaluator
+   :members:
+   :undoc-members:
+   :show-inheritance:

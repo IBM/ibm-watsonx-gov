@@ -1,0 +1,7 @@
+Answer Relevance Decorator
+==========================
+
+.. automodule:: ibm_watsonx_gov.metrics.answer_relevance.answer_relevance_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

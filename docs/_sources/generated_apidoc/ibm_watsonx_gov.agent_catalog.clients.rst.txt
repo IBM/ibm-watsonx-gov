@@ -1,0 +1,15 @@
+Clients
+=======
+
+.. automodule:: ibm_watsonx_gov.agent_catalog.clients
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.agent_catalog.clients.ai_agent_client

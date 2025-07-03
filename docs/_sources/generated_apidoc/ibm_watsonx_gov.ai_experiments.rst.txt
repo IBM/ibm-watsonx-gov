@@ -1,0 +1,23 @@
+AI Experiments
+==============
+
+.. automodule:: ibm_watsonx_gov.ai_experiments
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.ai_experiments.utils
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.ai_experiments.ai_experiments_client

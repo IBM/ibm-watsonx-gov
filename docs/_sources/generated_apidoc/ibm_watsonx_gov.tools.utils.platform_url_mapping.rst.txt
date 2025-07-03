@@ -1,0 +1,7 @@
+Platform Url Mapping
+====================
+
+.. automodule:: ibm_watsonx_gov.tools.utils.platform_url_mapping
+   :members:
+   :undoc-members:
+   :show-inheritance:

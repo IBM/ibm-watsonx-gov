@@ -1,0 +1,7 @@
+Text Reading Ease Decorator
+===========================
+
+.. automodule:: ibm_watsonx_gov.metrics.text_reading_ease.text_reading_ease_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

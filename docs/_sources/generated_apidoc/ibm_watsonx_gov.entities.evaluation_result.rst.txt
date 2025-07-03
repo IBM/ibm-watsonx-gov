@@ -1,0 +1,7 @@
+Evaluation Result
+=================
+
+.. automodule:: ibm_watsonx_gov.entities.evaluation_result
+   :members:
+   :undoc-members:
+   :show-inheritance:

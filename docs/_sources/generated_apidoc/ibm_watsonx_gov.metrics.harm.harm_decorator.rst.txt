@@ -1,0 +1,7 @@
+Harm Decorator
+==============
+
+.. automodule:: ibm_watsonx_gov.metrics.harm.harm_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

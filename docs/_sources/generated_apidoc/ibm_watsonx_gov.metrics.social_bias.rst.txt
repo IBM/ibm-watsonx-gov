@@ -1,0 +1,16 @@
+Social Bias
+===========
+
+.. automodule:: ibm_watsonx_gov.metrics.social_bias
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.social_bias.social_bias_decorator
+   ibm_watsonx_gov.metrics.social_bias.social_bias_metric

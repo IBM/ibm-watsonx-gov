@@ -1,0 +1,7 @@
+Social Bias Decorator
+=====================
+
+.. automodule:: ibm_watsonx_gov.metrics.social_bias.social_bias_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

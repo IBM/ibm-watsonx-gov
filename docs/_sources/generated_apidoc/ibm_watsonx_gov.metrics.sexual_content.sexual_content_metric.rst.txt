@@ -1,0 +1,7 @@
+Sexual Content Metric
+=====================
+
+.. automodule:: ibm_watsonx_gov.metrics.sexual_content.sexual_content_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

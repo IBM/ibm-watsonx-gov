@@ -1,0 +1,7 @@
+Metric
+======
+
+.. automodule:: ibm_watsonx_gov.entities.metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+Metric Descriptions
+===================
+
+.. automodule:: ibm_watsonx_gov.visualizations.metric_descriptions
+   :members:
+   :undoc-members:
+   :show-inheritance:

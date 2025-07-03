@@ -1,0 +1,7 @@
+Enums
+=====
+
+.. automodule:: ibm_watsonx_gov.entities.enums
+   :members:
+   :undoc-members:
+   :show-inheritance:

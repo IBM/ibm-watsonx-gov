@@ -1,0 +1,25 @@
+Evaluate
+========
+
+.. automodule:: ibm_watsonx_gov.evaluate
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.evaluate.impl
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.evaluate.agentic_evaluation
+   ibm_watsonx_gov.evaluate.evaluate_metrics
+   ibm_watsonx_gov.evaluate.evaluate_model_risk

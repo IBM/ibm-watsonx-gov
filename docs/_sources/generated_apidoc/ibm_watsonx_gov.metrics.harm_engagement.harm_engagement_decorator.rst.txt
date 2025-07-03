@@ -1,0 +1,7 @@
+Harm Engagement Decorator
+=========================
+
+.. automodule:: ibm_watsonx_gov.metrics.harm_engagement.harm_engagement_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

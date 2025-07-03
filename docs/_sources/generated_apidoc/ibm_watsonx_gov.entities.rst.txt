@@ -1,0 +1,31 @@
+Entities
+========
+
+.. automodule:: ibm_watsonx_gov.entities
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.entities.agentic_app
+   ibm_watsonx_gov.entities.ai_evaluation
+   ibm_watsonx_gov.entities.ai_experiment
+   ibm_watsonx_gov.entities.base_classes
+   ibm_watsonx_gov.entities.container
+   ibm_watsonx_gov.entities.credentials
+   ibm_watsonx_gov.entities.enums
+   ibm_watsonx_gov.entities.evaluation_result
+   ibm_watsonx_gov.entities.foundation_model
+   ibm_watsonx_gov.entities.llm_judge
+   ibm_watsonx_gov.entities.metric
+   ibm_watsonx_gov.entities.metric_threshold
+   ibm_watsonx_gov.entities.model_provider
+   ibm_watsonx_gov.entities.model_risk_result
+   ibm_watsonx_gov.entities.monitor
+   ibm_watsonx_gov.entities.prompt_setup
+   ibm_watsonx_gov.entities.state

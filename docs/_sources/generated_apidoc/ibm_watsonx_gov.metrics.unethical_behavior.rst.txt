@@ -1,0 +1,16 @@
+Unethical Behavior
+==================
+
+.. automodule:: ibm_watsonx_gov.metrics.unethical_behavior
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.unethical_behavior.unethical_behavior_decorator
+   ibm_watsonx_gov.metrics.unethical_behavior.unethical_behavior_metric

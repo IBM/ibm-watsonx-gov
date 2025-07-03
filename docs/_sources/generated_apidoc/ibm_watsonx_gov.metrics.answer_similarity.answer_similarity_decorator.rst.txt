@@ -1,0 +1,7 @@
+Answer Similarity Decorator
+===========================
+
+.. automodule:: ibm_watsonx_gov.metrics.answer_similarity.answer_similarity_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:
