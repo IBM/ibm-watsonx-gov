@@ -12,26 +12,61 @@ To install the library, run:
 
    pip install ibm-watsonx-gov
 
-To install the library for evaluating agentic application using `Agentic Evaluator`, run:
 
-.. code-block:: bash
+Extra requirements
+-------------------
 
-   pip install ibm-watsonx-gov[agentic]
+Some functionality of this library requires additional dependencies. You can install them using the following commands:
 
-To install the library for computing the AI metrics using `Metrics Evaluator`, run:
+- **agentic** - To evaluate an agentic application using `Agentic Evaluator` class.
+   To install the dependencies, run:
 
-.. code-block:: bash
+   .. code-block:: bash
 
-   pip install ibm-watsonx-gov[metrics]
+      pip install ibm-watsonx-gov[agentic]
 
-To install the library for evaluating foundational model risk using `Model Risk Evaluator`, run:
+- **metrics** - To compute the AI metrics using `Metrics Evaluator` class.
+   To install the dependencies, run:
 
-.. code-block:: bash
+   .. code-block:: bash
 
-   pip install ibm-watsonx-gov[mre]
+      pip install ibm-watsonx-gov[metrics]
 
-To install the library for visualizing the results using `Model Insights`, run:
+- **local_evals** - To install the dependencies for computing the metrics with methods which use models in local. The below metrics can also be computed using other methods which do not need local_evals. This extra requires should to be used along with **agentic** or **metrics** extras mentioned above.
+      .. table:: Metric methods using local evaluations
+         :widths: auto
 
-.. code-block:: bash
+         ==================  =========================================
+         Metric              Method
+         ==================  =========================================
+         Answer Similarity   bert_score_recall, sentence_bert_mini_lm
+         Faithfulness        sentence_bert_mini_lm
+         Context Relevance   sentence_bert_bge, sentence_bert_mini_lm
+         ==================  =========================================
 
-   pip install ibm-watsonx-gov[visualization]
+   To install the dependencies, run:
+
+   .. code-block:: bash
+
+      pip install ibm-watsonx-gov[local_evals]
+
+- **tools** - To use the tools while building an agentic application.
+   To install the dependencies, run:
+
+   .. code-block:: bash
+
+      pip install ibm-watsonx-gov[tools]
+
+- **mre** - To evaluate foundational model risk using `Model Risk Evaluator` class.
+   To install the dependencies, run:
+
+   .. code-block:: bash
+
+      pip install ibm-watsonx-gov[mre]
+
+- **visualization** - To install the dependencies for visualizing the results using `Model Insights` class.
+   To install the dependencies, run:
+
+   .. code-block:: bash
+
+      pip install ibm-watsonx-gov[visualization]

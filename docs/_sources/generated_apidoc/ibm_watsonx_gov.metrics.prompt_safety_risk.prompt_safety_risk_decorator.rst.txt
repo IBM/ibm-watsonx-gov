@@ -1,0 +1,7 @@
+Prompt Safety Risk Decorator
+============================
+
+.. automodule:: ibm_watsonx_gov.metrics.prompt_safety_risk.prompt_safety_risk_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

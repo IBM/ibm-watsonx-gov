@@ -17,7 +17,6 @@ Subpackages
    ibm_watsonx_gov.clients
    ibm_watsonx_gov.config
    ibm_watsonx_gov.entities
-   ibm_watsonx_gov.evaluate
    ibm_watsonx_gov.evaluators
    ibm_watsonx_gov.metrics
    ibm_watsonx_gov.prompt_evaluator

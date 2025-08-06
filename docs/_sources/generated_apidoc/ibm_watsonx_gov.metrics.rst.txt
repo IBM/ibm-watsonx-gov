@@ -34,15 +34,7 @@ Subpackages
    ibm_watsonx_gov.metrics.social_bias
    ibm_watsonx_gov.metrics.text_grade_level
    ibm_watsonx_gov.metrics.text_reading_ease
-   ibm_watsonx_gov.metrics.tool_call_accuracy
-   ibm_watsonx_gov.metrics.tool_call_intent_accuracy
-   ibm_watsonx_gov.metrics.tool_call_order_accuracy
    ibm_watsonx_gov.metrics.tool_call_parameter_accuracy
-   ibm_watsonx_gov.metrics.tool_call_parameter_alignment
-   ibm_watsonx_gov.metrics.tool_call_parameter_consistency
-   ibm_watsonx_gov.metrics.tool_call_parameter_groundedness
-   ibm_watsonx_gov.metrics.tool_call_parameter_hallucination
-   ibm_watsonx_gov.metrics.tool_call_parameter_information_sufficiency
    ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy
    ibm_watsonx_gov.metrics.tool_selection_accuracy
    ibm_watsonx_gov.metrics.topic_relevance

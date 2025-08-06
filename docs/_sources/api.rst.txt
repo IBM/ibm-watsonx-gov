@@ -15,7 +15,6 @@ Subpackages
 
    generated_apidoc/ibm_watsonx_gov.config
    generated_apidoc/ibm_watsonx_gov.entities
-   generated_apidoc/ibm_watsonx_gov.evaluate
    generated_apidoc/ibm_watsonx_gov.metrics
    generated_apidoc/ibm_watsonx_gov.visualizations
    generated_apidoc/ibm_watsonx_gov.prompt_evaluator

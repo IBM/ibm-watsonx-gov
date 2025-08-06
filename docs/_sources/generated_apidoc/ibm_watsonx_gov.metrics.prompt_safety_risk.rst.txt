@@ -1,0 +1,16 @@
+Prompt Safety Risk
+==================
+
+.. automodule:: ibm_watsonx_gov.metrics.prompt_safety_risk
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.prompt_safety_risk.prompt_safety_risk_decorator
+   ibm_watsonx_gov.metrics.prompt_safety_risk.prompt_safety_risk_metric

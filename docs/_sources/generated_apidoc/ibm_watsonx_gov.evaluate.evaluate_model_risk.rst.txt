@@ -1,7 +1,0 @@
-Evaluate Model Risk
-===================
-
-.. automodule:: ibm_watsonx_gov.evaluate.evaluate_model_risk
-   :members:
-   :undoc-members:
-   :show-inheritance:
