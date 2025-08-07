@@ -6,6 +6,14 @@ Evaluators
    :undoc-members:
    :show-inheritance:
 
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.evaluators.impl
+
 Submodules
 ----------
 

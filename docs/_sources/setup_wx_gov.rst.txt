@@ -26,19 +26,21 @@ Users of IBM watsonx.governance can initialize an IBM watsonx.governance Python 
 
 .. note::
 
-   The WATSONX_VERSION value should be set to the two-digit release version number separated by a dot (e.g., ‘2.1’) for the IBM watsonx.governance you are using.
+   The WATSONX_VERSION value should be set to the two-digit release version number separated by a dot (e.g., ‘2.2’) for the IBM watsonx.governance you are using.
 
 To use the functionality in ibm-watsonx-gov, the required credentials can be set in enviroment variables or using APIClient object.
 
 Examples:
-   1. Set the credentials using environment variables.
+   1. Set the credentials using environment variables. When environment variables are used, the APIClient reads and initializes them only once. If any of the environment variable values are changed, the Python process or the notebook kernel must be restarted for the new values to take effect.
 
       .. code-block:: python
 
-         os.environ["WXG_URL"] = "..."
+         os.environ["WATSONX_URL"] = "..."
          os.environ["WATSONX_APIKEY"] = "..."
          os.environ["WATSONX_USERNAME"] = "..."
          os.environ["WATSONX_VERSION"] = "..."
+         # One for WATSONX_APIKEY or WATSONX_PASSWORD can be used.
+         # os.environ["WATSONX_PASSWORD"] = "..."
 
    2. Create APIClient.
 
@@ -47,7 +49,7 @@ Examples:
          from ibm_watsonx_gov.clients.api_client import APIClient
          from ibm_watsonx_gov.credentials import Credentials
 
-         credentials = Credentials(url=WXG_URL,
+         credentials = Credentials(url=WATSONX_URL,
                                    api_key=WATSONX_APIKEY,
                                    username=WATSONX_USERNAME,
                                    version=WATSONX_VERSION)

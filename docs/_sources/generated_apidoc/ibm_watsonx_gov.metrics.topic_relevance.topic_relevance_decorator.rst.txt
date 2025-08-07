@@ -1,0 +1,7 @@
+Topic Relevance Decorator
+=========================
+
+.. automodule:: ibm_watsonx_gov.metrics.topic_relevance.topic_relevance_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

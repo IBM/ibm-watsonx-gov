@@ -1,7 +1,0 @@
-Evaluate Metrics
-================
-
-.. automodule:: ibm_watsonx_gov.evaluate.evaluate_metrics
-   :members:
-   :undoc-members:
-   :show-inheritance:

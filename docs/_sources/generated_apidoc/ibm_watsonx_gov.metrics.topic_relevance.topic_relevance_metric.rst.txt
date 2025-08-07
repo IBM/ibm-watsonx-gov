@@ -1,0 +1,7 @@
+Topic Relevance Metric
+======================
+
+.. automodule:: ibm_watsonx_gov.metrics.topic_relevance.topic_relevance_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

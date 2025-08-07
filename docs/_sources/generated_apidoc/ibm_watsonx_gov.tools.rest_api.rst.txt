@@ -1,0 +1,15 @@
+Rest Api
+========
+
+.. automodule:: ibm_watsonx_gov.tools.rest_api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.tools.rest_api.restapi_tool
