@@ -1,0 +1,7 @@
+Tool Call Accuracy Decorator
+============================
+
+.. automodule:: ibm_watsonx_gov.metrics.tool_call_accuracy.tool_call_accuracy_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

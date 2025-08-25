@@ -1,0 +1,7 @@
+Tool Call Relevance Decorator
+=============================
+
+.. automodule:: ibm_watsonx_gov.metrics.tool_call_relevance.tool_call_relevance_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

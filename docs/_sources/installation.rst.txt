@@ -32,7 +32,7 @@ Some functionality of this library requires additional dependencies. You can ins
 
       pip install ibm-watsonx-gov[metrics]
 
-- **local_evals** - To install the dependencies for computing the metrics with methods which use models in local. The below metrics can also be computed using other methods which do not need local_evals. This extra requires should to be used along with **agentic** or **metrics** extras mentioned above.
+- **local-evals** - To install the dependencies for computing the metrics with methods which use models in local. The below metrics can also be computed using other methods which do not need local_evals. This extra requires should to be used along with **agentic** or **metrics** extras mentioned above.
       .. table:: Metric methods using local evaluations
          :widths: auto
 
@@ -48,7 +48,7 @@ Some functionality of this library requires additional dependencies. You can ins
 
    .. code-block:: bash
 
-      pip install ibm-watsonx-gov[local_evals]
+      pip install ibm-watsonx-gov[local-evals]
 
 - **tools** - To use the tools while building an agentic application.
    To install the dependencies, run:
