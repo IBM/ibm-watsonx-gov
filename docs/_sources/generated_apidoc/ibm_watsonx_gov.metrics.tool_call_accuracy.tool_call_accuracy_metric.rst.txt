@@ -1,0 +1,7 @@
+Tool Call Accuracy Metric
+=========================
+
+.. automodule:: ibm_watsonx_gov.metrics.tool_call_accuracy.tool_call_accuracy_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

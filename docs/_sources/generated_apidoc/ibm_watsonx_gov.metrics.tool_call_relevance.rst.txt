@@ -1,0 +1,16 @@
+Tool Call Relevance
+===================
+
+.. automodule:: ibm_watsonx_gov.metrics.tool_call_relevance
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.tool_call_relevance.tool_call_relevance_decorator
+   ibm_watsonx_gov.metrics.tool_call_relevance.tool_call_relevance_metric

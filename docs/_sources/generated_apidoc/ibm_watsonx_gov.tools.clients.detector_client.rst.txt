@@ -1,0 +1,7 @@
+Detector Client
+===============
+
+.. automodule:: ibm_watsonx_gov.tools.clients.detector_client
+   :members:
+   :undoc-members:
+   :show-inheritance:

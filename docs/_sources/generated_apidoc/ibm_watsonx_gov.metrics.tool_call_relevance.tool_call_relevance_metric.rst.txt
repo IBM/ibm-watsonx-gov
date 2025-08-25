@@ -1,0 +1,7 @@
+Tool Call Relevance Metric
+==========================
+
+.. automodule:: ibm_watsonx_gov.metrics.tool_call_relevance.tool_call_relevance_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

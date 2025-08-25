@@ -13,3 +13,4 @@ Submodules
    :maxdepth: 4
 
    ibm_watsonx_gov.tools.clients.ai_tool_client
+   ibm_watsonx_gov.tools.clients.detector_client
