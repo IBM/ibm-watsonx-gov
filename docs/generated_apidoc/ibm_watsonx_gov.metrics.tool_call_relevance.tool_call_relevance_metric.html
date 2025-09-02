@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Tool Call Syntactic Accuracy" href="ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy.html" /><link rel="prev" title="Tool Call Relevance Decorator" href="ibm_watsonx_gov.metrics.tool_call_relevance.tool_call_relevance_decorator.html" />
 
     <!-- Generated with Sphinx 8.1.3 and Furo 2024.08.06 -->
-        <title>Tool Call Relevance Metric - IBM watsonx.governance SDK 1.2.0 documentation</title>
+        <title>Tool Call Relevance Metric - IBM watsonx.governance SDK 1.2.2 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../_static/autodoc_pydantic.css" />
@@ -167,7 +167,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../index.html"><div class="brand">IBM watsonx.governance SDK 1.2.0 documentation</div></a>
+      <a href="../index.html"><div class="brand">IBM watsonx.governance SDK 1.2.2 documentation</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -191,7 +191,7 @@
       <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
   
   
-  <span class="sidebar-brand-text">IBM watsonx.governance SDK 1.2.0 documentation</span>
+  <span class="sidebar-brand-text">IBM watsonx.governance SDK 1.2.2 documentation</span>
   
 </a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
@@ -228,6 +228,7 @@
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.evaluation_result.html">Evaluation Result</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html">Foundation Model</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.llm_judge.html">Llm Judge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.mapping.html">Mapping</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.metric.html">Metric</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.metric_threshold.html">Metric Threshold</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.model_provider.html">Model Provider</a></li>
@@ -398,7 +399,6 @@
 </li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.evaluators.html">Evaluators</a><input class="toctree-checkbox" id="toctree-checkbox-37" name="toctree-checkbox-37" role="switch" type="checkbox"/><label for="toctree-checkbox-37"><div class="visually-hidden">Toggle navigation of Evaluators</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.agentic_evaluator.html">Agentic Evaluator</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.agentic_traces_evaluator.html">Agentic Traces Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.base_evaluator.html">Base Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.metrics_evaluator.html">Metrics Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.model_risk_evaluator.html">Model Risk Evaluator</a></li>
@@ -1300,7 +1300,7 @@ the selection aligns with user intent and context.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ibm_watsonx_gov.metrics.tool_call_relevance.tool_call_relevance_metric.ToolCallRelevanceMetric.evaluate_async">
-<em class="property"><span class="pre">async</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">evaluate_async</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">DataFrame</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">dict</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">configuration</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="ibm_watsonx_gov.config.gen_ai_configuration.html#ibm_watsonx_gov.config.gen_ai_configuration.GenAIConfiguration" title="ibm_watsonx_gov.config.gen_ai_configuration.GenAIConfiguration"><span class="pre">GenAIConfiguration</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference internal" href="ibm_watsonx_gov.config.agentic_ai_configuration.html#ibm_watsonx_gov.config.agentic_ai_configuration.AgenticAIConfiguration" title="ibm_watsonx_gov.config.agentic_ai_configuration.AgenticAIConfiguration"><span class="pre">AgenticAIConfiguration</span></a></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="ibm_watsonx_gov.entities.evaluation_result.html#ibm_watsonx_gov.entities.evaluation_result.AggregateMetricResult" title="ibm_watsonx_gov.entities.evaluation_result.AggregateMetricResult"><span class="pre">AggregateMetricResult</span></a></span></span><a class="headerlink" href="#ibm_watsonx_gov.metrics.tool_call_relevance.tool_call_relevance_metric.ToolCallRelevanceMetric.evaluate_async" title="Link to this definition">¶</a></dt>
+<em class="property"><span class="pre">async</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">evaluate_async</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">configuration</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="ibm_watsonx_gov.config.gen_ai_configuration.html#ibm_watsonx_gov.config.gen_ai_configuration.GenAIConfiguration" title="ibm_watsonx_gov.config.gen_ai_configuration.GenAIConfiguration"><span class="pre">GenAIConfiguration</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference internal" href="ibm_watsonx_gov.config.agentic_ai_configuration.html#ibm_watsonx_gov.config.agentic_ai_configuration.AgenticAIConfiguration" title="ibm_watsonx_gov.config.agentic_ai_configuration.AgenticAIConfiguration"><span class="pre">AgenticAIConfiguration</span></a></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="ibm_watsonx_gov.entities.evaluation_result.html#ibm_watsonx_gov.entities.evaluation_result.AggregateMetricResult" title="ibm_watsonx_gov.entities.evaluation_result.AggregateMetricResult"><span class="pre">AggregateMetricResult</span></a></span></span><a class="headerlink" href="#ibm_watsonx_gov.metrics.tool_call_relevance.tool_call_relevance_metric.ToolCallRelevanceMetric.evaluate_async" title="Link to this definition">¶</a></dt>
 <dd><p>Evaluate the data for ToolCallRelevanceMetric
 :param data: Data to be evaluated
 :type data: pd.DataFrame | dict
@@ -1408,7 +1408,7 @@ method.</p>
       
     </aside>
   </div>
-</div><script src="../_static/documentation_options.js?v=6efca38a"></script>
+</div><script src="../_static/documentation_options.js?v=fd7cadf9"></script>
     <script src="../_static/doctools.js?v=9bcbadda"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/scripts/furo.js?v=5fa4622c"></script>

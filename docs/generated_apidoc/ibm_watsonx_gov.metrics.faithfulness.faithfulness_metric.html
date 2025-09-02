@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Hap" href="ibm_watsonx_gov.metrics.hap.html" /><link rel="prev" title="Faithfulness Decorator" href="ibm_watsonx_gov.metrics.faithfulness.faithfulness_decorator.html" />
 
     <!-- Generated with Sphinx 8.1.3 and Furo 2024.08.06 -->
-        <title>Faithfulness Metric - IBM watsonx.governance SDK 1.2.0 documentation</title>
+        <title>Faithfulness Metric - IBM watsonx.governance SDK 1.2.2 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../_static/autodoc_pydantic.css" />
@@ -167,7 +167,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../index.html"><div class="brand">IBM watsonx.governance SDK 1.2.0 documentation</div></a>
+      <a href="../index.html"><div class="brand">IBM watsonx.governance SDK 1.2.2 documentation</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -191,7 +191,7 @@
       <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
   
   
-  <span class="sidebar-brand-text">IBM watsonx.governance SDK 1.2.0 documentation</span>
+  <span class="sidebar-brand-text">IBM watsonx.governance SDK 1.2.2 documentation</span>
   
 </a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
@@ -228,6 +228,7 @@
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.evaluation_result.html">Evaluation Result</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html">Foundation Model</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.llm_judge.html">Llm Judge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.mapping.html">Mapping</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.metric.html">Metric</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.metric_threshold.html">Metric Threshold</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.model_provider.html">Model Provider</a></li>
@@ -398,7 +399,6 @@
 </li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.evaluators.html">Evaluators</a><input class="toctree-checkbox" id="toctree-checkbox-37" name="toctree-checkbox-37" role="switch" type="checkbox"/><label for="toctree-checkbox-37"><div class="visually-hidden">Toggle navigation of Evaluators</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.agentic_evaluator.html">Agentic Evaluator</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.agentic_traces_evaluator.html">Agentic Traces Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.base_evaluator.html">Base Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.metrics_evaluator.html">Metrics Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.model_risk_evaluator.html">Model Risk Evaluator</a></li>
@@ -500,15 +500,13 @@
 <em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ibm_watsonx_gov.metrics.faithfulness.faithfulness_metric.</span></span><span class="sig-name descname"><span class="pre">FaithfulnessMetric</span></span><a class="headerlink" href="#ibm_watsonx_gov.metrics.faithfulness.faithfulness_metric.FaithfulnessMetric" title="Link to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="ibm_watsonx_gov.entities.metric.html#ibm_watsonx_gov.entities.metric.GenAIMetric" title="ibm_watsonx_gov.entities.metric.GenAIMetric"><code class="xref py py-class docutils literal notranslate"><span class="pre">GenAIMetric</span></code></a></p>
 <p>Defines the Faithfulness metric class.</p>
-<dl class="simple">
-<dt>The faithfulness metrics can be computed using the below methods:</dt><dd><ol class="arabic simple">
+<p>The faithfulness metrics can be computed using the below methods:</p>
+<ol class="arabic simple">
 <li><p>token_k_precision (default)</p></li>
 <li><p>sentence_bert_mini_lm</p></li>
 <li><p>llm_as_judge</p></li>
 <li><p>granite_guardian</p></li>
 </ol>
-</dd>
-</dl>
 <p class="rubric">Examples</p>
 <ol class="arabic">
 <li><dl>
@@ -556,7 +554,7 @@
 <p><details  class="autodoc_pydantic_collapsable_json">
 <summary>Show JSON schema</summary><div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
 <span class="w">   </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;FaithfulnessMetric&quot;</span><span class="p">,</span>
-<span class="w">   </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Defines the Faithfulness metric class.\n\nThe faithfulness metrics can be computed using the below methods:\n    1. token_k_precision (default)\n    2. sentence_bert_mini_lm\n    3. llm_as_judge\n    4. granite_guardian\n\nExamples:\n    1. Create Faithfulness metric with default parameters.\n        .. code-block:: python\n\n            metric = FaithfulnessMetric()\n            result = MetricsEvaluator().evaluate(data={\&quot;input_text\&quot;: \&quot;...\&quot;, \&quot;context\&quot;: \&quot;...\&quot;, \&quot;generated_text\&quot;: \&quot;...\&quot;}, \n                                                metrics=[metric])\n            # A list of contexts can also be passed as shown below\n            result = MetricsEvaluator().evaluate(data={\&quot;input_text\&quot;: \&quot;...\&quot;, \&quot;context\&quot;: [\&quot;...\&quot;, \&quot;...\&quot;], \&quot;generated_text\&quot;: \&quot;...\&quot;}, \n                                                metrics=[metric])\n\n    2. Create Faithfulness metric with a custom threshold and method.\n        .. code-block:: python\n\n            thresholds  = [MetricThreshold(type=\&quot;lower_limit\&quot;, value=0.5)]\n            method = \&quot;sentence_bert_mini_lm\&quot;\n            metric = FaithfulnessMetric(method=method, thresholds=thresholds)\n\n    3. Create Faithfulness metric with llm_as_judge method.\n        .. code-block:: python\n\n            # Define LLM Judge using watsonx.ai\n            # To use other frameworks and models as llm_judge, see :module:`ibm_watsonx_gov.entities.foundation_model`\n            llm_judge = LLMJudge(model=WxAIFoundationModel(\n                                        model_id=\&quot;google/flan-ul2\&quot;,\n                                        project_id=\&quot;&lt;PROJECT_ID&gt;\&quot;\n                                ))\n            metric = FaithfulnessMetric(llm_judge=llm_judge)\n\n    4. Create Faithfulness metric with granite_guardian method.\n        .. code-block:: python\n\n            metric = FaithfulnessMetric(method=\&quot;granite_guardian\&quot;)&quot;</span><span class="p">,</span>
+<span class="w">   </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Defines the Faithfulness metric class.\n\nThe faithfulness metrics can be computed using the below methods:\n\n1. token_k_precision (default)\n2. sentence_bert_mini_lm\n3. llm_as_judge\n4. granite_guardian\n\nExamples:\n    1. Create Faithfulness metric with default parameters.\n        .. code-block:: python\n\n            metric = FaithfulnessMetric()\n            result = MetricsEvaluator().evaluate(data={\&quot;input_text\&quot;: \&quot;...\&quot;, \&quot;context\&quot;: \&quot;...\&quot;, \&quot;generated_text\&quot;: \&quot;...\&quot;}, \n                                                metrics=[metric])\n            # A list of contexts can also be passed as shown below\n            result = MetricsEvaluator().evaluate(data={\&quot;input_text\&quot;: \&quot;...\&quot;, \&quot;context\&quot;: [\&quot;...\&quot;, \&quot;...\&quot;], \&quot;generated_text\&quot;: \&quot;...\&quot;}, \n                                                metrics=[metric])\n\n    2. Create Faithfulness metric with a custom threshold and method.\n        .. code-block:: python\n\n            thresholds  = [MetricThreshold(type=\&quot;lower_limit\&quot;, value=0.5)]\n            method = \&quot;sentence_bert_mini_lm\&quot;\n            metric = FaithfulnessMetric(method=method, thresholds=thresholds)\n\n    3. Create Faithfulness metric with llm_as_judge method.\n        .. code-block:: python\n\n            # Define LLM Judge using watsonx.ai\n            # To use other frameworks and models as llm_judge, see :module:`ibm_watsonx_gov.entities.foundation_model`\n            llm_judge = LLMJudge(model=WxAIFoundationModel(\n                                        model_id=\&quot;google/flan-ul2\&quot;,\n                                        project_id=\&quot;&lt;PROJECT_ID&gt;\&quot;\n                                ))\n            metric = FaithfulnessMetric(llm_judge=llm_judge)\n\n    4. Create Faithfulness metric with granite_guardian method.\n        .. code-block:: python\n\n            metric = FaithfulnessMetric(method=\&quot;granite_guardian\&quot;)&quot;</span><span class="p">,</span>
 <span class="w">   </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span><span class="p">,</span>
 <span class="w">   </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">      </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
@@ -1432,7 +1430,7 @@ method.</p>
       
     </aside>
   </div>
-</div><script src="../_static/documentation_options.js?v=6efca38a"></script>
+</div><script src="../_static/documentation_options.js?v=fd7cadf9"></script>
     <script src="../_static/doctools.js?v=9bcbadda"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/scripts/furo.js?v=5fa4622c"></script>

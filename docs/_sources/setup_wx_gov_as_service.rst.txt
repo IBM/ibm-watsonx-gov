@@ -15,7 +15,7 @@ Authentication
 
    .. code-block:: bash
 
-      us-south, eu-de, au-syd, ca-tor, jp-tok
+      us-south, eu-de, au-syd, ca-tor, jp-tok, eu-gb
 
 ------------------------------------------------------------------------------
 
