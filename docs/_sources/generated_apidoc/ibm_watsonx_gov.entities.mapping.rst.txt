@@ -1,0 +1,7 @@
+Mapping
+=======
+
+.. automodule:: ibm_watsonx_gov.entities.mapping
+   :members:
+   :undoc-members:
+   :show-inheritance:

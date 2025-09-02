@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Tool Call Parameter Accuracy" href="ibm_watsonx_gov.metrics.tool_call_parameter_accuracy.html" /><link rel="prev" title="Tool Call Accuracy Decorator" href="ibm_watsonx_gov.metrics.tool_call_accuracy.tool_call_accuracy_decorator.html" />
 
     <!-- Generated with Sphinx 8.1.3 and Furo 2024.08.06 -->
-        <title>Tool Call Accuracy Metric - IBM watsonx.governance SDK 1.2.0 documentation</title>
+        <title>Tool Call Accuracy Metric - IBM watsonx.governance SDK 1.2.2 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../_static/autodoc_pydantic.css" />
@@ -167,7 +167,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../index.html"><div class="brand">IBM watsonx.governance SDK 1.2.0 documentation</div></a>
+      <a href="../index.html"><div class="brand">IBM watsonx.governance SDK 1.2.2 documentation</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -191,7 +191,7 @@
       <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
   
   
-  <span class="sidebar-brand-text">IBM watsonx.governance SDK 1.2.0 documentation</span>
+  <span class="sidebar-brand-text">IBM watsonx.governance SDK 1.2.2 documentation</span>
   
 </a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
@@ -228,6 +228,7 @@
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.evaluation_result.html">Evaluation Result</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html">Foundation Model</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.llm_judge.html">Llm Judge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.mapping.html">Mapping</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.metric.html">Metric</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.metric_threshold.html">Metric Threshold</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.model_provider.html">Model Provider</a></li>
@@ -398,7 +399,6 @@
 </li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.evaluators.html">Evaluators</a><input class="toctree-checkbox" id="toctree-checkbox-37" name="toctree-checkbox-37" role="switch" type="checkbox"/><label for="toctree-checkbox-37"><div class="visually-hidden">Toggle navigation of Evaluators</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.agentic_evaluator.html">Agentic Evaluator</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.agentic_traces_evaluator.html">Agentic Traces Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.base_evaluator.html">Base Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.metrics_evaluator.html">Metrics Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.model_risk_evaluator.html">Model Risk Evaluator</a></li>
@@ -502,7 +502,11 @@
 <p>ToolCallAccuracyMetric checks whether the tool call in the LLM response is
 syntactically correct and semantically meaningful, given the user’s query and
 the available tool definitions.</p>
-<p>The ToolCallAccuracyMetric will be computed using granite_guardian.</p>
+<p>The ToolCallAccuracyMetric can be computed using the below methods:</p>
+<ol class="arabic simple">
+<li><p>syntactic (default)</p></li>
+<li><p>granite_guardian</p></li>
+</ol>
 <p class="rubric">Examples</p>
 <ol class="arabic">
 <li><dl>
@@ -539,15 +543,25 @@ the available tool definitions.</p>
 </dd>
 </dl>
 </li>
-<li><dl class="simple">
-<dt>Create ToolCallAccuracyMetric by passing a list of dictionary items as tools field in configuration.</dt><dd></dd>
+<li><dl>
+<dt>Create ToolCallAccuracyMetric by passing a list of dictionary items as tools field in configuration.</dt><dd><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">available_tools</span> <span class="o">=</span> <span class="p">[{</span><span class="s2">&quot;type&quot;</span><span class="p">:</span><span class="s2">&quot;function&quot;</span><span class="p">,</span><span class="s2">&quot;function&quot;</span><span class="p">:{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span><span class="s2">&quot;f1_name&quot;</span><span class="p">,</span><span class="s2">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;f1_description.&quot;</span><span class="p">,</span><span class="s2">&quot;parameters&quot;</span><span class="p">:{</span><span class="s2">&quot;parameter1&quot;</span><span class="p">:{</span><span class="s2">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;parameter_description&quot;</span><span class="p">,</span><span class="s2">&quot;type&quot;</span><span class="p">:</span><span class="s2">&quot;parameter_type&quot;</span><span class="p">,</span><span class="s2">&quot;default&quot;</span><span class="p">:</span><span class="s2">&quot;default_value&quot;</span><span class="p">}}}}]</span>
+<span class="n">config</span> <span class="o">=</span> <span class="n">GenAIConfiguration</span><span class="p">(</span><span class="n">tools</span> <span class="o">=</span> <span class="n">available_tools</span><span class="p">,</span>
+                            <span class="n">tool_calls_field</span><span class="o">=</span><span class="s2">&quot;tools_used&quot;</span><span class="p">)</span>
+<span class="n">evaluator</span> <span class="o">=</span> <span class="n">MetricsEvaluator</span><span class="p">(</span><span class="n">configuration</span><span class="o">=</span><span class="n">config</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+<span class="n">metrics</span> <span class="o">=</span> <span class="p">[</span><span class="n">ToolCallAccuracyMetric</span><span class="p">()]</span>
+<span class="n">result</span> <span class="o">=</span> <span class="n">evaluator</span><span class="o">.</span><span class="n">evaluate</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">metrics</span><span class="o">=</span><span class="n">metrics</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd>
 </dl>
 </li>
 </ol>
 <p><details  class="autodoc_pydantic_collapsable_json">
 <summary>Show JSON schema</summary><div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
 <span class="w">   </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ToolCallAccuracyMetric&quot;</span><span class="p">,</span>
-<span class="w">   </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ToolCallAccuracyMetric checks whether the tool call in the LLM response is \nsyntactically correct and semantically meaningful, given the user&#39;s query and \nthe available tool definitions.\n\nThe ToolCallAccuracyMetric will be computed using granite_guardian.\n\nExamples:\n    1. Create ToolCallAccuracyMetric by passing the basic configuration.\n        .. code-block:: python\n\n            config = GenAIConfiguration(tools = [get_weather,fetch_stock_price])\n            evaluator = MetricsEvaluator(configuration=config)\n            df = pd.read_csv(\&quot;\&quot;)\n\n            metrics = [ToolCallAccuracyMetric()]\n            result = evaluator.evaluate(data=df, metrics=metrics)\n\n    2. Create ToolCallAccuracyMetric with a custom threshold.\n        .. code-block:: python\n\n            threshold  = MetricThreshold(type=\&quot;upper_limit\&quot;, value=0.8)\n            metric = ToolCallAccuracyMetric(threshold=threshold)\n\n    3. Create ToolCallAccuracyMetric by passing custom tool calls field in configuration.\n        .. code-block:: python\n\n            test_data = {\&quot;input_text\&quot;: \&quot;What&#39;s the latest on Tesla today?\&quot;, \n            \&quot;tools_used\&quot;:[{\&quot;name\&quot;: \&quot;get_weather\&quot;, \&quot;args\&quot;: {\&quot;location\&quot;: \&quot;Tesla\&quot;}, \&quot;id\&quot;: \&quot;0724\&quot;, \&quot;type\&quot;: \&quot;tool_call\&quot;}]}\n\n            config = GenAIConfiguration(tools = [get_weather,fetch_stock_price],\n                                        tool_calls_field=\&quot;tools_used\&quot;)\n            evaluator = MetricsEvaluator(configuration=config)\n            metrics = [ToolCallAccuracyMetric()]\n            result = evaluator.evaluate(data=test_data, metrics=metrics)\n\n    4. Create ToolCallAccuracyMetric by passing a list of dictionary items as tools field in configuration.\n        .. code-block:: python\n            available_tools = [{\&quot;type\&quot;:\&quot;function\&quot;,\&quot;function\&quot;:{\&quot;name\&quot;:\&quot;f1_name\&quot;,\&quot;description\&quot;:\&quot;f1_description.\&quot;,\&quot;parameters\&quot;:{\&quot;parameter1\&quot;:{\&quot;description\&quot;:\&quot;parameter_description\&quot;,\&quot;type\&quot;:\&quot;parameter_type\&quot;,\&quot;default\&quot;:\&quot;default_value\&quot;}}}}]\n            config = GenAIConfiguration(tools = available_tools,\n                                        tool_calls_field=\&quot;tools_used\&quot;)\n            evaluator = MetricsEvaluator(configuration=config)\n            df = pd.read_csv(\&quot;\&quot;)\n\n            metrics = [ToolCallAccuracyMetric()]\n            result = evaluator.evaluate(data=df, metrics=metrics)&quot;</span><span class="p">,</span>
+<span class="w">   </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ToolCallAccuracyMetric checks whether the tool call in the LLM response is \nsyntactically correct and semantically meaningful, given the user&#39;s query and \nthe available tool definitions.\n\nThe ToolCallAccuracyMetric can be computed using the below methods:\n\n1. syntactic (default)\n2. granite_guardian\n\nExamples:\n    1. Create ToolCallAccuracyMetric by passing the basic configuration.\n        .. code-block:: python\n\n            config = GenAIConfiguration(tools = [get_weather,fetch_stock_price])\n            evaluator = MetricsEvaluator(configuration=config)\n            df = pd.read_csv(\&quot;\&quot;)\n\n            metrics = [ToolCallAccuracyMetric()]\n            result = evaluator.evaluate(data=df, metrics=metrics)\n\n    2. Create ToolCallAccuracyMetric with a custom threshold.\n        .. code-block:: python\n\n            threshold  = MetricThreshold(type=\&quot;upper_limit\&quot;, value=0.8)\n            metric = ToolCallAccuracyMetric(threshold=threshold)\n\n    3. Create ToolCallAccuracyMetric by passing custom tool calls field in configuration.\n        .. code-block:: python\n\n            test_data = {\&quot;input_text\&quot;: \&quot;What&#39;s the latest on Tesla today?\&quot;, \n            \&quot;tools_used\&quot;:[{\&quot;name\&quot;: \&quot;get_weather\&quot;, \&quot;args\&quot;: {\&quot;location\&quot;: \&quot;Tesla\&quot;}, \&quot;id\&quot;: \&quot;0724\&quot;, \&quot;type\&quot;: \&quot;tool_call\&quot;}]}\n\n            config = GenAIConfiguration(tools = [get_weather,fetch_stock_price],\n                                        tool_calls_field=\&quot;tools_used\&quot;)\n            evaluator = MetricsEvaluator(configuration=config)\n            metrics = [ToolCallAccuracyMetric()]\n            result = evaluator.evaluate(data=test_data, metrics=metrics)\n\n    4. Create ToolCallAccuracyMetric by passing a list of dictionary items as tools field in configuration.\n        .. code-block:: python\n        \n            available_tools = [{\&quot;type\&quot;:\&quot;function\&quot;,\&quot;function\&quot;:{\&quot;name\&quot;:\&quot;f1_name\&quot;,\&quot;description\&quot;:\&quot;f1_description.\&quot;,\&quot;parameters\&quot;:{\&quot;parameter1\&quot;:{\&quot;description\&quot;:\&quot;parameter_description\&quot;,\&quot;type\&quot;:\&quot;parameter_type\&quot;,\&quot;default\&quot;:\&quot;default_value\&quot;}}}}]\n            config = GenAIConfiguration(tools = available_tools,\n                                        tool_calls_field=\&quot;tools_used\&quot;)\n            evaluator = MetricsEvaluator(configuration=config)\n            df = pd.read_csv(\&quot;\&quot;)\n\n            metrics = [ToolCallAccuracyMetric()]\n            result = evaluator.evaluate(data=df, metrics=metrics)&quot;</span><span class="p">,</span>
 <span class="w">   </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span><span class="p">,</span>
 <span class="w">   </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">      </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
@@ -894,7 +908,7 @@ method.</p>
       
     </aside>
   </div>
-</div><script src="../_static/documentation_options.js?v=6efca38a"></script>
+</div><script src="../_static/documentation_options.js?v=fd7cadf9"></script>
     <script src="../_static/doctools.js?v=9bcbadda"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/scripts/furo.js?v=5fa4622c"></script>

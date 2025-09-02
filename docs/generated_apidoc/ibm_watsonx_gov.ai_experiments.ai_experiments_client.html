@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" />
 
     <!-- Generated with Sphinx 8.1.3 and Furo 2024.08.06 -->
-        <title>AI Experiments Client - IBM watsonx.governance SDK 1.2.0 documentation</title>
+        <title>AI Experiments Client - IBM watsonx.governance SDK 1.2.2 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../_static/autodoc_pydantic.css" />
@@ -167,7 +167,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../index.html"><div class="brand">IBM watsonx.governance SDK 1.2.0 documentation</div></a>
+      <a href="../index.html"><div class="brand">IBM watsonx.governance SDK 1.2.2 documentation</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -179,7 +179,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -191,7 +191,7 @@
       <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
   
   
-  <span class="sidebar-brand-text">IBM watsonx.governance SDK 1.2.0 documentation</span>
+  <span class="sidebar-brand-text">IBM watsonx.governance SDK 1.2.2 documentation</span>
   
 </a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
@@ -228,6 +228,7 @@
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.evaluation_result.html">Evaluation Result</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html">Foundation Model</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.llm_judge.html">Llm Judge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.mapping.html">Mapping</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.metric.html">Metric</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.metric_threshold.html">Metric Threshold</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.model_provider.html">Model Provider</a></li>
@@ -398,7 +399,6 @@
 </li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.evaluators.html">Evaluators</a><input class="toctree-checkbox" id="toctree-checkbox-37" name="toctree-checkbox-37" role="switch" type="checkbox"/><label for="toctree-checkbox-37"><div class="visually-hidden">Toggle navigation of Evaluators</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.agentic_evaluator.html">Agentic Evaluator</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.agentic_traces_evaluator.html">Agentic Traces Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.base_evaluator.html">Base Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.metrics_evaluator.html">Metrics Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.model_risk_evaluator.html">Model Risk Evaluator</a></li>
@@ -487,14 +487,232 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section id="ai-experiments-client">
-<h1>AI Experiments Client<a class="headerlink" href="#ai-experiments-client" title="Link to this heading">¶</a></h1>
+          <section id="module-ibm_watsonx_gov.ai_experiments.ai_experiments_client">
+<span id="ai-experiments-client"></span><h1>AI Experiments Client<a class="headerlink" href="#module-ibm_watsonx_gov.ai_experiments.ai_experiments_client" title="Link to this heading">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ibm_watsonx_gov.ai_experiments.ai_experiments_client.</span></span><span class="sig-name descname"><span class="pre">AIExperimentsClient</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">api_client</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">APIClient</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">space_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.create">
+<span class="sig-name descname"><span class="pre">create</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">experiment_details</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="ibm_watsonx_gov.entities.ai_experiment.html#ibm_watsonx_gov.entities.ai_experiment.AIExperiment" title="ibm_watsonx_gov.entities.ai_experiment.AIExperiment"><span class="pre">AIExperiment</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="ibm_watsonx_gov.entities.ai_experiment.html#ibm_watsonx_gov.entities.ai_experiment.AIExperiment" title="ibm_watsonx_gov.entities.ai_experiment.AIExperiment"><span class="pre">AIExperiment</span></a></span></span><a class="headerlink" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.create" title="Link to this definition">¶</a></dt>
+<dd><p>Creates AI experiment asset with specified details</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>experiment_details</strong> (<em>-</em>) – The instance of AIExperiment having details of the experiment to be created.</p>
+</dd>
+</dl>
+<p>Returns: An instance of AIExperiment.</p>
+<section id="examples">
+<h2>Examples:<a class="headerlink" href="#examples" title="Link to this heading">¶</a></h2>
+<dl>
+<dt>Create an AI Experiment:</dt><dd><div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+<p># Initialize the API client with credentials
+api_client = APIClient(credentials=Credentials(api_key=””, url=””))</p>
+<p># Create the AI Experiment client with your project ID
+ai_experiment_client = AIExperimentClient(api_client=api_client, project_id=”your_project_id”)</p>
+<p># Create the AIExperiment instance
+ai_experiment = AIExperiment(name=””, description=””, component_type=”agent”, component_name=””)</p>
+<p>ai_experiment_asset = ai_experiment_client.create(ai_experiment)</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.create_ai_evaluation_asset">
+<span class="sig-name descname"><span class="pre">create_ai_evaluation_asset</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ai_experiment_ids</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ai_experiment_runs</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="ibm_watsonx_gov.entities.ai_experiment.html#ibm_watsonx_gov.entities.ai_experiment.AIExperimentRun" title="ibm_watsonx_gov.entities.ai_experiment.AIExperimentRun"><span class="pre">AIExperimentRun</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ai_evaluation_details</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="ibm_watsonx_gov.entities.ai_evaluation.html#ibm_watsonx_gov.entities.ai_evaluation.AIEvaluationAsset" title="ibm_watsonx_gov.entities.ai_evaluation.AIEvaluationAsset"><span class="pre">AIEvaluationAsset</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="ibm_watsonx_gov.entities.ai_evaluation.html#ibm_watsonx_gov.entities.ai_evaluation.AIEvaluationAsset" title="ibm_watsonx_gov.entities.ai_evaluation.AIEvaluationAsset"><span class="pre">AIEvaluationAsset</span></a></span></span><a class="headerlink" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.create_ai_evaluation_asset" title="Link to this definition">¶</a></dt>
+<dd><p>Creates an AI Evaluation asset from either experiment IDs or experiment run mappings.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ai_experiment_ids</strong> (<em>List</em><em>[</em><em>str</em><em>]</em><em>, </em><em>optional</em>) – A list of AI experiment IDs for which the evaluation asset should be created.</p></li>
+<li><p><strong>ai_experiment_runs</strong> (<em>Dict</em><em>[</em><em>str</em><em>, </em><em>List</em><em>[</em><a class="reference internal" href="ibm_watsonx_gov.entities.ai_experiment.html#ibm_watsonx_gov.entities.ai_experiment.AIExperimentRun" title="ibm_watsonx_gov.entities.ai_experiment.AIExperimentRun"><em>AIExperimentRun</em></a><em>]</em><em>]</em><em>, </em><em>optional</em>) – A list of dictionaries where each dictionary maps an experiment ID (str)
+to an AIExperimentRun object.</p></li>
+<li><p><strong>ai_evaluation_details</strong> (<a class="reference internal" href="ibm_watsonx_gov.entities.ai_evaluation.html#ibm_watsonx_gov.entities.ai_evaluation.AIEvaluationAsset" title="ibm_watsonx_gov.entities.ai_evaluation.AIEvaluationAsset"><em>AIEvaluationAsset</em></a><em>, </em><em>optional</em>) – An instance of AIEvaluationAsset having details (name, description and metrics configuration)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>An instance of AIEvaluationAsset.</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Only one of <cite>ai_experiment_ids</cite> or <cite>ai_experiment_runs</cite> should be provided.</p>
+</div>
+<section id="id1">
+<h2>Examples:<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
+<dl>
+<dt>Comparing a list of AI experiments:</dt><dd><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Initialize the API client with credentials</span>
+<span class="n">api_client</span> <span class="o">=</span> <span class="n">APIClient</span><span class="p">(</span><span class="n">credentials</span><span class="o">=</span><span class="n">Credentials</span><span class="p">(</span><span class="n">api_key</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">url</span><span class="o">=</span><span class="s2">&quot;wos_url&quot;</span><span class="p">))</span>
+
+<span class="c1"># Create the AI Experiment client with your project ID</span>
+<span class="n">ai_experiment_client</span> <span class="o">=</span> <span class="n">AIExperimentClient</span><span class="p">(</span><span class="n">api_client</span><span class="o">=</span><span class="n">api_client</span><span class="p">,</span> <span class="n">project_id</span><span class="o">=</span><span class="s2">&quot;your_project_id&quot;</span><span class="p">)</span>
+
+<span class="c1"># Create AI Experiments</span>
+<span class="n">ai_experiment</span> <span class="o">=</span> <span class="n">ai_experiment_client</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="n">description</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="n">component_type</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="n">component_name</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+<span class="c1"># Define evaluation configuration</span>
+<span class="n">evaluation_config</span> <span class="o">=</span> <span class="n">EvaluationConfig</span><span class="p">(</span>
+    <span class="n">monitors</span><span class="o">=</span><span class="p">{</span>
+        <span class="s2">&quot;agentic_ai_quality&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;parameters&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;metrics_configuration&quot;</span><span class="p">:</span> <span class="p">{}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+
+<span class="c1"># Create the evaluation asset</span>
+<span class="n">ai_evaluation_asset</span> <span class="o">=</span> <span class="n">AIEvaluationAsset</span><span class="p">(</span>
+    <span class="n">name</span><span class="o">=</span><span class="s2">&quot;AI Evaluation for agent&quot;</span><span class="p">,</span>
+    <span class="n">evaluation_configuration</span><span class="o">=</span><span class="n">evaluation_config</span>
+<span class="p">)</span>
+
+<span class="c1"># Compare two or more AI experiments using the evaluation asset</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">ai_experiment_client</span><span class="o">.</span><span class="n">compare_ai_experiments</span><span class="p">(</span>
+    <span class="n">ai_experiment_ids</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;experiment_id_1&quot;</span><span class="p">,</span> <span class="s2">&quot;experiment_id_2&quot;</span><span class="p">],</span>
+    <span class="n">ai_evaluation_asset</span><span class="o">=</span><span class="n">ai_evaluation_asset</span>
+<span class="p">)</span>
+<span class="c1"># Link for AIEvaluationAsset</span>
+<span class="n">response</span><span class="o">.</span><span class="n">href</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.get">
+<span class="sig-name descname"><span class="pre">get</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ai_experiment_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="ibm_watsonx_gov.entities.ai_experiment.html#ibm_watsonx_gov.entities.ai_experiment.AIExperiment" title="ibm_watsonx_gov.entities.ai_experiment.AIExperiment"><span class="pre">AIExperiment</span></a></span></span><a class="headerlink" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.get" title="Link to this definition">¶</a></dt>
+<dd><p>Retrieves AI experiment asset details
+:param - ai_experiment_id: The ID of AI experiment asset.</p>
+<p>Returns: An instance of AIExperiment.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.get_ai_evaluation_asset">
+<span class="sig-name descname"><span class="pre">get_ai_evaluation_asset</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ai_evaluation_asset_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="ibm_watsonx_gov.entities.ai_evaluation.html#ibm_watsonx_gov.entities.ai_evaluation.AIEvaluationAsset" title="ibm_watsonx_gov.entities.ai_evaluation.AIEvaluationAsset"><span class="pre">AIEvaluationAsset</span></a></span></span><a class="headerlink" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.get_ai_evaluation_asset" title="Link to this definition">¶</a></dt>
+<dd><p>Return an instance of the AIEvaluation with the given id.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>ai_evaluation_asset_id</strong> (<em>-</em>) – The asset id of the AI Evaluation asset.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>An instance of AIEvaluationAsset with the given asset id.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.get_ai_evaluation_asset_href">
+<span class="sig-name descname"><span class="pre">get_ai_evaluation_asset_href</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ai_evaluation_asset</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="ibm_watsonx_gov.entities.ai_evaluation.html#ibm_watsonx_gov.entities.ai_evaluation.AIEvaluationAsset" title="ibm_watsonx_gov.entities.ai_evaluation.AIEvaluationAsset"><span class="pre">AIEvaluationAsset</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.get_ai_evaluation_asset_href" title="Link to this definition">¶</a></dt>
+<dd><p>Returns the URL of Evaluation studio UI for the given AI evaluation asset.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>ai_evaluation_asset</strong> (<em>-</em>) – The AI Evaluation asset details.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>URL of Evaluation studio UI</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.get_experiment_notebook">
+<span class="sig-name descname"><span class="pre">get_experiment_notebook</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ai_experiment_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">run_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">custom_filename</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.get_experiment_notebook" title="Link to this definition">¶</a></dt>
+<dd><p>Download an experiment notebook from a specific AI experiment run.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ai_experiment_id</strong> (<em>str</em>) – The unique identifier for the AI experiment</p></li>
+<li><p><strong>run_id</strong> (<em>str</em>) – The specific run ID within the experiment</p></li>
+<li><p><strong>custom_filename</strong> (<em>Optional</em><em>[</em><em>str</em><em>]</em>) – Custom filename for the downloaded file.
+If None, uses format: “{ai_experiment.source_name}”</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Example</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">client</span><span class="o">.</span><span class="n">get_experiment_asset</span><span class="p">(</span><span class="s2">&quot;exp_123&quot;</span><span class="p">,</span> <span class="s2">&quot;run_456&quot;</span><span class="p">)</span>
+<span class="go">Downloaded: my_notebook.ipynb</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.list_experiment_runs">
+<span class="sig-name descname"><span class="pre">list_experiment_runs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ai_experiment_id</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="ibm_watsonx_gov.entities.ai_experiment.html#ibm_watsonx_gov.entities.ai_experiment.AIExperimentRun" title="ibm_watsonx_gov.entities.ai_experiment.AIExperimentRun"><span class="pre">AIExperimentRun</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.list_experiment_runs" title="Link to this definition">¶</a></dt>
+<dd><p>List all ai_experiment_runs for a given ai_experiment_id in a project.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>-ai_experiment_id</strong> – The ID of ai experiment asset.</p>
+</dd>
+</dl>
+<p>Return: List of AIExperimentRun instances.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.list_experiments">
+<span class="sig-name descname"><span class="pre">list_experiments</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="ibm_watsonx_gov.entities.ai_experiment.html#ibm_watsonx_gov.entities.ai_experiment.AIExperiment" title="ibm_watsonx_gov.entities.ai_experiment.AIExperiment"><span class="pre">AIExperiment</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.list_experiments" title="Link to this definition">¶</a></dt>
+<dd><p>List all AI Experiments under selected project.</p>
+<p>Returns: List of AIExperiment instances.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.search">
+<span class="sig-name descname"><span class="pre">search</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ai_experiment_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="ibm_watsonx_gov.entities.ai_experiment.html#ibm_watsonx_gov.entities.ai_experiment.AIExperiment" title="ibm_watsonx_gov.entities.ai_experiment.AIExperiment"><span class="pre">AIExperiment</span></a></span></span><a class="headerlink" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.search" title="Link to this definition">¶</a></dt>
+<dd><p>Searches AI experiment with specified name
+:param - ai_experiment_name: The name of AI experiment to be searched.</p>
+<p>Returns: An instance of AIExperiment.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.update">
+<span class="sig-name descname"><span class="pre">update</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ai_experiment_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">experiment_run_details</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="ibm_watsonx_gov.entities.ai_experiment.html#ibm_watsonx_gov.entities.ai_experiment.AIExperimentRun" title="ibm_watsonx_gov.entities.ai_experiment.AIExperimentRun"><span class="pre">AIExperimentRun</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">evaluation_results</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">track_notebook</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="ibm_watsonx_gov.entities.ai_experiment.html#ibm_watsonx_gov.entities.ai_experiment.AIExperiment" title="ibm_watsonx_gov.entities.ai_experiment.AIExperiment"><span class="pre">AIExperiment</span></a></span></span><a class="headerlink" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.update" title="Link to this definition">¶</a></dt>
+<dd><p>Updates AI experiment asset details, with the given experiment run details.
+:param - ai_experiment_id: The ID of AI experiment asset to be updated
+:param - experiment_run_details: An instance of AIExperimentRun, payload to create attachment
+:param - evaluation_result: (DataFrame|ToolMetricResult) The content of attachment to be uploaded as file (Optional)
+:param - track_notebook: (bool) If set to True the notebook will be stored as attachment</p>
+<p>Returns: The updated AI experiment asset details</p>
+<section id="id2">
+<h2>Examples:<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h2>
+<dl>
+<dt>Updating a AI Experiment with the evaluation results:</dt><dd><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Initialize the API client with credentials</span>
+<span class="n">api_client</span> <span class="o">=</span> <span class="n">APIClient</span><span class="p">(</span><span class="n">credentials</span><span class="o">=</span><span class="n">Credentials</span><span class="p">(</span><span class="n">api_key</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">url</span><span class="o">=</span><span class="s2">&quot;wos_url&quot;</span><span class="p">))</span>
+
+<span class="c1"># Create the AI Experiment client with your project ID</span>
+<span class="n">ai_experiment_client</span> <span class="o">=</span> <span class="n">AIExperimentClient</span><span class="p">(</span><span class="n">api_client</span><span class="o">=</span><span class="n">api_client</span><span class="p">,</span> <span class="n">project_id</span><span class="o">=</span><span class="s2">&quot;your_project_id&quot;</span><span class="p">)</span>
+
+<span class="c1"># Define ai_experiment_runs</span>
+<span class="n">experiment_run_details</span> <span class="o">=</span> <span class="n">AIExperimentRun</span><span class="p">(</span><span class="n">run_id</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">uuid</span><span class="o">.</span><span class="n">uuid4</span><span class="p">()),</span> <span class="n">run_name</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">test_data</span><span class="o">=</span><span class="p">{},</span> <span class="n">node</span><span class="o">=</span><span class="p">[])</span>
+
+<span class="c1"># evaluation_result will be an instnace of ToolMetricResult or DataFrame</span>
+
+<span class="c1"># Update the AI experiment asset with run results</span>
+<span class="n">updated_ai_experiment_details</span> <span class="o">=</span> <span class="n">ai_experiment_client</span><span class="o">.</span><span class="n">update</span><span class="p">(</span>
+    <span class="n">ai_experiment_asset_id</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="n">experiment_run_details</span><span class="o">=</span><span class="n">experiment_run_details</span><span class="p">,</span>
+    <span class="n">evaluation_result</span><span class="o">=</span><span class="n">run_result</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+</dd></dl>
+
 </section>
 
         </article>
@@ -522,13 +740,44 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">AI Experiments Client</a><ul>
+<li><a class="reference internal" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient"><code class="docutils literal notranslate"><span class="pre">AIExperimentsClient</span></code></a><ul>
+<li><a class="reference internal" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.create"><code class="docutils literal notranslate"><span class="pre">AIExperimentsClient.create()</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.create_ai_evaluation_asset"><code class="docutils literal notranslate"><span class="pre">AIExperimentsClient.create_ai_evaluation_asset()</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.get"><code class="docutils literal notranslate"><span class="pre">AIExperimentsClient.get()</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.get_ai_evaluation_asset"><code class="docutils literal notranslate"><span class="pre">AIExperimentsClient.get_ai_evaluation_asset()</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.get_ai_evaluation_asset_href"><code class="docutils literal notranslate"><span class="pre">AIExperimentsClient.get_ai_evaluation_asset_href()</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.get_experiment_notebook"><code class="docutils literal notranslate"><span class="pre">AIExperimentsClient.get_experiment_notebook()</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.list_experiment_runs"><code class="docutils literal notranslate"><span class="pre">AIExperimentsClient.list_experiment_runs()</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.list_experiments"><code class="docutils literal notranslate"><span class="pre">AIExperimentsClient.list_experiments()</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.search"><code class="docutils literal notranslate"><span class="pre">AIExperimentsClient.search()</span></code></a></li>
+<li><a class="reference internal" href="#ibm_watsonx_gov.ai_experiments.ai_experiments_client.AIExperimentsClient.update"><code class="docutils literal notranslate"><span class="pre">AIExperimentsClient.update()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
   </div>
-</div><script src="../_static/documentation_options.js?v=6efca38a"></script>
+</div><script src="../_static/documentation_options.js?v=fd7cadf9"></script>
     <script src="../_static/doctools.js?v=9bcbadda"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/scripts/furo.js?v=5fa4622c"></script>
