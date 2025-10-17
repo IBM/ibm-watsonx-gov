@@ -508,57 +508,33 @@
 <dt class="sig sig-object py" id="ibm_watsonx_gov.metrics.llmaj.llmaj_metric.LLMAsJudgeMetric">
 <em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ibm_watsonx_gov.metrics.llmaj.llmaj_metric.</span></span><span class="sig-name descname"><span class="pre">LLMAsJudgeMetric</span></span><a class="headerlink" href="#ibm_watsonx_gov.metrics.llmaj.llmaj_metric.LLMAsJudgeMetric" title="Link to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="ibm_watsonx_gov.entities.metric.html#ibm_watsonx_gov.entities.metric.GenAIMetric" title="ibm_watsonx_gov.entities.metric.GenAIMetric"><code class="xref py py-class docutils literal notranslate"><span class="pre">GenAIMetric</span></code></a></p>
-<blockquote>
-<div><p>Defines the LLMAsJudge metric class.</p>
+<p>Defines the LLMAsJudge metric class.</p>
 <p>The LLMAsJudge metric evaluates the model input, output text based on the provided criteria or the grader prompt using a judge llm.</p>
-<dl>
-<dt>Examples:</dt><dd><ol class="arabic">
+<p class="rubric">Examples</p>
+<ol class="arabic">
 <li><dl>
 <dt>Create LLMAsJudge metric with user defined grader prompt.</dt><dd><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Define LLM Judge using watsonx.ai</span>
 <span class="c1"># To use other frameworks and models as llm_judge, see :module:`ibm_watsonx_gov.entities.foundation_model`</span>
 <span class="n">llm_judge</span> <span class="o">=</span> <span class="n">LLMJudge</span><span class="p">(</span><span class="n">model</span><span class="o">=</span><span class="n">WxAIFoundationModel</span><span class="p">(</span>
                             <span class="n">model_id</span><span class="o">=</span><span class="s2">&quot;llama-3-3-70b-instruct&quot;</span><span class="p">,</span>
                             <span class="n">project_id</span><span class="o">=</span><span class="s2">&quot;&lt;PROJECT_ID&gt;&quot;</span><span class="p">))</span>
-<span class="n">prompt_template</span><span class="o">=</span><span class="s2">&quot;You are presented with a response generated subject to a context.</span>
+<span class="n">prompt_template</span><span class="o">=</span><span class="s2">&quot;You are presented with a response generated subject to a context.</span><span class="se">\n</span><span class="s2">Context: </span><span class="se">\n</span><span class="s2"> </span><span class="si">{context}</span><span class="s2"> </span><span class="se">\n</span><span class="s2"> Response: </span><span class="si">{response}</span><span class="s2"> </span><span class="se">\n</span><span class="s2">. Is the response faithful according to context?</span><span class="se">\n</span><span class="s2">Choose an option:</span><span class="se">\n</span><span class="s2">- &#39;Yes&#39; if The response is faithful according to context.</span><span class="se">\n</span><span class="s2">- &#39;No&#39; if The response is not faithful according to context.&quot;</span>
+<span class="n">options</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Yes&quot;</span><span class="p">,</span> <span class="s2">&quot;No&quot;</span><span class="p">])</span>
+<span class="c1"># Optionally the numeric mapping for the string option can be specified as below</span>
+<span class="c1"># options={&quot;Yes&quot;: 1, &quot;No&quot;: 0}</span>
+<span class="n">metric</span> <span class="o">=</span> <span class="n">LLMAsJudgeMetric</span><span class="p">(</span><span class="n">llm_judge</span><span class="o">=</span><span class="n">llm_judge</span><span class="p">,</span>
+                          <span class="n">prompt_template</span><span class="o">=</span><span class="n">prompt_template</span><span class="p">,</span>
+                          <span class="n">options</span><span class="o">=</span><span class="n">options</span><span class="p">)</span>
+<span class="n">evaluator</span> <span class="o">=</span> <span class="n">MetricsEvaluator</span><span class="p">()</span>
+<span class="n">evaluation_result</span> <span class="o">=</span> <span class="n">evaluator</span><span class="o">.</span><span class="n">evaluate</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span>
+                                       <span class="n">metrics</span><span class="o">=</span><span class="n">metrics</span><span class="p">)</span>
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
-</ol>
-</dd>
-</dl>
-</div></blockquote>
-<dl class="simple">
-<dt>Context:</dt><dd><p>{context}
-Response: {response}</p>
-</dd>
-</dl>
-<p>. Is the response faithful according to context?
-Choose an option:
-- “Yes” if The response is faithful according to context.
-- “No” if The response is not faithful according to context.”</p>
-<blockquote>
-<div><blockquote>
-<div><p>options=[“Yes”, “No”])
-# Optionally the numeric mapping for the string option can be specified as below
-# options={“Yes”: 1, “No”: 0}
-metric = LLMAsJudgeMetric(llm_judge=llm_judge,</p>
-<blockquote>
-<div><p>prompt_template=prompt_template,
-options=options)</p>
-</div></blockquote>
-<p>evaluator = MetricsEvaluator()
-evaluation_result = evaluator.evaluate(data=data,</p>
-<blockquote>
-<div><p>metrics=metrics)</p>
-</div></blockquote>
-</div></blockquote>
-<ol class="arabic" start="2">
-<li><p>Create LLMAsJudge metric with user defined criteria and with default options.
-It is recommended to provide the options along with the description as shown in the next example for better accuracy.</p>
-<blockquote>
-<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Define LLM Judge using watsonx.ai</span>
+<li><dl>
+<dt>Create LLMAsJudge metric with user defined criteria and with default options. It is recommended to provide the options along with the description as shown in the next example for better accuracy.</dt><dd><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Define LLM Judge using watsonx.ai</span>
 <span class="c1"># To use other frameworks and models as llm_judge, see :module:`ibm_watsonx_gov.entities.foundation_model`</span>
 <span class="n">llm_judge</span> <span class="o">=</span> <span class="n">LLMJudge</span><span class="p">(</span><span class="n">model</span><span class="o">=</span><span class="n">WxAIFoundationModel</span><span class="p">(</span>
                             <span class="n">model_id</span><span class="o">=</span><span class="s2">&quot;llama-3-3-70b-instruct&quot;</span><span class="p">,</span>
@@ -575,7 +551,8 @@ It is recommended to provide the options along with the description as shown in 
                                        <span class="n">metrics</span><span class="o">=</span><span class="n">metrics</span><span class="p">)</span>
 </pre></div>
 </div>
-</div></blockquote>
+</dd>
+</dl>
 </li>
 <li><dl>
 <dt>Create LLMAsJudge metric with user defined criteria and options.</dt><dd><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Define LLM Judge using watsonx.ai</span>
@@ -605,11 +582,10 @@ It is recommended to provide the options along with the description as shown in 
 </dl>
 </li>
 </ol>
-</div></blockquote>
 <p><details  class="autodoc_pydantic_collapsable_json">
 <summary>Show JSON schema</summary><div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
 <span class="w">   </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;LLMAsJudgeMetric&quot;</span><span class="p">,</span>
-<span class="w">   </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;    Defines the LLMAsJudge metric class.\n\n    The LLMAsJudge metric evaluates the model input, output text based on the provided criteria or the grader prompt using a judge llm.\n\n    Examples:\n        1. Create LLMAsJudge metric with user defined grader prompt.\n            .. code-block:: python\n\n                # Define LLM Judge using watsonx.ai\n                # To use other frameworks and models as llm_judge, see :module:`ibm_watsonx_gov.entities.foundation_model`\n                llm_judge = LLMJudge(model=WxAIFoundationModel(\n                                            model_id=\&quot;llama-3-3-70b-instruct\&quot;,\n                                            project_id=\&quot;&lt;PROJECT_ID&gt;\&quot;))\n                prompt_template=\&quot;You are presented with a response generated subject to a context.\nContext: \n {context} \n Response: {response} \n. Is the response faithful according to context?\nChoose an option:\n- \&quot;Yes\&quot; if The response is faithful according to context.\n- \&quot;No\&quot; if The response is not faithful according to context.\&quot;\n                options=[\&quot;Yes\&quot;, \&quot;No\&quot;])\n                # Optionally the numeric mapping for the string option can be specified as below\n                # options={\&quot;Yes\&quot;: 1, \&quot;No\&quot;: 0}\n                metric = LLMAsJudgeMetric(llm_judge=llm_judge,\n                                          prompt_template=prompt_template,\n                                          options=options)\n                evaluator = MetricsEvaluator()\n                evaluation_result = evaluator.evaluate(data=data,\n                                                       metrics=metrics)\n\n        2. Create LLMAsJudge metric with user defined criteria and with default options. \n           It is recommended to provide the options along with the description as shown in the next example for better accuracy.\n            .. code-block:: python\n\n                # Define LLM Judge using watsonx.ai\n                # To use other frameworks and models as llm_judge, see :module:`ibm_watsonx_gov.entities.foundation_model`\n                llm_judge = LLMJudge(model=WxAIFoundationModel(\n                                            model_id=\&quot;llama-3-3-70b-instruct\&quot;,\n                                            project_id=\&quot;&lt;PROJECT_ID&gt;\&quot;))\n                criteria_description=\&quot;Is the {generated_text} faithful according to {context}?\&quot;\n                # When using the criteria description, its required to specify the output field if its other than generated_text.\n                metric = LLMAsJudgeMetric(name=\&quot;factuality\&quot;,\n                                          llm_judge=llm_judge,\n                                          criteria_description=criteria_description,\n                                          # output_field=\&quot;generated_text\&quot;\n                                          )\n                evaluator = MetricsEvaluator()\n                evaluation_result = evaluator.evaluate(data=data,\n                                                       metrics=metrics)\n\n        3. Create LLMAsJudge metric with user defined criteria and options.\n            .. code-block:: python\n\n                # Define LLM Judge using watsonx.ai\n                # To use other frameworks and models as llm_judge, see :module:`ibm_watsonx_gov.entities.foundation_model`\n                llm_judge = LLMJudge(model=WxAIFoundationModel(\n                                            model_id=\&quot;llama-3-3-70b-instruct\&quot;,\n                                            project_id=\&quot;&lt;PROJECT_ID&gt;\&quot;))\n                criteria_description=\&quot;Is the {response} faithful according to {context}?\&quot;\n                options=[Option(name=\&quot;Yes\&quot;,\n                                description=\&quot;The {response} is faithful according to {context}.\&quot;,\n                                value=1.0),\n                        Option(name=\&quot;No\&quot;,\n                                description=\&quot;The {response} is not faithful according to {context}.\&quot;,\n                                value=0.0)])\n                # When using the criteria description, its required to specify the output field if its other than generated_text.\n                metric = LLMAsJudgeMetric(name=\&quot;factuality\&quot;,\n                                          llm_judge=llm_judge,\n                                          criteria_description=criteria_description,\n                                          options=options,\n                                          output_field=\&quot;response\&quot;)\n                evaluator = MetricsEvaluator()\n                evaluation_result = evaluator.evaluate(data=data,\n                                                       metrics=metrics)\n    &quot;</span><span class="p">,</span>
+<span class="w">   </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Defines the LLMAsJudge metric class.\n\nThe LLMAsJudge metric evaluates the model input, output text based on the provided criteria or the grader prompt using a judge llm.\n\nExamples:\n    1. Create LLMAsJudge metric with user defined grader prompt.\n        .. code-block:: python\n\n            # Define LLM Judge using watsonx.ai\n            # To use other frameworks and models as llm_judge, see :module:`ibm_watsonx_gov.entities.foundation_model`\n            llm_judge = LLMJudge(model=WxAIFoundationModel(\n                                        model_id=\&quot;llama-3-3-70b-instruct\&quot;,\n                                        project_id=\&quot;&lt;PROJECT_ID&gt;\&quot;))\n            prompt_template=\&quot;You are presented with a response generated subject to a context.\\nContext: \\n {context} \\n Response: {response} \\n. Is the response faithful according to context?\\nChoose an option:\\n- &#39;Yes&#39; if The response is faithful according to context.\\n- &#39;No&#39; if The response is not faithful according to context.\&quot;\n            options=[\&quot;Yes\&quot;, \&quot;No\&quot;])\n            # Optionally the numeric mapping for the string option can be specified as below\n            # options={\&quot;Yes\&quot;: 1, \&quot;No\&quot;: 0}\n            metric = LLMAsJudgeMetric(llm_judge=llm_judge,\n                                      prompt_template=prompt_template,\n                                      options=options)\n            evaluator = MetricsEvaluator()\n            evaluation_result = evaluator.evaluate(data=data,\n                                                   metrics=metrics)\n\n    2. Create LLMAsJudge metric with user defined criteria and with default options. It is recommended to provide the options along with the description as shown in the next example for better accuracy.\n        .. code-block:: python\n\n            # Define LLM Judge using watsonx.ai\n            # To use other frameworks and models as llm_judge, see :module:`ibm_watsonx_gov.entities.foundation_model`\n            llm_judge = LLMJudge(model=WxAIFoundationModel(\n                                        model_id=\&quot;llama-3-3-70b-instruct\&quot;,\n                                        project_id=\&quot;&lt;PROJECT_ID&gt;\&quot;))\n            criteria_description=\&quot;Is the {generated_text} faithful according to {context}?\&quot;\n            # When using the criteria description, its required to specify the output field if its other than generated_text.\n            metric = LLMAsJudgeMetric(name=\&quot;factuality\&quot;,\n                                      llm_judge=llm_judge,\n                                      criteria_description=criteria_description,\n                                      # output_field=\&quot;generated_text\&quot;\n                                      )\n            evaluator = MetricsEvaluator()\n            evaluation_result = evaluator.evaluate(data=data,\n                                                   metrics=metrics)\n\n    3. Create LLMAsJudge metric with user defined criteria and options.\n        .. code-block:: python\n\n            # Define LLM Judge using watsonx.ai\n            # To use other frameworks and models as llm_judge, see :module:`ibm_watsonx_gov.entities.foundation_model`\n            llm_judge = LLMJudge(model=WxAIFoundationModel(\n                                        model_id=\&quot;llama-3-3-70b-instruct\&quot;,\n                                        project_id=\&quot;&lt;PROJECT_ID&gt;\&quot;))\n            criteria_description=\&quot;Is the {response} faithful according to {context}?\&quot;\n            options=[Option(name=\&quot;Yes\&quot;,\n                            description=\&quot;The {response} is faithful according to {context}.\&quot;,\n                            value=1.0),\n                    Option(name=\&quot;No\&quot;,\n                            description=\&quot;The {response} is not faithful according to {context}.\&quot;,\n                            value=0.0)])\n            # When using the criteria description, its required to specify the output field if its other than generated_text.\n            metric = LLMAsJudgeMetric(name=\&quot;factuality\&quot;,\n                                      llm_judge=llm_judge,\n                                      criteria_description=criteria_description,\n                                      options=options,\n                                      output_field=\&quot;response\&quot;)\n            evaluator = MetricsEvaluator()\n            evaluation_result = evaluator.evaluate(data=data,\n                                                   metrics=metrics)&quot;</span><span class="p">,</span>
 <span class="w">   </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span><span class="p">,</span>
 <span class="w">   </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">      </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
