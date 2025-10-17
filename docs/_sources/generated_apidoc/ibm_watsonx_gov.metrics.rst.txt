@@ -24,6 +24,7 @@ Subpackages
    ibm_watsonx_gov.metrics.hit_rate
    ibm_watsonx_gov.metrics.jailbreak
    ibm_watsonx_gov.metrics.llm_validation
+   ibm_watsonx_gov.metrics.llmaj
    ibm_watsonx_gov.metrics.ndcg
    ibm_watsonx_gov.metrics.pii
    ibm_watsonx_gov.metrics.profanity
@@ -50,3 +51,4 @@ Submodules
    :maxdepth: 4
 
    ibm_watsonx_gov.metrics.base_metric_decorator
+   ibm_watsonx_gov.metrics.utils

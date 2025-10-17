@@ -1,0 +1,7 @@
+Llmaj Metric
+============
+
+.. automodule:: ibm_watsonx_gov.metrics.llmaj.llmaj_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

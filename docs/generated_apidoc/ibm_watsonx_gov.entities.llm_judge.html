@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Mapping" href="ibm_watsonx_gov.entities.mapping.html" /><link rel="prev" title="Foundation Model" href="ibm_watsonx_gov.entities.foundation_model.html" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Locale" href="ibm_watsonx_gov.entities.locale.html" /><link rel="prev" title="Foundation Model" href="ibm_watsonx_gov.entities.foundation_model.html" />
 
     <!-- Generated with Sphinx 8.1.3 and Furo 2024.08.06 -->
-        <title>Llm Judge - IBM watsonx.governance SDK 1.2.2 documentation</title>
+        <title>Llm Judge - IBM watsonx.governance SDK 1.3.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../_static/autodoc_pydantic.css" />
@@ -167,7 +167,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../index.html"><div class="brand">IBM watsonx.governance SDK 1.2.2 documentation</div></a>
+      <a href="../index.html"><div class="brand">IBM watsonx.governance SDK 1.3.0 documentation</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -191,7 +191,7 @@
       <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
   
   
-  <span class="sidebar-brand-text">IBM watsonx.governance SDK 1.2.2 documentation</span>
+  <span class="sidebar-brand-text">IBM watsonx.governance SDK 1.3.0 documentation</span>
   
 </a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
@@ -219,15 +219,18 @@
 </li>
 <li class="toctree-l2 current has-children"><a class="reference internal" href="ibm_watsonx_gov.entities.html">Entities</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Entities</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.agentic_app.html">Agentic App</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.agentic_evaluation_result.html">Agentic Evaluation Result</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.ai_evaluation.html">AI Evaluation</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.ai_experiment.html">AI Experiment</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.base_classes.html">Base Classes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.container.html">Container</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.credentials.html">Credentials</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.criteria.html">Criteria</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.enums.html">Enums</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.evaluation_result.html">Evaluation Result</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html">Foundation Model</a></li>
 <li class="toctree-l3 current current-page"><a class="current reference internal" href="#">Llm Judge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.locale.html">Locale</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.mapping.html">Mapping</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.metric.html">Metric</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.metric_threshold.html">Metric Threshold</a></li>
@@ -294,135 +297,141 @@
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.jailbreak.jailbreak_metric.html">Jailbreak Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.ndcg.html">NDCG</a><input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" role="switch" type="checkbox"/><label for="toctree-checkbox-17"><div class="visually-hidden">Toggle navigation of NDCG</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.llmaj.html">Llmaj</a><input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" role="switch" type="checkbox"/><label for="toctree-checkbox-17"><div class="visually-hidden">Toggle navigation of Llmaj</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.llmaj.llmaj_metric.html">Llmaj Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.ndcg.html">NDCG</a><input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" role="switch" type="checkbox"/><label for="toctree-checkbox-18"><div class="visually-hidden">Toggle navigation of NDCG</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.ndcg.ndcg_decorator.html">NDCG Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.ndcg.ndcg_metric.html">NDCG Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.pii.html">Pii</a><input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" role="switch" type="checkbox"/><label for="toctree-checkbox-18"><div class="visually-hidden">Toggle navigation of Pii</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.pii.html">Pii</a><input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" role="switch" type="checkbox"/><label for="toctree-checkbox-19"><div class="visually-hidden">Toggle navigation of Pii</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.pii.pii_decorator.html">Pii Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.pii.pii_metric.html">Pii Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.profanity.html">Profanity</a><input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" role="switch" type="checkbox"/><label for="toctree-checkbox-19"><div class="visually-hidden">Toggle navigation of Profanity</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.profanity.html">Profanity</a><input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" role="switch" type="checkbox"/><label for="toctree-checkbox-20"><div class="visually-hidden">Toggle navigation of Profanity</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.profanity.profanity_decorator.html">Profanity Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.profanity.profanity_metric.html">Profanity Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.prompt_safety_risk.html">Prompt Safety Risk</a><input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" role="switch" type="checkbox"/><label for="toctree-checkbox-20"><div class="visually-hidden">Toggle navigation of Prompt Safety Risk</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.prompt_safety_risk.html">Prompt Safety Risk</a><input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" role="switch" type="checkbox"/><label for="toctree-checkbox-21"><div class="visually-hidden">Toggle navigation of Prompt Safety Risk</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.prompt_safety_risk.prompt_safety_risk_decorator.html">Prompt Safety Risk Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.prompt_safety_risk.prompt_safety_risk_metric.html">Prompt Safety Risk Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.reciprocal_rank.html">Reciprocal Rank</a><input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" role="switch" type="checkbox"/><label for="toctree-checkbox-21"><div class="visually-hidden">Toggle navigation of Reciprocal Rank</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.reciprocal_rank.html">Reciprocal Rank</a><input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" role="switch" type="checkbox"/><label for="toctree-checkbox-22"><div class="visually-hidden">Toggle navigation of Reciprocal Rank</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.reciprocal_rank.reciprocal_rank_decorator.html">Reciprocal Rank Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.reciprocal_rank.reciprocal_rank_metric.html">Reciprocal Rank Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.retrieval_precision.html">Retrieval Precision</a><input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" role="switch" type="checkbox"/><label for="toctree-checkbox-22"><div class="visually-hidden">Toggle navigation of Retrieval Precision</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.retrieval_precision.html">Retrieval Precision</a><input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" role="switch" type="checkbox"/><label for="toctree-checkbox-23"><div class="visually-hidden">Toggle navigation of Retrieval Precision</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.retrieval_precision.retrieval_precision_decorator.html">Retrieval Precision Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.retrieval_precision.retrieval_precision_metric.html">Retrieval Precision Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.sexual_content.html">Sexual Content</a><input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" role="switch" type="checkbox"/><label for="toctree-checkbox-23"><div class="visually-hidden">Toggle navigation of Sexual Content</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.sexual_content.html">Sexual Content</a><input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" role="switch" type="checkbox"/><label for="toctree-checkbox-24"><div class="visually-hidden">Toggle navigation of Sexual Content</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.sexual_content.sexual_content_decorator.html">Sexual Content Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.sexual_content.sexual_content_metric.html">Sexual Content Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.social_bias.html">Social Bias</a><input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" role="switch" type="checkbox"/><label for="toctree-checkbox-24"><div class="visually-hidden">Toggle navigation of Social Bias</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.social_bias.html">Social Bias</a><input class="toctree-checkbox" id="toctree-checkbox-25" name="toctree-checkbox-25" role="switch" type="checkbox"/><label for="toctree-checkbox-25"><div class="visually-hidden">Toggle navigation of Social Bias</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.social_bias.social_bias_decorator.html">Social Bias Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.social_bias.social_bias_metric.html">Social Bias Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_grade_level.html">Text Grade Level</a><input class="toctree-checkbox" id="toctree-checkbox-25" name="toctree-checkbox-25" role="switch" type="checkbox"/><label for="toctree-checkbox-25"><div class="visually-hidden">Toggle navigation of Text Grade Level</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_grade_level.html">Text Grade Level</a><input class="toctree-checkbox" id="toctree-checkbox-26" name="toctree-checkbox-26" role="switch" type="checkbox"/><label for="toctree-checkbox-26"><div class="visually-hidden">Toggle navigation of Text Grade Level</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_grade_level.text_grade_level_decorator.html">Text Grade Level Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_grade_level.text_grade_level_metric.html">Text Grade Level Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_reading_ease.html">Text Reading Ease</a><input class="toctree-checkbox" id="toctree-checkbox-26" name="toctree-checkbox-26" role="switch" type="checkbox"/><label for="toctree-checkbox-26"><div class="visually-hidden">Toggle navigation of Text Reading Ease</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_reading_ease.html">Text Reading Ease</a><input class="toctree-checkbox" id="toctree-checkbox-27" name="toctree-checkbox-27" role="switch" type="checkbox"/><label for="toctree-checkbox-27"><div class="visually-hidden">Toggle navigation of Text Reading Ease</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_reading_ease.text_reading_ease_decorator.html">Text Reading Ease Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_reading_ease.text_reading_ease_metric.html">Text Reading Ease Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_accuracy.html">Tool Call Accuracy</a><input class="toctree-checkbox" id="toctree-checkbox-27" name="toctree-checkbox-27" role="switch" type="checkbox"/><label for="toctree-checkbox-27"><div class="visually-hidden">Toggle navigation of Tool Call Accuracy</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_accuracy.html">Tool Call Accuracy</a><input class="toctree-checkbox" id="toctree-checkbox-28" name="toctree-checkbox-28" role="switch" type="checkbox"/><label for="toctree-checkbox-28"><div class="visually-hidden">Toggle navigation of Tool Call Accuracy</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_accuracy.tool_call_accuracy_decorator.html">Tool Call Accuracy Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_accuracy.tool_call_accuracy_metric.html">Tool Call Accuracy Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_parameter_accuracy.html">Tool Call Parameter Accuracy</a><input class="toctree-checkbox" id="toctree-checkbox-28" name="toctree-checkbox-28" role="switch" type="checkbox"/><label for="toctree-checkbox-28"><div class="visually-hidden">Toggle navigation of Tool Call Parameter Accuracy</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_parameter_accuracy.html">Tool Call Parameter Accuracy</a><input class="toctree-checkbox" id="toctree-checkbox-29" name="toctree-checkbox-29" role="switch" type="checkbox"/><label for="toctree-checkbox-29"><div class="visually-hidden">Toggle navigation of Tool Call Parameter Accuracy</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_parameter_accuracy.tool_call_parameter_accuracy_decorator.html">Tool Call Parameter Accuracy Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_parameter_accuracy.tool_call_parameter_accuracy_metric.html">Tool Call Parameter Accuracy Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_relevance.html">Tool Call Relevance</a><input class="toctree-checkbox" id="toctree-checkbox-29" name="toctree-checkbox-29" role="switch" type="checkbox"/><label for="toctree-checkbox-29"><div class="visually-hidden">Toggle navigation of Tool Call Relevance</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_relevance.html">Tool Call Relevance</a><input class="toctree-checkbox" id="toctree-checkbox-30" name="toctree-checkbox-30" role="switch" type="checkbox"/><label for="toctree-checkbox-30"><div class="visually-hidden">Toggle navigation of Tool Call Relevance</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_relevance.tool_call_relevance_decorator.html">Tool Call Relevance Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_relevance.tool_call_relevance_metric.html">Tool Call Relevance Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy.html">Tool Call Syntactic Accuracy</a><input class="toctree-checkbox" id="toctree-checkbox-30" name="toctree-checkbox-30" role="switch" type="checkbox"/><label for="toctree-checkbox-30"><div class="visually-hidden">Toggle navigation of Tool Call Syntactic Accuracy</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy.html">Tool Call Syntactic Accuracy</a><input class="toctree-checkbox" id="toctree-checkbox-31" name="toctree-checkbox-31" role="switch" type="checkbox"/><label for="toctree-checkbox-31"><div class="visually-hidden">Toggle navigation of Tool Call Syntactic Accuracy</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy.tool_call_syntactic_accuracy_decorator.html">Tool Call Syntactic Accuracy Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy.tool_call_syntactic_accuracy_metric.html">Tool Call Syntactic Accuracy Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.topic_relevance.html">Topic Relevance</a><input class="toctree-checkbox" id="toctree-checkbox-31" name="toctree-checkbox-31" role="switch" type="checkbox"/><label for="toctree-checkbox-31"><div class="visually-hidden">Toggle navigation of Topic Relevance</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.topic_relevance.html">Topic Relevance</a><input class="toctree-checkbox" id="toctree-checkbox-32" name="toctree-checkbox-32" role="switch" type="checkbox"/><label for="toctree-checkbox-32"><div class="visually-hidden">Toggle navigation of Topic Relevance</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.topic_relevance.topic_relevance_decorator.html">Topic Relevance Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.topic_relevance.topic_relevance_metric.html">Topic Relevance Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.unethical_behavior.html">Unethical Behavior</a><input class="toctree-checkbox" id="toctree-checkbox-32" name="toctree-checkbox-32" role="switch" type="checkbox"/><label for="toctree-checkbox-32"><div class="visually-hidden">Toggle navigation of Unethical Behavior</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.unethical_behavior.html">Unethical Behavior</a><input class="toctree-checkbox" id="toctree-checkbox-33" name="toctree-checkbox-33" role="switch" type="checkbox"/><label for="toctree-checkbox-33"><div class="visually-hidden">Toggle navigation of Unethical Behavior</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.unethical_behavior.unethical_behavior_decorator.html">Unethical Behavior Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.unethical_behavior.unethical_behavior_metric.html">Unethical Behavior Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.unsuccessful_requests.html">Unsuccessful Requests</a><input class="toctree-checkbox" id="toctree-checkbox-33" name="toctree-checkbox-33" role="switch" type="checkbox"/><label for="toctree-checkbox-33"><div class="visually-hidden">Toggle navigation of Unsuccessful Requests</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.unsuccessful_requests.html">Unsuccessful Requests</a><input class="toctree-checkbox" id="toctree-checkbox-34" name="toctree-checkbox-34" role="switch" type="checkbox"/><label for="toctree-checkbox-34"><div class="visually-hidden">Toggle navigation of Unsuccessful Requests</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.unsuccessful_requests.unsuccessful_requests_decorator.html">Unsuccessful Requests Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.unsuccessful_requests.unsuccessful_requests_metric.html">Unsuccessful Requests Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.violence.html">Violence</a><input class="toctree-checkbox" id="toctree-checkbox-34" name="toctree-checkbox-34" role="switch" type="checkbox"/><label for="toctree-checkbox-34"><div class="visually-hidden">Toggle navigation of Violence</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.violence.html">Violence</a><input class="toctree-checkbox" id="toctree-checkbox-35" name="toctree-checkbox-35" role="switch" type="checkbox"/><label for="toctree-checkbox-35"><div class="visually-hidden">Toggle navigation of Violence</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.violence.violence_decorator.html">Violence Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.violence.violence_metric.html">Violence Metric</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.metrics.base_metric_decorator.html">Base Metric Decorator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.metrics.utils.html">Utils</a></li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.visualizations.html">Visualizations</a><input class="toctree-checkbox" id="toctree-checkbox-35" name="toctree-checkbox-35" role="switch" type="checkbox"/><label for="toctree-checkbox-35"><div class="visually-hidden">Toggle navigation of Visualizations</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.visualizations.html">Visualizations</a><input class="toctree-checkbox" id="toctree-checkbox-36" name="toctree-checkbox-36" role="switch" type="checkbox"/><label for="toctree-checkbox-36"><div class="visually-hidden">Toggle navigation of Visualizations</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.visualizations.metric_descriptions.html">Metric Descriptions</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.visualizations.model_insights.html">Model Insights</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.visualizations.visualization_utils.html">Visualization Utils</a></li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.prompt_evaluator.html">Prompt Evaluator</a><input class="toctree-checkbox" id="toctree-checkbox-36" name="toctree-checkbox-36" role="switch" type="checkbox"/><label for="toctree-checkbox-36"><div class="visually-hidden">Toggle navigation of Prompt Evaluator</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.prompt_evaluator.html">Prompt Evaluator</a><input class="toctree-checkbox" id="toctree-checkbox-37" name="toctree-checkbox-37" role="switch" type="checkbox"/><label for="toctree-checkbox-37"><div class="visually-hidden">Toggle navigation of Prompt Evaluator</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.prompt_evaluator.prompt_evaluator.html">Prompt Evaluator</a></li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.evaluators.html">Evaluators</a><input class="toctree-checkbox" id="toctree-checkbox-37" name="toctree-checkbox-37" role="switch" type="checkbox"/><label for="toctree-checkbox-37"><div class="visually-hidden">Toggle navigation of Evaluators</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.evaluators.html">Evaluators</a><input class="toctree-checkbox" id="toctree-checkbox-38" name="toctree-checkbox-38" role="switch" type="checkbox"/><label for="toctree-checkbox-38"><div class="visually-hidden">Toggle navigation of Evaluators</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.agentic_evaluator.html">Agentic Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.base_evaluator.html">Base Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.metrics_evaluator.html">Metrics Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.model_risk_evaluator.html">Model Risk Evaluator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.traces_evaluator.html">Traces Evaluator</a></li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.html">Tools</a><input class="toctree-checkbox" id="toctree-checkbox-38" name="toctree-checkbox-38" role="switch" type="checkbox"/><label for="toctree-checkbox-38"><div class="visually-hidden">Toggle navigation of Tools</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.clients.html">Clients</a><input class="toctree-checkbox" id="toctree-checkbox-39" name="toctree-checkbox-39" role="switch" type="checkbox"/><label for="toctree-checkbox-39"><div class="visually-hidden">Toggle navigation of Clients</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.html">Tools</a><input class="toctree-checkbox" id="toctree-checkbox-39" name="toctree-checkbox-39" role="switch" type="checkbox"/><label for="toctree-checkbox-39"><div class="visually-hidden">Toggle navigation of Tools</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.clients.html">Clients</a><input class="toctree-checkbox" id="toctree-checkbox-40" name="toctree-checkbox-40" role="switch" type="checkbox"/><label for="toctree-checkbox-40"><div class="visually-hidden">Toggle navigation of Clients</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.clients.ai_tool_client.html">AI Tool Client</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.clients.detector_client.html">Detector Client</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.core.html">Core</a><input class="toctree-checkbox" id="toctree-checkbox-40" name="toctree-checkbox-40" role="switch" type="checkbox"/><label for="toctree-checkbox-40"><div class="visually-hidden">Toggle navigation of Core</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.core.html">Core</a><input class="toctree-checkbox" id="toctree-checkbox-41" name="toctree-checkbox-41" role="switch" type="checkbox"/><label for="toctree-checkbox-41"><div class="visually-hidden">Toggle navigation of Core</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.core.tool_loader.html">Tool Loader</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.entities.html">Entities</a><input class="toctree-checkbox" id="toctree-checkbox-41" name="toctree-checkbox-41" role="switch" type="checkbox"/><label for="toctree-checkbox-41"><div class="visually-hidden">Toggle navigation of Entities</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.entities.html">Entities</a><input class="toctree-checkbox" id="toctree-checkbox-42" name="toctree-checkbox-42" role="switch" type="checkbox"/><label for="toctree-checkbox-42"><div class="visually-hidden">Toggle navigation of Entities</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.entities.ai_tools.html">AI Tools</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.rest_api.html">Rest Api</a><input class="toctree-checkbox" id="toctree-checkbox-42" name="toctree-checkbox-42" role="switch" type="checkbox"/><label for="toctree-checkbox-42"><div class="visually-hidden">Toggle navigation of Rest Api</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.rest_api.html">Rest Api</a><input class="toctree-checkbox" id="toctree-checkbox-43" name="toctree-checkbox-43" role="switch" type="checkbox"/><label for="toctree-checkbox-43"><div class="visually-hidden">Toggle navigation of Rest Api</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.rest_api.restapi_tool.html">Restapi Tool</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.utils.html">Utils</a><input class="toctree-checkbox" id="toctree-checkbox-43" name="toctree-checkbox-43" role="switch" type="checkbox"/><label for="toctree-checkbox-43"><div class="visually-hidden">Toggle navigation of Utils</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.utils.html">Utils</a><input class="toctree-checkbox" id="toctree-checkbox-44" name="toctree-checkbox-44" role="switch" type="checkbox"/><label for="toctree-checkbox-44"><div class="visually-hidden">Toggle navigation of Utils</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.utils.constants.html">Constants</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.utils.display_utils.html">Display Utils</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.utils.platform_url_mapping.html">Platform Url Mapping</a></li>
@@ -430,21 +439,21 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.html">Agent Catalog</a><input class="toctree-checkbox" id="toctree-checkbox-44" name="toctree-checkbox-44" role="switch" type="checkbox"/><label for="toctree-checkbox-44"><div class="visually-hidden">Toggle navigation of Agent Catalog</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.clients.html">Clients</a><input class="toctree-checkbox" id="toctree-checkbox-45" name="toctree-checkbox-45" role="switch" type="checkbox"/><label for="toctree-checkbox-45"><div class="visually-hidden">Toggle navigation of Clients</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.html">Agent Catalog</a><input class="toctree-checkbox" id="toctree-checkbox-45" name="toctree-checkbox-45" role="switch" type="checkbox"/><label for="toctree-checkbox-45"><div class="visually-hidden">Toggle navigation of Agent Catalog</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.clients.html">Clients</a><input class="toctree-checkbox" id="toctree-checkbox-46" name="toctree-checkbox-46" role="switch" type="checkbox"/><label for="toctree-checkbox-46"><div class="visually-hidden">Toggle navigation of Clients</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.clients.ai_agent_client.html">AI Agent Client</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.core.html">Core</a><input class="toctree-checkbox" id="toctree-checkbox-46" name="toctree-checkbox-46" role="switch" type="checkbox"/><label for="toctree-checkbox-46"><div class="visually-hidden">Toggle navigation of Core</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.core.html">Core</a><input class="toctree-checkbox" id="toctree-checkbox-47" name="toctree-checkbox-47" role="switch" type="checkbox"/><label for="toctree-checkbox-47"><div class="visually-hidden">Toggle navigation of Core</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.core.agent_loader.html">Agent Loader</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.core.agents.html">Agents</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.entities.html">Entities</a><input class="toctree-checkbox" id="toctree-checkbox-47" name="toctree-checkbox-47" role="switch" type="checkbox"/><label for="toctree-checkbox-47"><div class="visually-hidden">Toggle navigation of Entities</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.entities.html">Entities</a><input class="toctree-checkbox" id="toctree-checkbox-48" name="toctree-checkbox-48" role="switch" type="checkbox"/><label for="toctree-checkbox-48"><div class="visually-hidden">Toggle navigation of Entities</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.entities.ai_agent.html">AI Agent</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.utils.html">Utils</a><input class="toctree-checkbox" id="toctree-checkbox-48" name="toctree-checkbox-48" role="switch" type="checkbox"/><label for="toctree-checkbox-48"><div class="visually-hidden">Toggle navigation of Utils</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.utils.html">Utils</a><input class="toctree-checkbox" id="toctree-checkbox-49" name="toctree-checkbox-49" role="switch" type="checkbox"/><label for="toctree-checkbox-49"><div class="visually-hidden">Toggle navigation of Utils</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.utils.constants.html">Constants</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.utils.notebook_utils.html">Notebook Utils</a></li>
 </ul>
@@ -505,7 +514,7 @@
 <ol class="arabic">
 <li><dl>
 <dt>Create LLMJudge using watsonx.ai foundation model:</dt><dd><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">wx_ai_foundation_model</span> <span class="o">=</span> <span class="n">WxAIFoundationModel</span><span class="p">(</span>
-    <span class="n">model_id</span><span class="o">=</span><span class="s2">&quot;google/flan-ul2&quot;</span><span class="p">,</span>
+    <span class="n">model_id</span><span class="o">=</span><span class="s2">&quot;ibm/granite-3-3-8b-instruct&quot;</span><span class="p">,</span>
     <span class="n">project_id</span><span class="o">=</span><span class="n">PROJECT_ID</span><span class="p">,</span>
     <span class="n">provider</span><span class="o">=</span><span class="n">WxAIModelProvider</span><span class="p">(</span>
         <span class="n">credentials</span><span class="o">=</span><span class="n">WxAICredentials</span><span class="p">(</span><span class="n">api_key</span><span class="o">=</span><span class="n">wx_apikey</span><span class="p">)</span>
@@ -521,7 +530,7 @@
 <p><details  class="autodoc_pydantic_collapsable_json">
 <summary>Show JSON schema</summary><div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
 <span class="w">   </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;LLMJudge&quot;</span><span class="p">,</span>
-<span class="w">   </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Defines the LLMJudge.\n\nThe LLMJudge class contains the details of the llm judge model to be used for computing the metric.\n\nExamples:\n    1. Create LLMJudge using watsonx.ai foundation model:\n        .. code-block:: python\n\n            wx_ai_foundation_model = WxAIFoundationModel(\n                model_id=\&quot;google/flan-ul2\&quot;,\n                project_id=PROJECT_ID,\n                provider=WxAIModelProvider(\n                    credentials=WxAICredentials(api_key=wx_apikey)\n                )\n            )\n            llm_judge = LLMJudge(model=wx_ai_foundation_model)&quot;</span><span class="p">,</span>
+<span class="w">   </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Defines the LLMJudge.\n\nThe LLMJudge class contains the details of the llm judge model to be used for computing the metric.\n\nExamples:\n    1. Create LLMJudge using watsonx.ai foundation model:\n        .. code-block:: python\n\n            wx_ai_foundation_model = WxAIFoundationModel(\n                model_id=\&quot;ibm/granite-3-3-8b-instruct\&quot;,\n                project_id=PROJECT_ID,\n                provider=WxAIModelProvider(\n                    credentials=WxAICredentials(api_key=wx_apikey)\n                )\n            )\n            llm_judge = LLMJudge(model=wx_ai_foundation_model)&quot;</span><span class="p">,</span>
 <span class="w">   </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span><span class="p">,</span>
 <span class="w">   </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">      </span><span class="nt">&quot;model&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
@@ -536,7 +545,22 @@
 <span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/AzureOpenAIFoundationModel&quot;</span>
 <span class="w">            </span><span class="p">},</span>
 <span class="w">            </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/PortKeyGateway&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="p">{</span>
 <span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/RITSFoundationModel&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/VertexAIFoundationModel&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/GoogleAIStudioFoundationModel&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/AWSBedrockFoundationModel&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/CustomFoundationModel&quot;</span>
 <span class="w">            </span><span class="p">}</span>
 <span class="w">         </span><span class="p">],</span>
 <span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The foundation model to be used as judge&quot;</span><span class="p">,</span>
@@ -544,6 +568,123 @@
 <span class="w">      </span><span class="p">}</span>
 <span class="w">   </span><span class="p">},</span>
 <span class="w">   </span><span class="nt">&quot;$defs&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;AWSBedrockCredentials&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Defines the AWSBedrockCredentials class for accessing AWS Bedrock using environment variables or manual input.\n\nExamples:\n    1. Create credentials manually:\n        .. code-block:: python\n\n            credentials = AWSBedrockCredentials(\n                aws_access_key_id=\&quot;your-access-key-id\&quot;,\n                aws_secret_access_key=\&quot;your-secret-access-key\&quot;,\n                aws_region_name=\&quot;us-east-1\&quot;,\n                aws_session_token=\&quot;optional-session-token\&quot;\n            )\n\n    2. Create credentials from environment:\n        .. code-block:: python\n\n            os.environ[\&quot;AWS_ACCESS_KEY_ID\&quot;] = \&quot;your-access-key-id\&quot;\n            os.environ[\&quot;AWS_DEFAULT_REGION\&quot;] = \&quot;us-east-1\&quot;\n            os.environ[\&quot;AWS_SECRET_ACCESS_KEY\&quot;] = \&quot;your-secret-access-key\&quot;\n\n            credentials = AWSBedrockCredentials.create_from_env()&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;aws_access_key_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;null&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The AWS access key id. This attribute value will be read from AWS_ACCESS_KEY_ID environment variable when creating AWSBedrockCredentials from environment.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AWS Access Key ID&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;aws_secret_access_key&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;null&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The AWS secret access key. This attribute value will be read from AWS_SECRET_ACCESS_KEY environment variable when creating AWSBedrockCredentials from environment.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AWS Secret Access Key&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;aws_region_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;us-east-1&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AWS region. This attribute value will be read from AWS_DEFAULT_REGION environment variable when creating AWSBedrockCredentials from environment.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="s2">&quot;us-east-1&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="s2">&quot;eu-west-1&quot;</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AWS Region&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;aws_session_token&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;null&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Optional AWS session token for temporary credentials.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AWS Session Token&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">         </span><span class="p">},</span>
+<span class="w">         </span><span class="nt">&quot;required&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="s2">&quot;aws_access_key_id&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;aws_secret_access_key&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;aws_session_token&quot;</span>
+<span class="w">         </span><span class="p">],</span>
+<span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AWSBedrockCredentials&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="nt">&quot;AWSBedrockFoundationModel&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;    The Amazon Bedrock foundation model details.\n\n    Examples:\n        1. Create AWS Bedrock foundation model by passing credentials manually:\n            .. code-block:: python\n\n                bedrock_model = AWSBedrockFoundationModel(\n                    model_id=\&quot;anthropic.claude-v2\&quot;,\n                    provider=AWSBedrockModelProvider(\n                        credentials=AWSBedrockCredentials(\n                            aws_access_key_id=\&quot;your-access-key-id\&quot;,\n                            aws_secret_access_key=\&quot;your-secret-access-key\&quot;,\n                            aws_region_name=\&quot;us-east-1\&quot;,\n                            aws_session_token=\&quot;optional-session-token\&quot;\n                        )\n                    ),\n                    parameters={\n                        \&quot;temperature\&quot;: 0.7,\n                        \&quot;top_p\&quot;: 0.9,\n                        \&quot;max_tokens\&quot;: 200,\n                        \&quot;stop_sequences\&quot;: [\&quot;\n\&quot;],\n                        \&quot;system\&quot;: \&quot;You are a concise assistant.\&quot;,\n                        \&quot;reasoning_effort\&quot;: \&quot;high\&quot;,\n                        \&quot;tool_choice\&quot;: \&quot;auto\&quot;\n                    }\n                )\n\n        2. Create AWS Bedrock foundation model using environment variables:\n            os.environ[\&quot;AWS_ACCESS_KEY_ID\&quot;] = \&quot;your-access-key-id\&quot;\n            os.environ[\&quot;AWS_SECRET_ACCESS_KEY\&quot;] = \&quot;your-secret-access-key\&quot;\n            os.environ[\&quot;AWS_DEFAULT_REGION\&quot;] = \&quot;us-east-1\&quot;\n\n            .. code-block:: python\n\n                bedrock_model = AWSBedrockFoundationModel(\n                    model_id=\&quot;anthropic.claude-v2\&quot;\n                )\n    &quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;model_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The AWS Bedrock model name. It must be a valid AWS Bedrock model identifier.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="s2">&quot;anthropic.claude-v2&quot;</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Model ID&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;provider&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/AWSBedrockModelProvider&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The AWS Bedrock provider details.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Provider&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;parameters&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;null&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The model parameters to be used when invoking the model. The parameters may include temperature, top_p, max_tokens, etc..&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Parameters&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">         </span><span class="p">},</span>
+<span class="w">         </span><span class="nt">&quot;required&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="s2">&quot;model_id&quot;</span>
+<span class="w">         </span><span class="p">],</span>
+<span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AWSBedrockFoundationModel&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="nt">&quot;AWSBedrockModelProvider&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Represents a model provider using Amazon Bedrock.\n\nExamples:\n    1. Create provider using credentials object:\n        .. code-block:: python\n\n            provider = AWSBedrockModelProvider(\n                credentials=AWSBedrockCredentials(\n                    aws_access_key_id=\&quot;your-access-key-id\&quot;,\n                    aws_secret_access_key=\&quot;your-secret-access-key\&quot;,\n                    aws_region_name=\&quot;us-east-1\&quot;,\n                    aws_session_token=\&quot;optional-session-token\&quot;\n                )\n            )\n\n    2. Create provider using environment variables:\n        .. code-block:: python\n\n            os.environ[&#39;AWS_ACCESS_KEY_ID&#39;] = \&quot;your-access-key-id\&quot;\n            os.environ[&#39;AWS_SECRET_ACCESS_KEY&#39;] = \&quot;your-secret-access-key\&quot;\n            os.environ[&#39;AWS_SESSION_TOKEN&#39;] = \&quot;optional-session-token\&quot;  # Optional\n            os.environ[&#39;AWS_DEFAULT_REGION&#39;] = \&quot;us-east-1\&quot;\n            provider = AWSBedrockModelProvider()&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/ModelProviderType&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;aws_bedrock&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The type of model provider.&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;credentials&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/AWSBedrockCredentials&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;null&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AWS Bedrock credentials.&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">         </span><span class="p">},</span>
+<span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AWSBedrockModelProvider&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
+<span class="w">      </span><span class="p">},</span>
 <span class="w">      </span><span class="nt">&quot;AzureOpenAICredentials&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">            </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
@@ -646,6 +787,118 @@
 <span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AzureOpenAIModelProvider&quot;</span><span class="p">,</span>
 <span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
 <span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="nt">&quot;CustomFoundationModel&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Defines the CustomFoundationModel class.\n\nThis class extends the base `FoundationModel` to support custom inference logic through a user-defined scoring function.\nIt is intended for use cases where the model is externally hosted and not in the list of supported frameworks.\nExamples:\n    1. Define a custom scoring function and create a model:\n        .. code-block:: python\n\n            import pandas as pd\n\n            def scoring_fn(data: pd.DataFrame):\n                predictions_list = []\n                # Custom logic to call an external LLM\n                return pd.DataFrame({\&quot;generated_text\&quot;: predictions_list})                    \n\n            model = CustomFoundationModel(\n                scoring_fn=scoring_fn\n            )&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;model_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;null&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The name of the foundation model.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Model Name&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;provider&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/ModelProvider&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The provider of the model.&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">         </span><span class="p">},</span>
+<span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;CustomFoundationModel&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="nt">&quot;GoogleAIStudioCredentials&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Defines the GoogleAIStudioCredentials class for accessing Google AI Studio using an API key.\n\nExamples:\n    1. Create credentials manually:\n        .. code-block:: python\n\n            google_credentials = GoogleAIStudioCredentials(api_key=\&quot;your-api-key\&quot;)\n\n    2. Create credentials from environment:\n        .. code-block:: python\n\n            os.environ[\&quot;GOOGLE_API_KEY\&quot;] = \&quot;your-api-key\&quot;\n            google_credentials = GoogleAIStudioCredentials.create_from_env()&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;api_key&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The Google AI Studio key. This attribute can be read from GOOGLE_API_KEY environment variable when creating GoogleAIStudioCredentials from environment.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Api Key&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">         </span><span class="p">},</span>
+<span class="w">         </span><span class="nt">&quot;required&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="s2">&quot;api_key&quot;</span>
+<span class="w">         </span><span class="p">],</span>
+<span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;GoogleAIStudioCredentials&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="nt">&quot;GoogleAIStudioFoundationModel&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Represents a foundation model served via Google AI Studio.\n\nExamples:\n    1. Create Google AI Studio foundation model by passing the credentials during object creation.\n        .. code-block:: python\n\n            model = GoogleAIStudioFoundationModel(\n                model_id=\&quot;gemini-1.5-pro-002\&quot;,\n                provider=GoogleAIStudioModelProvider(\n                    credentials=GoogleAIStudioCredentials(api_key=\&quot;your_api_key\&quot;)\n                )\n            )\n    2. Create Google AI Studio foundation model by setting the credentials in environment variables:\n        * ``GOOGLE_API_KEY`` OR ``GEMINI_API_KEY`` is used to set the Credentials path for Vertex AI.\n            .. code-block:: python\n\n                model = GoogleAIStudioFoundationModel(\n                    model_id=\&quot;gemini/gpt-4o-mini\&quot;,\n                )&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;model_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;null&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The name of the foundation model.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Model Name&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;provider&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/GoogleAIStudioModelProvider&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Google AI Studio provider.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Provider&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;model_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Model name for Google AI Studio. Must be a valid Google AI model identifier or a fully-qualified publisher path&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="s2">&quot;gemini-1.5-pro-002&quot;</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Model id&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">         </span><span class="p">},</span>
+<span class="w">         </span><span class="nt">&quot;required&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="s2">&quot;model_id&quot;</span>
+<span class="w">         </span><span class="p">],</span>
+<span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;GoogleAIStudioFoundationModel&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="nt">&quot;GoogleAIStudioModelProvider&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Represents a model provider using Google AI Studio.\n\nExamples:\n    1. Create provider using credentials object:\n        .. code-block:: python\n\n            provider = GoogleAIStudioModelProvider(\n                credentials=GoogleAIStudioCredentials(api_key=\&quot;api-key\&quot;)\n            )\n\n    2. Create provider using environment variables:\n        .. code-block:: python\n\n            os.environ[&#39;GOOGLE_API_KEY&#39;] = \&quot;your_api_key\&quot;\n\n            provider = GoogleAIStudioModelProvider()&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/ModelProviderType&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;google_ai_studio&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The type of model provider.&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;credentials&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/GoogleAIStudioCredentials&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;null&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Google AI Studio credentials.&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">         </span><span class="p">},</span>
+<span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;GoogleAIStudioModelProvider&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="nt">&quot;ModelProvider&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/ModelProviderType&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The type of model provider.&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">         </span><span class="p">},</span>
+<span class="w">         </span><span class="nt">&quot;required&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="s2">&quot;type&quot;</span>
+<span class="w">         </span><span class="p">],</span>
+<span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ModelProvider&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
+<span class="w">      </span><span class="p">},</span>
 <span class="w">      </span><span class="nt">&quot;ModelProviderType&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Supported model provider types for Generative AI&quot;</span><span class="p">,</span>
 <span class="w">         </span><span class="nt">&quot;enum&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
@@ -653,7 +906,11 @@
 <span class="w">            </span><span class="s2">&quot;azure_openai&quot;</span><span class="p">,</span>
 <span class="w">            </span><span class="s2">&quot;rits&quot;</span><span class="p">,</span>
 <span class="w">            </span><span class="s2">&quot;openai&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="s2">&quot;custom&quot;</span>
+<span class="w">            </span><span class="s2">&quot;vertex_ai&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;google_ai_studio&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;aws_bedrock&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;custom&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;portkey&quot;</span>
 <span class="w">         </span><span class="p">],</span>
 <span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ModelProviderType&quot;</span><span class="p">,</span>
 <span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
@@ -746,6 +1003,122 @@
 <span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;OpenAIModelProvider&quot;</span><span class="p">,</span>
 <span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
 <span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="nt">&quot;PortKeyCredentials&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Defines the PortKeyCredentials class to specify the PortKey Gateway details.\n\nExamples:\n    1. Create PortKeyCredentials with default parameters.\n        .. code-block:: python\n\n            portkey_credentials = PortKeyCredentials(api_key=api_key,\n                                                    url=portkey_url,\n                                                    provider_api_key=provider_api_key,\n                                                    provider=provider_name)\n\n    2. Create PortKeyCredentials by reading from environment variables.\n        .. code-block:: python\n\n            os.environ[\&quot;PORTKEY_API_KEY\&quot;] = \&quot;...\&quot;\n            os.environ[\&quot;PORTKEY_URL\&quot;] = \&quot;...\&quot;\n            os.environ[\&quot;PORTKEY_PROVIDER_API_KEY\&quot;] = \&quot;...\&quot;\n            os.environ[\&quot;PORTKEY_PROVIDER_NAME\&quot;] = \&quot;...\&quot;\n            portkey_credentials = PortKeyCredentials.create_from_env()&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;null&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;PortKey url. This attribute can be read from `PORTKEY_URL` environment variable.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Url&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;api_key&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;null&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;API key for PortKey. This attribute can be read from `PORTKEY_API_KEY` environment variable.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Api Key&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;provider_api_key&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;null&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;API key for the provider. This attribute can be read from `PORTKEY_PROVIDER_API_KEY` environment variable.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Provider Api Key&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;provider&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;null&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The provider name. This attribute can be read from `PORTKEY_PROVIDER_NAME` environment variable.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Provider&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">         </span><span class="p">},</span>
+<span class="w">         </span><span class="nt">&quot;required&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="s2">&quot;url&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;api_key&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;provider_api_key&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;provider&quot;</span>
+<span class="w">         </span><span class="p">],</span>
+<span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;PortKeyCredentials&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="nt">&quot;PortKeyGateway&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The PortKey gateway details\n\nExamples:\n    1. Create PortKeyGateway by passing the credentials during object creation. Note that the url is optional and will be set to the default value for PortKey. To change the default value, the url should be passed to ``PortKeyCredentials`` object.\n        .. code-block:: python\n\n            port_key_gateway = PortKeyGateway(\n                model_id=\&quot;gpt-4o-mini\&quot;,\n                provider=PortKeyModelProvider(\n                    credentials=PortKeyCredentials(\n                        api_key=api_key,\n                        url=openai_url,\n                        provider_api_key=provider_api_key,\n                        provider_name=provider_name\n                    )\n                )\n            )\n\n    2. Create PortKeyGateway by setting the credentials in environment variables:\n        * ``PORTKEY_API_KEY`` is used to set the api key for PortKey.\n        * ``PORTKEY_URL`` is used to set the url for PortKey.\n        * ``PORTKEY_PROVIDER_API_KEY`` is used to set the provider api key for PortKey.\n        * ``PORTKEY_PROVIDER_NAME`` is used to set the provider name for PortKey\n\n        .. code-block:: python\n\n            port_key_gateway = PortKeyGateway(\n                model_id=\&quot;gpt-4o-mini\&quot;,\n            )&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;model_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;null&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The name of the foundation model.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Model Name&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;provider&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/PortKeyModelProvider&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;PortKey Provider&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;model_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Model name from the Provider&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Model Id&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">         </span><span class="p">},</span>
+<span class="w">         </span><span class="nt">&quot;required&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="s2">&quot;model_id&quot;</span>
+<span class="w">         </span><span class="p">],</span>
+<span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;PortKeyGateway&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="nt">&quot;PortKeyModelProvider&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/ModelProviderType&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;portkey&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The type of model provider.&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;credentials&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/PortKeyCredentials&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;null&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;PortKey credentials.&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">         </span><span class="p">},</span>
+<span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;PortKeyModelProvider&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
+<span class="w">      </span><span class="p">},</span>
 <span class="w">      </span><span class="nt">&quot;RITSCredentials&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">            </span><span class="nt">&quot;hostname&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
@@ -816,6 +1189,97 @@
 <span class="w">            </span><span class="p">}</span>
 <span class="w">         </span><span class="p">},</span>
 <span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;RITSModelProvider&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="nt">&quot;VertexAICredentials&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Defines the VertexAICredentials class for accessing Vertex AI using service account credentials.\n\nExamples:\n    1. Create credentials manually:\n        .. code-block:: python\n\n            vertex_credentials = VertexAICredentials(\n                credentials_path=\&quot;path/to/service_account.json\&quot;,\n                project_id=\&quot;my-gcp-project\&quot;,\n                location=\&quot;us-central1\&quot;\n            )\n\n    2. Create credentials from environment:\n        .. code-block:: python\n\n            os.environ[\&quot;GOOGLE_APPLICATION_CREDENTIALS\&quot;] = \&quot;path/to/service_account.json\&quot;\n            os.environ[\&quot;GOOGLE_CLOUD_PROJECT\&quot;] = \&quot;my-gcp-project\&quot;\n            os.environ[\&quot;GOOGLE_CLOUD_LOCATION\&quot;] = \&quot;us-central1\&quot;\n\n            vertex_ai_credentials = VertexAICredentials.create_from_env()&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;credentials_path&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Path to service-account JSON. This attribute can be read from GOOGLE_APPLICATION_CREDENTIALS environment variable when creating VertexAICredentials from environment.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Credentials Path&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;project_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The Google Cloud project id. This attribute can be read from GOOGLE_CLOUD_PROJECT or GCLOUD_PROJECT environment variable when creating VertexAICredentials from environment.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Project ID&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;location&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;us-central1&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Vertex AI region. This attribute can be read from GOOGLE_CLOUD_LOCATION environment variable when creating VertexAICredentials from environment. By default us-central1 location is used.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="s2">&quot;us-central1&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="s2">&quot;europe-west4&quot;</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Location&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">         </span><span class="p">},</span>
+<span class="w">         </span><span class="nt">&quot;required&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="s2">&quot;credentials_path&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;project_id&quot;</span>
+<span class="w">         </span><span class="p">],</span>
+<span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;VertexAICredentials&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="nt">&quot;VertexAIFoundationModel&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Represents a foundation model served via Vertex AI.\n\nExamples:\n    1. Create Vertex AI foundation model by passing the credentials during object creation.\n        .. code-block:: python\n\n            model = VertexAIFoundationModel(\n                model_id=\&quot;gemini-1.5-pro-002\&quot;,\n                provider=VertexAIModelProvider(\n                    credentials=VertexAICredentials(\n                        project_id=\&quot;your-project\&quot;,\n                        location=\&quot;us-central1\&quot;, # This is optional field, by default us-central1 location is selected\n                        credentials_path=\&quot;/path/to/service_account.json\&quot;\n                    )\n                )\n            )\n    2. Create Vertex AI foundation model by setting the credentials in environment variables:\n        * ``GOOGLE_APPLICATION_CREDENTIALS`` is used to set the Credentials path for Vertex AI.\n        * ``GOOGLE_CLOUD_PROJECT`` is used to set the Project id for Vertex AI.\n        * ``GOOGLE_CLOUD_LOCATION`` is uses to set the Location for Vertex AI. By default us-central1 location is used when GOOGLE_CLOUD_LOCATION is not provided .\n\n            .. code-block:: python\n\n                os.environ[\&quot;GOOGLE_APPLICATION_CREDENTIALS\&quot;] = \&quot;path/to/service_account.json\&quot;\n                os.environ[\&quot;GOOGLE_CLOUD_PROJECT\&quot;] = \&quot;my-gcp-project\&quot;\n                os.environ[\&quot;GOOGLE_CLOUD_LOCATION\&quot;] = \&quot;us-central1\&quot;\n\n                model = VertexAIFoundationModel(\n                    model_id=\&quot;gemini/gpt-4o-mini\&quot;,\n                )&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;model_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;null&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The name of the foundation model.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Model Name&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;provider&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/VertexAIModelProvider&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Vertex AI provider.&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Provider&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;model_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Model name for Vertex AI. Must be a valid Vertex AI model identifier or a fully-qualified publisher path&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="s2">&quot;gemini-1.5-pro-002&quot;</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Model id&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">         </span><span class="p">},</span>
+<span class="w">         </span><span class="nt">&quot;required&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="s2">&quot;model_id&quot;</span>
+<span class="w">         </span><span class="p">],</span>
+<span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;VertexAIFoundationModel&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="nt">&quot;VertexAIModelProvider&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Represents a model provider using Vertex AI.\n\nExamples:\n    1. Create provider using credentials object:\n        .. code-block:: python\n\n            provider = VertexAIModelProvider(\n                credentials=VertexAICredentials(\n                    credentials_path=\&quot;path/to/key.json\&quot;,\n                    project_id=\&quot;your-project\&quot;,\n                    location=\&quot;us-central1\&quot; \n                )\n            )\n\n    2. Create provider using environment variables:\n        .. code-block:: python\n\n            os.environ[&#39;GOOGLE_APPLICATION_CREDENTIALS&#39;] = \&quot;/path/to/service_account.json\&quot;\n            os.environ[&#39;GOOGLE_CLOUD_PROJECT&#39;] = \&quot;your-project\&quot;\n            os.environ[&#39;GOOGLE_CLOUD_LOCATION&#39;] = \&quot;us-central1\&quot; # This is optional field, by default us-central1 location is selected\n\n            provider = VertexAIModelProvider()&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/ModelProviderType&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;vertex_ai&quot;</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The type of model provider.&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;credentials&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/VertexAICredentials&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                     </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;null&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">               </span><span class="p">],</span>
+<span class="w">               </span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Vertex AI credentials.&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">         </span><span class="p">},</span>
+<span class="w">         </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;VertexAIModelProvider&quot;</span><span class="p">,</span>
 <span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
 <span class="w">      </span><span class="p">},</span>
 <span class="w">      </span><span class="nt">&quot;WxAICredentials&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
@@ -905,7 +1369,7 @@
 <span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
 <span class="w">      </span><span class="p">},</span>
 <span class="w">      </span><span class="nt">&quot;WxAIFoundationModel&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The IBM watsonx.ai foundation model details\n\nTo initialize the foundation model, you can either pass in the credentials directly or set the environment.\nYou can follow these examples to create the provider.\n\nExamples:\n    1. Create foundation model by specifying the credentials during object creation:\n        .. code-block:: python\n\n            # Specify the credentials during object creation\n            wx_ai_foundation_model = WxAIFoundationModel(\n                model_id=\&quot;google/flan-ul2\&quot;,\n                project_id=&lt;PROJECT_ID&gt;,\n                provider=WxAIModelProvider(\n                    credentials=WxAICredentials(\n                        url=wx_url, # This is optional field, by default US-Dallas region is selected\n                        api_key=wx_apikey,\n                    )\n                )\n            )\n\n    2. Create foundation model by setting the credentials environment variables:\n        * The api key can be set using one of the environment variables ``WXAI_API_KEY``, ``WATSONX_APIKEY``, or ``WXG_API_KEY``. These will be read in the order of precedence.\n        * The url is optional and will be set to US-Dallas region by default. It can be set using one of the environment variables ``WXAI_URL``, ``WATSONX_URL``, or ``WXG_URL``. These will be read in the order of precedence.\n\n        .. code-block:: python\n\n            wx_ai_foundation_model = WxAIFoundationModel(\n                model_id=\&quot;google/flan-ul2\&quot;,\n                project_id=&lt;PROJECT_ID&gt;,\n            )\n\n    3. Create foundation model by specifying watsonx.governance software credentials during object creation:\n        .. code-block:: python\n\n            wx_ai_foundation_model = WxAIFoundationModel(\n                model_id=\&quot;google/flan-ul2\&quot;,\n                project_id=project_id,\n                provider=WxAIModelProvider(\n                    credentials=WxAICredentials(\n                        url=wx_url,\n                        api_key=wx_apikey,\n                        username=wx_username,\n                        version=wx_version,\n                    )\n                )\n            )\n\n    4. Create foundation model by setting watsonx.governance software credentials environment variables:\n        * The api key can be set using one of the environment variables ``WXAI_API_KEY``, ``WATSONX_APIKEY``, or ``WXG_API_KEY``. These will be read in the order of precedence.\n        * The url can be set using one of these environment variable ``WXAI_URL``, ``WATSONX_URL``, or ``WXG_URL``. These will be read in the order of precedence.\n        * The username can be set using one of these environment variable ``WXAI_USERNAME``, ``WATSONX_USERNAME``, or ``WXG_USERNAME``. These will be read in the order of precedence.\n        * The version of watsonx.governance software can be set using one of these environment variable ``WXAI_VERSION``, ``WATSONX_VERSION``, or ``WXG_VERSION``. These will be read in the order of precedence.\n\n        .. code-block:: python\n\n            wx_ai_foundation_model = WxAIFoundationModel(\n                model_id=\&quot;google/flan-ul2\&quot;,\n                project_id=project_id,\n            )&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The IBM watsonx.ai foundation model details\n\nTo initialize the foundation model, you can either pass in the credentials directly or set the environment.\nYou can follow these examples to create the provider.\n\nExamples:\n    1. Create foundation model by specifying the credentials during object creation:\n        .. code-block:: python\n\n            # Specify the credentials during object creation\n            wx_ai_foundation_model = WxAIFoundationModel(\n                model_id=\&quot;ibm/granite-3-3-8b-instruct\&quot;,\n                project_id=&lt;PROJECT_ID&gt;,\n                provider=WxAIModelProvider(\n                    credentials=WxAICredentials(\n                        url=wx_url, # This is optional field, by default US-Dallas region is selected\n                        api_key=wx_apikey,\n                    )\n                )\n            )\n\n    2. Create foundation model by setting the credentials environment variables:\n        * The api key can be set using one of the environment variables ``WXAI_API_KEY``, ``WATSONX_APIKEY``, or ``WXG_API_KEY``. These will be read in the order of precedence.\n        * The url is optional and will be set to US-Dallas region by default. It can be set using one of the environment variables ``WXAI_URL``, ``WATSONX_URL``, or ``WXG_URL``. These will be read in the order of precedence.\n\n        .. code-block:: python\n\n            wx_ai_foundation_model = WxAIFoundationModel(\n                model_id=\&quot;ibm/granite-3-3-8b-instruct\&quot;,\n                project_id=&lt;PROJECT_ID&gt;,\n            )\n\n    3. Create foundation model by specifying watsonx.governance software credentials during object creation:\n        .. code-block:: python\n\n            wx_ai_foundation_model = WxAIFoundationModel(\n                model_id=\&quot;ibm/granite-3-3-8b-instruct\&quot;,\n                project_id=project_id,\n                provider=WxAIModelProvider(\n                    credentials=WxAICredentials(\n                        url=wx_url,\n                        api_key=wx_apikey,\n                        username=wx_username,\n                        version=wx_version,\n                    )\n                )\n            )\n\n    4. Create foundation model by setting watsonx.governance software credentials environment variables:\n        * The api key can be set using one of the environment variables ``WXAI_API_KEY``, ``WATSONX_APIKEY``, or ``WXG_API_KEY``. These will be read in the order of precedence.\n        * The url can be set using one of these environment variable ``WXAI_URL``, ``WATSONX_URL``, or ``WXG_URL``. These will be read in the order of precedence.\n        * The username can be set using one of these environment variable ``WXAI_USERNAME``, ``WATSONX_USERNAME``, or ``WXG_USERNAME``. These will be read in the order of precedence.\n        * The version of watsonx.governance software can be set using one of these environment variable ``WXAI_VERSION``, ``WATSONX_VERSION``, or ``WXG_VERSION``. These will be read in the order of precedence.\n\n        .. code-block:: python\n\n            wx_ai_foundation_model = WxAIFoundationModel(\n                model_id=\&quot;ibm/granite-3-3-8b-instruct\&quot;,\n                project_id=project_id,\n            )&quot;</span><span class="p">,</span>
 <span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">            </span><span class="nt">&quot;model_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">               </span><span class="nt">&quot;anyOf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
@@ -963,7 +1427,7 @@
 <span class="w">         </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span>
 <span class="w">      </span><span class="p">},</span>
 <span class="w">      </span><span class="nt">&quot;WxAIModelProvider&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;This class represents a model provider configuration for IBM watsonx.ai. It includes the provider type and\ncredentials required to authenticate and interact with the watsonx.ai platform. If credentials are not explicitly\nprovided, it attempts to load them from environment variables.\n\nExamples:\n    1. Create provider using credentials object:\n        .. code-block:: python\n\n            credentials = WxAICredentials(\n                url=\&quot;https://us-south.ml.cloud.ibm.com\&quot;,\n                api_key=\&quot;your-api-key\&quot;\n            )\n            provider = WxAIModelProvider(credentials=credentials)\n\n    2. Create provider using environment variables:\n        .. code-block:: python\n\n            import os\n\n            os.environ[&#39;WATSONX_URL&#39;] = \&quot;https://us-south.ml.cloud.ibm.com\&quot;\n            os.environ[&#39;WATSONX_APIKEY&#39;] = \&quot;your-api-key\&quot;\n\n            provider = WxAIModelProvider()&quot;</span><span class="p">,</span>
+<span class="w">         </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;This class represents a model provider configuration for IBM watsonx.ai. It includes the provider type and\ncredentials required to authenticate and interact with the watsonx.ai platform. If credentials are not explicitly\nprovided, it attempts to load them from environment variables.\n\nExamples:\n    1. Create provider using credentials object:\n        .. code-block:: python\n\n            credentials = WxAICredentials(\n                url=\&quot;https://us-south.ml.cloud.ibm.com\&quot;,\n                api_key=\&quot;your-api-key\&quot;\n            )\n            provider = WxAIModelProvider(credentials=credentials)\n\n    2. Create provider using environment variables:\n        .. code-block:: python\n\n            import os\n\n            os.environ[&#39;WATSONX_URL&#39;] = \&quot;https://us-south.ml.cloud.ibm.com\&quot;\n            os.environ[&#39;WATSONX_APIKEY&#39;] = \&quot;your_api_key\&quot;\n\n            provider = WxAIModelProvider()&quot;</span><span class="p">,</span>
 <span class="w">         </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">               </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#/$defs/ModelProviderType&quot;</span><span class="p">,</span>
@@ -996,13 +1460,13 @@
 </details></p><dl class="field-list simple">
 <dt class="field-odd">Fields<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="reference internal" href="#ibm_watsonx_gov.entities.llm_judge.LLMJudge.model" title="ibm_watsonx_gov.entities.llm_judge.LLMJudge.model"><code class="xref py py-obj docutils literal notranslate"><span class="pre">model</span> <span class="pre">(ibm_watsonx_gov.entities.foundation_model.WxAIFoundationModel</span> <span class="pre">|</span> <span class="pre">ibm_watsonx_gov.entities.foundation_model.OpenAIFoundationModel</span> <span class="pre">|</span> <span class="pre">ibm_watsonx_gov.entities.foundation_model.AzureOpenAIFoundationModel</span> <span class="pre">|</span> <span class="pre">ibm_watsonx_gov.entities.foundation_model.RITSFoundationModel)</span></code></a></p></li>
+<li><p><a class="reference internal" href="#ibm_watsonx_gov.entities.llm_judge.LLMJudge.model" title="ibm_watsonx_gov.entities.llm_judge.LLMJudge.model"><code class="xref py py-obj docutils literal notranslate"><span class="pre">model</span> <span class="pre">(ibm_watsonx_gov.entities.foundation_model.WxAIFoundationModel</span> <span class="pre">|</span> <span class="pre">ibm_watsonx_gov.entities.foundation_model.OpenAIFoundationModel</span> <span class="pre">|</span> <span class="pre">ibm_watsonx_gov.entities.foundation_model.AzureOpenAIFoundationModel</span> <span class="pre">|</span> <span class="pre">ibm_watsonx_gov.entities.foundation_model.PortKeyGateway</span> <span class="pre">|</span> <span class="pre">ibm_watsonx_gov.entities.foundation_model.RITSFoundationModel</span> <span class="pre">|</span> <span class="pre">ibm_watsonx_gov.entities.foundation_model.VertexAIFoundationModel</span> <span class="pre">|</span> <span class="pre">ibm_watsonx_gov.entities.foundation_model.GoogleAIStudioFoundationModel</span> <span class="pre">|</span> <span class="pre">ibm_watsonx_gov.entities.foundation_model.AWSBedrockFoundationModel</span> <span class="pre">|</span> <span class="pre">ibm_watsonx_gov.entities.foundation_model.CustomFoundationModel)</span></code></a></p></li>
 </ul>
 </dd>
 </dl>
 <dl class="py attribute pydantic_field">
 <dt class="sig sig-object py" id="ibm_watsonx_gov.entities.llm_judge.LLMJudge.model">
-<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">model</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Annotated</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html#ibm_watsonx_gov.entities.foundation_model.WxAIFoundationModel" title="ibm_watsonx_gov.entities.foundation_model.WxAIFoundationModel"><span class="pre">WxAIFoundationModel</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html#ibm_watsonx_gov.entities.foundation_model.OpenAIFoundationModel" title="ibm_watsonx_gov.entities.foundation_model.OpenAIFoundationModel"><span class="pre">OpenAIFoundationModel</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html#ibm_watsonx_gov.entities.foundation_model.AzureOpenAIFoundationModel" title="ibm_watsonx_gov.entities.foundation_model.AzureOpenAIFoundationModel"><span class="pre">AzureOpenAIFoundationModel</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html#ibm_watsonx_gov.entities.foundation_model.RITSFoundationModel" title="ibm_watsonx_gov.entities.foundation_model.RITSFoundationModel"><span class="pre">RITSFoundationModel</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">FieldInfo</span><span class="p"><span class="pre">(</span></span><span class="n"><span class="pre">annotation</span></span><span class="o"><span class="pre">=</span></span><span class="pre">NoneType</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">required</span></span><span class="o"><span class="pre">=</span></span><span class="k"><span class="pre">True</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">description</span></span><span class="o"><span class="pre">=</span></span><span class="s"><span class="pre">'The</span> <span class="pre">foundation</span> <span class="pre">model</span> <span class="pre">to</span> <span class="pre">be</span> <span class="pre">used</span> <span class="pre">as</span> <span class="pre">judge'</span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"> <span class="pre">[Required]</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.llm_judge.LLMJudge.model" title="Link to this definition">¶</a></dt>
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">model</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Annotated</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html#ibm_watsonx_gov.entities.foundation_model.WxAIFoundationModel" title="ibm_watsonx_gov.entities.foundation_model.WxAIFoundationModel"><span class="pre">WxAIFoundationModel</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html#ibm_watsonx_gov.entities.foundation_model.OpenAIFoundationModel" title="ibm_watsonx_gov.entities.foundation_model.OpenAIFoundationModel"><span class="pre">OpenAIFoundationModel</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html#ibm_watsonx_gov.entities.foundation_model.AzureOpenAIFoundationModel" title="ibm_watsonx_gov.entities.foundation_model.AzureOpenAIFoundationModel"><span class="pre">AzureOpenAIFoundationModel</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html#ibm_watsonx_gov.entities.foundation_model.PortKeyGateway" title="ibm_watsonx_gov.entities.foundation_model.PortKeyGateway"><span class="pre">PortKeyGateway</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html#ibm_watsonx_gov.entities.foundation_model.RITSFoundationModel" title="ibm_watsonx_gov.entities.foundation_model.RITSFoundationModel"><span class="pre">RITSFoundationModel</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html#ibm_watsonx_gov.entities.foundation_model.VertexAIFoundationModel" title="ibm_watsonx_gov.entities.foundation_model.VertexAIFoundationModel"><span class="pre">VertexAIFoundationModel</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html#ibm_watsonx_gov.entities.foundation_model.GoogleAIStudioFoundationModel" title="ibm_watsonx_gov.entities.foundation_model.GoogleAIStudioFoundationModel"><span class="pre">GoogleAIStudioFoundationModel</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html#ibm_watsonx_gov.entities.foundation_model.AWSBedrockFoundationModel" title="ibm_watsonx_gov.entities.foundation_model.AWSBedrockFoundationModel"><span class="pre">AWSBedrockFoundationModel</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference internal" href="ibm_watsonx_gov.entities.foundation_model.html#ibm_watsonx_gov.entities.foundation_model.CustomFoundationModel" title="ibm_watsonx_gov.entities.foundation_model.CustomFoundationModel"><span class="pre">CustomFoundationModel</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">FieldInfo</span><span class="p"><span class="pre">(</span></span><span class="n"><span class="pre">annotation</span></span><span class="o"><span class="pre">=</span></span><span class="pre">NoneType</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">required</span></span><span class="o"><span class="pre">=</span></span><span class="k"><span class="pre">True</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">description</span></span><span class="o"><span class="pre">=</span></span><span class="s"><span class="pre">'The</span> <span class="pre">foundation</span> <span class="pre">model</span> <span class="pre">to</span> <span class="pre">be</span> <span class="pre">used</span> <span class="pre">as</span> <span class="pre">judge'</span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"> <span class="pre">[Required]</span></em><a class="headerlink" href="#ibm_watsonx_gov.entities.llm_judge.LLMJudge.model" title="Link to this definition">¶</a></dt>
 <dd><p>The foundation model to be used as judge</p>
 </dd></dl>
 
@@ -1020,12 +1484,12 @@
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="ibm_watsonx_gov.entities.mapping.html">
+          <a class="next-page" href="ibm_watsonx_gov.entities.locale.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Mapping</div>
+                <div class="title">Locale</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
@@ -1087,7 +1551,7 @@
       
     </aside>
   </div>
-</div><script src="../_static/documentation_options.js?v=fd7cadf9"></script>
+</div><script src="../_static/documentation_options.js?v=1f29e9d3"></script>
     <script src="../_static/doctools.js?v=9bcbadda"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/scripts/furo.js?v=5fa4622c"></script>

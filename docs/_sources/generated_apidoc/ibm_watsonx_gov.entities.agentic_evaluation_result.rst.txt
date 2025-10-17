@@ -1,0 +1,7 @@
+Agentic Evaluation Result
+=========================
+
+.. automodule:: ibm_watsonx_gov.entities.agentic_evaluation_result
+   :members:
+   :undoc-members:
+   :show-inheritance:
