@@ -1,0 +1,7 @@
+Locale
+======
+
+.. automodule:: ibm_watsonx_gov.entities.locale
+   :members:
+   :undoc-members:
+   :show-inheritance:

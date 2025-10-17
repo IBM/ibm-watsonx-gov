@@ -1,0 +1,7 @@
+Criteria
+========
+
+.. automodule:: ibm_watsonx_gov.entities.criteria
+   :members:
+   :undoc-members:
+   :show-inheritance:

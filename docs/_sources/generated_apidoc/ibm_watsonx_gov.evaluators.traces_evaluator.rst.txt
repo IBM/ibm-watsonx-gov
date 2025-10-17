@@ -1,0 +1,7 @@
+Traces Evaluator
+================
+
+.. automodule:: ibm_watsonx_gov.evaluators.traces_evaluator
+   :members:
+   :undoc-members:
+   :show-inheritance:

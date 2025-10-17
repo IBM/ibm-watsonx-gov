@@ -70,3 +70,10 @@ Some functionality of this library requires additional dependencies. You can ins
    .. code-block:: bash
 
       pip install ibm-watsonx-gov[visualization]
+
+- **llmaj** - To install the dependencies required for computing metrics using methods that rely on an LLM as a judge.
+   To install the dependencies, run:
+
+   .. code-block:: bash
+
+      pip install ibm-watsonx-gov[llmaj]

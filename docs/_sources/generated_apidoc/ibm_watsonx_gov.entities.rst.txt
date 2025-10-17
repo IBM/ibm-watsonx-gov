@@ -13,15 +13,18 @@ Submodules
    :maxdepth: 4
 
    ibm_watsonx_gov.entities.agentic_app
+   ibm_watsonx_gov.entities.agentic_evaluation_result
    ibm_watsonx_gov.entities.ai_evaluation
    ibm_watsonx_gov.entities.ai_experiment
    ibm_watsonx_gov.entities.base_classes
    ibm_watsonx_gov.entities.container
    ibm_watsonx_gov.entities.credentials
+   ibm_watsonx_gov.entities.criteria
    ibm_watsonx_gov.entities.enums
    ibm_watsonx_gov.entities.evaluation_result
    ibm_watsonx_gov.entities.foundation_model
    ibm_watsonx_gov.entities.llm_judge
+   ibm_watsonx_gov.entities.locale
    ibm_watsonx_gov.entities.mapping
    ibm_watsonx_gov.entities.metric
    ibm_watsonx_gov.entities.metric_threshold

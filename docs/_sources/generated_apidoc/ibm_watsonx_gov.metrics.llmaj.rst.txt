@@ -1,0 +1,15 @@
+Llmaj
+=====
+
+.. automodule:: ibm_watsonx_gov.metrics.llmaj
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.llmaj.llmaj_metric
