@@ -17,6 +17,7 @@ The sample notebooks showcase the features of IBM watsonx.governance.
 | ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Invoking Guardrails with the IBM watsonx.governance Python SDK](python_sdk/guardrails/Real%20Time%20Detections.ipynb)         | This notebook demonstrates how to use the IBM watsonx.governance Python SDK to invoke AI guardrails on user inputs and model-generated responses.               |
 | [Invoking Guardrails with the IBM watsonx.governance REST API](rest_api/guardrails/Real%20Time%20Detections%20via%20API.ipynb) | This notebook demonstrates how to use the IBM watsonx.governance Real time detections API to invoke AI guardrails on user inputs and model-generated responses. |
+| [Invoking Custom Guardrails with the IBM watsonx.governance REST API](rest_api/guardrails/IBM%20Watsonx.Governance%20Guardrails%20Setup%20and%20Invocation.ipynb) | This notebook demonstrates how to create and manage Custom Guardrails using the IBM watsonx.governance using Guardrails Manager API. |
 
 ## Metrics evaluation
 
