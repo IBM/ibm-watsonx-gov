@@ -1,0 +1,16 @@
+Output Token Count
+==================
+
+.. automodule:: ibm_watsonx_gov.metrics.output_token_count
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   ibm_watsonx_gov.metrics.output_token_count.output_token_count_decorator
+   ibm_watsonx_gov.metrics.output_token_count.output_token_count_metric

@@ -1,0 +1,7 @@
+Duration Metric
+===============
+
+.. automodule:: ibm_watsonx_gov.metrics.duration.duration_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

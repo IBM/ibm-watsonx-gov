@@ -33,3 +33,4 @@ Submodules
    ibm_watsonx_gov.entities.monitor
    ibm_watsonx_gov.entities.prompt_setup
    ibm_watsonx_gov.entities.state
+   ibm_watsonx_gov.entities.utils

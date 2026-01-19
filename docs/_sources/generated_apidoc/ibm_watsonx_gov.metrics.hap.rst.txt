@@ -14,3 +14,5 @@ Submodules
 
    ibm_watsonx_gov.metrics.hap.hap_decorator
    ibm_watsonx_gov.metrics.hap.hap_metric
+   ibm_watsonx_gov.metrics.hap.input_hap_metric
+   ibm_watsonx_gov.metrics.hap.output_hap_metric

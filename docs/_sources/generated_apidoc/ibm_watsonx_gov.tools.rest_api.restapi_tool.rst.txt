@@ -1,7 +1,0 @@
-Restapi Tool
-============
-
-.. automodule:: ibm_watsonx_gov.tools.rest_api.restapi_tool
-   :members:
-   :undoc-members:
-   :show-inheritance:

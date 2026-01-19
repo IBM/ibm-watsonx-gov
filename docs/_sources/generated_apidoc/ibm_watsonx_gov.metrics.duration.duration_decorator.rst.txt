@@ -1,0 +1,7 @@
+Duration Decorator
+==================
+
+.. automodule:: ibm_watsonx_gov.metrics.duration.duration_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+Utils
+=====
+
+.. automodule:: ibm_watsonx_gov.entities.utils
+   :members:
+   :undoc-members:
+   :show-inheritance:

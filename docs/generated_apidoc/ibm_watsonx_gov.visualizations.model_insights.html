@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Visualization Utils" href="ibm_watsonx_gov.visualizations.visualization_utils.html" /><link rel="prev" title="Visualizations" href="ibm_watsonx_gov.visualizations.html" />
 
     <!-- Generated with Sphinx 8.1.3 and Furo 2024.08.06 -->
-        <title>Model Insights - IBM watsonx.governance SDK 1.3.0 documentation</title>
+        <title>Model Insights - IBM watsonx.governance SDK 1.3.2 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../_static/autodoc_pydantic.css" />
@@ -167,7 +167,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../index.html"><div class="brand">IBM watsonx.governance SDK 1.3.0 documentation</div></a>
+      <a href="../index.html"><div class="brand">IBM watsonx.governance SDK 1.3.2 documentation</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -191,7 +191,7 @@
       <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
   
   
-  <span class="sidebar-brand-text">IBM watsonx.governance SDK 1.3.0 documentation</span>
+  <span class="sidebar-brand-text">IBM watsonx.governance SDK 1.3.2 documentation</span>
   
 </a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
@@ -239,6 +239,7 @@
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.monitor.html">Monitor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.prompt_setup.html">Prompt Setup</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.state.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.entities.utils.html">Utils</a></li>
 </ul>
 </li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.html">Metrics</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Metrics</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -262,131 +263,163 @@
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.context_relevance.context_relevance_metric.html">Context Relevance Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.evasiveness.html">Evasiveness</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle navigation of Evasiveness</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.cost.html">Cost</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle navigation of Cost</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.cost.cost_decorator.html">Cost Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.cost.cost_metric.html">Cost Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.duration.html">Duration</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle navigation of Duration</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.duration.duration_decorator.html">Duration Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.duration.duration_metric.html">Duration Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.evasiveness.html">Evasiveness</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><div class="visually-hidden">Toggle navigation of Evasiveness</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.evasiveness.evasiveness_decorator.html">Evasiveness Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.evasiveness.evasiveness_metric.html">Evasiveness Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.faithfulness.html">Faithfulness</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle navigation of Faithfulness</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.faithfulness.html">Faithfulness</a><input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" role="switch" type="checkbox"/><label for="toctree-checkbox-13"><div class="visually-hidden">Toggle navigation of Faithfulness</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.faithfulness.faithfulness_decorator.html">Faithfulness Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.faithfulness.faithfulness_metric.html">Faithfulness Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.hap.html">Hap</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><div class="visually-hidden">Toggle navigation of Hap</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.hap.html">Hap</a><input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" role="switch" type="checkbox"/><label for="toctree-checkbox-14"><div class="visually-hidden">Toggle navigation of Hap</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.hap.hap_decorator.html">Hap Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.hap.hap_metric.html">Hap Metric</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.hap.input_hap_metric.html">Input Hap Metric</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.hap.output_hap_metric.html">Output Hap Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.harm.html">Harm</a><input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" role="switch" type="checkbox"/><label for="toctree-checkbox-13"><div class="visually-hidden">Toggle navigation of Harm</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.harm.html">Harm</a><input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" role="switch" type="checkbox"/><label for="toctree-checkbox-15"><div class="visually-hidden">Toggle navigation of Harm</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.harm.harm_decorator.html">Harm Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.harm.harm_metric.html">Harm Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.harm_engagement.html">Harm Engagement</a><input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" role="switch" type="checkbox"/><label for="toctree-checkbox-14"><div class="visually-hidden">Toggle navigation of Harm Engagement</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.harm_engagement.html">Harm Engagement</a><input class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" role="switch" type="checkbox"/><label for="toctree-checkbox-16"><div class="visually-hidden">Toggle navigation of Harm Engagement</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.harm_engagement.harm_engagement_decorator.html">Harm Engagement Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.harm_engagement.harm_engagement_metric.html">Harm Engagement Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.hit_rate.html">Hit Rate</a><input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" role="switch" type="checkbox"/><label for="toctree-checkbox-15"><div class="visually-hidden">Toggle navigation of Hit Rate</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.hit_rate.html">Hit Rate</a><input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" role="switch" type="checkbox"/><label for="toctree-checkbox-17"><div class="visually-hidden">Toggle navigation of Hit Rate</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.hit_rate.hit_rate_decorator.html">Hit Rate Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.hit_rate.hit_rate_metric.html">Hit Rate Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.jailbreak.html">Jailbreak</a><input class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" role="switch" type="checkbox"/><label for="toctree-checkbox-16"><div class="visually-hidden">Toggle navigation of Jailbreak</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.input_token_count.html">Input Token Count</a><input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" role="switch" type="checkbox"/><label for="toctree-checkbox-18"><div class="visually-hidden">Toggle navigation of Input Token Count</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.input_token_count.input_token_count_decorator.html">Input Token Count Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.input_token_count.input_token_count_metric.html">Input Token Count Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.jailbreak.html">Jailbreak</a><input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" role="switch" type="checkbox"/><label for="toctree-checkbox-19"><div class="visually-hidden">Toggle navigation of Jailbreak</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.jailbreak.jailbreak_decorator.html">Jailbreak Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.jailbreak.jailbreak_metric.html">Jailbreak Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.llmaj.html">Llmaj</a><input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" role="switch" type="checkbox"/><label for="toctree-checkbox-17"><div class="visually-hidden">Toggle navigation of Llmaj</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.llmaj.html">Llmaj</a><input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" role="switch" type="checkbox"/><label for="toctree-checkbox-20"><div class="visually-hidden">Toggle navigation of Llmaj</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.llmaj.llmaj_metric.html">Llmaj Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.ndcg.html">NDCG</a><input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" role="switch" type="checkbox"/><label for="toctree-checkbox-18"><div class="visually-hidden">Toggle navigation of NDCG</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.ndcg.html">NDCG</a><input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" role="switch" type="checkbox"/><label for="toctree-checkbox-21"><div class="visually-hidden">Toggle navigation of NDCG</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.ndcg.ndcg_decorator.html">NDCG Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.ndcg.ndcg_metric.html">NDCG Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.pii.html">Pii</a><input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" role="switch" type="checkbox"/><label for="toctree-checkbox-19"><div class="visually-hidden">Toggle navigation of Pii</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.output_token_count.html">Output Token Count</a><input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" role="switch" type="checkbox"/><label for="toctree-checkbox-22"><div class="visually-hidden">Toggle navigation of Output Token Count</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.output_token_count.output_token_count_decorator.html">Output Token Count Decorator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.output_token_count.output_token_count_metric.html">Output Token Count Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.pii.html">Pii</a><input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" role="switch" type="checkbox"/><label for="toctree-checkbox-23"><div class="visually-hidden">Toggle navigation of Pii</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.pii.input_pii_metric.html">Input Pii Metric</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.pii.output_pii_metric.html">Output Pii Metric</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.pii.pii_decorator.html">Pii Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.pii.pii_metric.html">Pii Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.profanity.html">Profanity</a><input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" role="switch" type="checkbox"/><label for="toctree-checkbox-20"><div class="visually-hidden">Toggle navigation of Profanity</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.profanity.html">Profanity</a><input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" role="switch" type="checkbox"/><label for="toctree-checkbox-24"><div class="visually-hidden">Toggle navigation of Profanity</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.profanity.profanity_decorator.html">Profanity Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.profanity.profanity_metric.html">Profanity Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.prompt_safety_risk.html">Prompt Safety Risk</a><input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" role="switch" type="checkbox"/><label for="toctree-checkbox-21"><div class="visually-hidden">Toggle navigation of Prompt Safety Risk</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.prompt_safety_risk.html">Prompt Safety Risk</a><input class="toctree-checkbox" id="toctree-checkbox-25" name="toctree-checkbox-25" role="switch" type="checkbox"/><label for="toctree-checkbox-25"><div class="visually-hidden">Toggle navigation of Prompt Safety Risk</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.prompt_safety_risk.prompt_safety_risk_decorator.html">Prompt Safety Risk Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.prompt_safety_risk.prompt_safety_risk_metric.html">Prompt Safety Risk Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.reciprocal_rank.html">Reciprocal Rank</a><input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" role="switch" type="checkbox"/><label for="toctree-checkbox-22"><div class="visually-hidden">Toggle navigation of Reciprocal Rank</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.reciprocal_rank.html">Reciprocal Rank</a><input class="toctree-checkbox" id="toctree-checkbox-26" name="toctree-checkbox-26" role="switch" type="checkbox"/><label for="toctree-checkbox-26"><div class="visually-hidden">Toggle navigation of Reciprocal Rank</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.reciprocal_rank.reciprocal_rank_decorator.html">Reciprocal Rank Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.reciprocal_rank.reciprocal_rank_metric.html">Reciprocal Rank Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.retrieval_precision.html">Retrieval Precision</a><input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" role="switch" type="checkbox"/><label for="toctree-checkbox-23"><div class="visually-hidden">Toggle navigation of Retrieval Precision</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.retrieval_precision.html">Retrieval Precision</a><input class="toctree-checkbox" id="toctree-checkbox-27" name="toctree-checkbox-27" role="switch" type="checkbox"/><label for="toctree-checkbox-27"><div class="visually-hidden">Toggle navigation of Retrieval Precision</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.retrieval_precision.retrieval_precision_decorator.html">Retrieval Precision Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.retrieval_precision.retrieval_precision_metric.html">Retrieval Precision Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.sexual_content.html">Sexual Content</a><input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" role="switch" type="checkbox"/><label for="toctree-checkbox-24"><div class="visually-hidden">Toggle navigation of Sexual Content</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.sexual_content.html">Sexual Content</a><input class="toctree-checkbox" id="toctree-checkbox-28" name="toctree-checkbox-28" role="switch" type="checkbox"/><label for="toctree-checkbox-28"><div class="visually-hidden">Toggle navigation of Sexual Content</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.sexual_content.sexual_content_decorator.html">Sexual Content Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.sexual_content.sexual_content_metric.html">Sexual Content Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.social_bias.html">Social Bias</a><input class="toctree-checkbox" id="toctree-checkbox-25" name="toctree-checkbox-25" role="switch" type="checkbox"/><label for="toctree-checkbox-25"><div class="visually-hidden">Toggle navigation of Social Bias</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.social_bias.html">Social Bias</a><input class="toctree-checkbox" id="toctree-checkbox-29" name="toctree-checkbox-29" role="switch" type="checkbox"/><label for="toctree-checkbox-29"><div class="visually-hidden">Toggle navigation of Social Bias</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.social_bias.social_bias_decorator.html">Social Bias Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.social_bias.social_bias_metric.html">Social Bias Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_grade_level.html">Text Grade Level</a><input class="toctree-checkbox" id="toctree-checkbox-26" name="toctree-checkbox-26" role="switch" type="checkbox"/><label for="toctree-checkbox-26"><div class="visually-hidden">Toggle navigation of Text Grade Level</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.status.html">Status</a><input class="toctree-checkbox" id="toctree-checkbox-30" name="toctree-checkbox-30" role="switch" type="checkbox"/><label for="toctree-checkbox-30"><div class="visually-hidden">Toggle navigation of Status</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.status.status_metric.html">Status Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_grade_level.html">Text Grade Level</a><input class="toctree-checkbox" id="toctree-checkbox-31" name="toctree-checkbox-31" role="switch" type="checkbox"/><label for="toctree-checkbox-31"><div class="visually-hidden">Toggle navigation of Text Grade Level</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_grade_level.text_grade_level_decorator.html">Text Grade Level Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_grade_level.text_grade_level_metric.html">Text Grade Level Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_reading_ease.html">Text Reading Ease</a><input class="toctree-checkbox" id="toctree-checkbox-27" name="toctree-checkbox-27" role="switch" type="checkbox"/><label for="toctree-checkbox-27"><div class="visually-hidden">Toggle navigation of Text Reading Ease</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_reading_ease.html">Text Reading Ease</a><input class="toctree-checkbox" id="toctree-checkbox-32" name="toctree-checkbox-32" role="switch" type="checkbox"/><label for="toctree-checkbox-32"><div class="visually-hidden">Toggle navigation of Text Reading Ease</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_reading_ease.text_reading_ease_decorator.html">Text Reading Ease Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.text_reading_ease.text_reading_ease_metric.html">Text Reading Ease Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_accuracy.html">Tool Call Accuracy</a><input class="toctree-checkbox" id="toctree-checkbox-28" name="toctree-checkbox-28" role="switch" type="checkbox"/><label for="toctree-checkbox-28"><div class="visually-hidden">Toggle navigation of Tool Call Accuracy</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_accuracy.html">Tool Call Accuracy</a><input class="toctree-checkbox" id="toctree-checkbox-33" name="toctree-checkbox-33" role="switch" type="checkbox"/><label for="toctree-checkbox-33"><div class="visually-hidden">Toggle navigation of Tool Call Accuracy</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_accuracy.tool_call_accuracy_decorator.html">Tool Call Accuracy Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_accuracy.tool_call_accuracy_metric.html">Tool Call Accuracy Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_parameter_accuracy.html">Tool Call Parameter Accuracy</a><input class="toctree-checkbox" id="toctree-checkbox-29" name="toctree-checkbox-29" role="switch" type="checkbox"/><label for="toctree-checkbox-29"><div class="visually-hidden">Toggle navigation of Tool Call Parameter Accuracy</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_parameter_accuracy.html">Tool Call Parameter Accuracy</a><input class="toctree-checkbox" id="toctree-checkbox-34" name="toctree-checkbox-34" role="switch" type="checkbox"/><label for="toctree-checkbox-34"><div class="visually-hidden">Toggle navigation of Tool Call Parameter Accuracy</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_parameter_accuracy.tool_call_parameter_accuracy_decorator.html">Tool Call Parameter Accuracy Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_parameter_accuracy.tool_call_parameter_accuracy_metric.html">Tool Call Parameter Accuracy Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_relevance.html">Tool Call Relevance</a><input class="toctree-checkbox" id="toctree-checkbox-30" name="toctree-checkbox-30" role="switch" type="checkbox"/><label for="toctree-checkbox-30"><div class="visually-hidden">Toggle navigation of Tool Call Relevance</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_relevance.html">Tool Call Relevance</a><input class="toctree-checkbox" id="toctree-checkbox-35" name="toctree-checkbox-35" role="switch" type="checkbox"/><label for="toctree-checkbox-35"><div class="visually-hidden">Toggle navigation of Tool Call Relevance</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_relevance.tool_call_relevance_decorator.html">Tool Call Relevance Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_relevance.tool_call_relevance_metric.html">Tool Call Relevance Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy.html">Tool Call Syntactic Accuracy</a><input class="toctree-checkbox" id="toctree-checkbox-31" name="toctree-checkbox-31" role="switch" type="checkbox"/><label for="toctree-checkbox-31"><div class="visually-hidden">Toggle navigation of Tool Call Syntactic Accuracy</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy.html">Tool Call Syntactic Accuracy</a><input class="toctree-checkbox" id="toctree-checkbox-36" name="toctree-checkbox-36" role="switch" type="checkbox"/><label for="toctree-checkbox-36"><div class="visually-hidden">Toggle navigation of Tool Call Syntactic Accuracy</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy.tool_call_syntactic_accuracy_decorator.html">Tool Call Syntactic Accuracy Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.tool_call_syntactic_accuracy.tool_call_syntactic_accuracy_metric.html">Tool Call Syntactic Accuracy Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.topic_relevance.html">Topic Relevance</a><input class="toctree-checkbox" id="toctree-checkbox-32" name="toctree-checkbox-32" role="switch" type="checkbox"/><label for="toctree-checkbox-32"><div class="visually-hidden">Toggle navigation of Topic Relevance</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.topic_relevance.html">Topic Relevance</a><input class="toctree-checkbox" id="toctree-checkbox-37" name="toctree-checkbox-37" role="switch" type="checkbox"/><label for="toctree-checkbox-37"><div class="visually-hidden">Toggle navigation of Topic Relevance</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.topic_relevance.topic_relevance_decorator.html">Topic Relevance Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.topic_relevance.topic_relevance_metric.html">Topic Relevance Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.unethical_behavior.html">Unethical Behavior</a><input class="toctree-checkbox" id="toctree-checkbox-33" name="toctree-checkbox-33" role="switch" type="checkbox"/><label for="toctree-checkbox-33"><div class="visually-hidden">Toggle navigation of Unethical Behavior</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.unethical_behavior.html">Unethical Behavior</a><input class="toctree-checkbox" id="toctree-checkbox-38" name="toctree-checkbox-38" role="switch" type="checkbox"/><label for="toctree-checkbox-38"><div class="visually-hidden">Toggle navigation of Unethical Behavior</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.unethical_behavior.unethical_behavior_decorator.html">Unethical Behavior Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.unethical_behavior.unethical_behavior_metric.html">Unethical Behavior Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.unsuccessful_requests.html">Unsuccessful Requests</a><input class="toctree-checkbox" id="toctree-checkbox-34" name="toctree-checkbox-34" role="switch" type="checkbox"/><label for="toctree-checkbox-34"><div class="visually-hidden">Toggle navigation of Unsuccessful Requests</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.unsuccessful_requests.html">Unsuccessful Requests</a><input class="toctree-checkbox" id="toctree-checkbox-39" name="toctree-checkbox-39" role="switch" type="checkbox"/><label for="toctree-checkbox-39"><div class="visually-hidden">Toggle navigation of Unsuccessful Requests</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.unsuccessful_requests.unsuccessful_requests_decorator.html">Unsuccessful Requests Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.unsuccessful_requests.unsuccessful_requests_metric.html">Unsuccessful Requests Metric</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.violence.html">Violence</a><input class="toctree-checkbox" id="toctree-checkbox-35" name="toctree-checkbox-35" role="switch" type="checkbox"/><label for="toctree-checkbox-35"><div class="visually-hidden">Toggle navigation of Violence</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.user_id.html">User Id</a><input class="toctree-checkbox" id="toctree-checkbox-40" name="toctree-checkbox-40" role="switch" type="checkbox"/><label for="toctree-checkbox-40"><div class="visually-hidden">Toggle navigation of User Id</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.user_id.user_id_metric.html">User Id Metric</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.metrics.violence.html">Violence</a><input class="toctree-checkbox" id="toctree-checkbox-41" name="toctree-checkbox-41" role="switch" type="checkbox"/><label for="toctree-checkbox-41"><div class="visually-hidden">Toggle navigation of Violence</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.violence.violence_decorator.html">Violence Decorator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.metrics.violence.violence_metric.html">Violence Metric</a></li>
 </ul>
@@ -395,16 +428,16 @@
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.metrics.utils.html">Utils</a></li>
 </ul>
 </li>
-<li class="toctree-l2 current has-children"><a class="reference internal" href="ibm_watsonx_gov.visualizations.html">Visualizations</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-36" name="toctree-checkbox-36" role="switch" type="checkbox"/><label for="toctree-checkbox-36"><div class="visually-hidden">Toggle navigation of Visualizations</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 current has-children"><a class="reference internal" href="ibm_watsonx_gov.visualizations.html">Visualizations</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-42" name="toctree-checkbox-42" role="switch" type="checkbox"/><label for="toctree-checkbox-42"><div class="visually-hidden">Toggle navigation of Visualizations</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l3 current current-page"><a class="current reference internal" href="#">Model Insights</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.visualizations.visualization_utils.html">Visualization Utils</a></li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.prompt_evaluator.html">Prompt Evaluator</a><input class="toctree-checkbox" id="toctree-checkbox-37" name="toctree-checkbox-37" role="switch" type="checkbox"/><label for="toctree-checkbox-37"><div class="visually-hidden">Toggle navigation of Prompt Evaluator</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.prompt_evaluator.html">Prompt Evaluator</a><input class="toctree-checkbox" id="toctree-checkbox-43" name="toctree-checkbox-43" role="switch" type="checkbox"/><label for="toctree-checkbox-43"><div class="visually-hidden">Toggle navigation of Prompt Evaluator</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.prompt_evaluator.prompt_evaluator.html">Prompt Evaluator</a></li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.evaluators.html">Evaluators</a><input class="toctree-checkbox" id="toctree-checkbox-38" name="toctree-checkbox-38" role="switch" type="checkbox"/><label for="toctree-checkbox-38"><div class="visually-hidden">Toggle navigation of Evaluators</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.evaluators.html">Evaluators</a><input class="toctree-checkbox" id="toctree-checkbox-44" name="toctree-checkbox-44" role="switch" type="checkbox"/><label for="toctree-checkbox-44"><div class="visually-hidden">Toggle navigation of Evaluators</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.agentic_evaluator.html">Agentic Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.base_evaluator.html">Base Evaluator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.metrics_evaluator.html">Metrics Evaluator</a></li>
@@ -412,21 +445,21 @@
 <li class="toctree-l3"><a class="reference internal" href="ibm_watsonx_gov.evaluators.traces_evaluator.html">Traces Evaluator</a></li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.html">Tools</a><input class="toctree-checkbox" id="toctree-checkbox-39" name="toctree-checkbox-39" role="switch" type="checkbox"/><label for="toctree-checkbox-39"><div class="visually-hidden">Toggle navigation of Tools</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.clients.html">Clients</a><input class="toctree-checkbox" id="toctree-checkbox-40" name="toctree-checkbox-40" role="switch" type="checkbox"/><label for="toctree-checkbox-40"><div class="visually-hidden">Toggle navigation of Clients</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.html">Tools</a><input class="toctree-checkbox" id="toctree-checkbox-45" name="toctree-checkbox-45" role="switch" type="checkbox"/><label for="toctree-checkbox-45"><div class="visually-hidden">Toggle navigation of Tools</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.clients.html">Clients</a><input class="toctree-checkbox" id="toctree-checkbox-46" name="toctree-checkbox-46" role="switch" type="checkbox"/><label for="toctree-checkbox-46"><div class="visually-hidden">Toggle navigation of Clients</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.clients.ai_tool_client.html">AI Tool Client</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.clients.detector_client.html">Detector Client</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.core.html">Core</a><input class="toctree-checkbox" id="toctree-checkbox-41" name="toctree-checkbox-41" role="switch" type="checkbox"/><label for="toctree-checkbox-41"><div class="visually-hidden">Toggle navigation of Core</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.core.html">Core</a><input class="toctree-checkbox" id="toctree-checkbox-47" name="toctree-checkbox-47" role="switch" type="checkbox"/><label for="toctree-checkbox-47"><div class="visually-hidden">Toggle navigation of Core</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.core.tool_loader.html">Tool Loader</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.entities.html">Entities</a><input class="toctree-checkbox" id="toctree-checkbox-42" name="toctree-checkbox-42" role="switch" type="checkbox"/><label for="toctree-checkbox-42"><div class="visually-hidden">Toggle navigation of Entities</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.entities.html">Entities</a><input class="toctree-checkbox" id="toctree-checkbox-48" name="toctree-checkbox-48" role="switch" type="checkbox"/><label for="toctree-checkbox-48"><div class="visually-hidden">Toggle navigation of Entities</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.entities.ai_tools.html">AI Tools</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.utils.html">Utils</a><input class="toctree-checkbox" id="toctree-checkbox-43" name="toctree-checkbox-43" role="switch" type="checkbox"/><label for="toctree-checkbox-43"><div class="visually-hidden">Toggle navigation of Utils</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.tools.utils.html">Utils</a><input class="toctree-checkbox" id="toctree-checkbox-49" name="toctree-checkbox-49" role="switch" type="checkbox"/><label for="toctree-checkbox-49"><div class="visually-hidden">Toggle navigation of Utils</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.utils.constants.html">Constants</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.utils.display_utils.html">Display Utils</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.tools.utils.platform_url_mapping.html">Platform Url Mapping</a></li>
@@ -434,21 +467,21 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.html">Agent Catalog</a><input class="toctree-checkbox" id="toctree-checkbox-44" name="toctree-checkbox-44" role="switch" type="checkbox"/><label for="toctree-checkbox-44"><div class="visually-hidden">Toggle navigation of Agent Catalog</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.clients.html">Clients</a><input class="toctree-checkbox" id="toctree-checkbox-45" name="toctree-checkbox-45" role="switch" type="checkbox"/><label for="toctree-checkbox-45"><div class="visually-hidden">Toggle navigation of Clients</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.html">Agent Catalog</a><input class="toctree-checkbox" id="toctree-checkbox-50" name="toctree-checkbox-50" role="switch" type="checkbox"/><label for="toctree-checkbox-50"><div class="visually-hidden">Toggle navigation of Agent Catalog</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.clients.html">Clients</a><input class="toctree-checkbox" id="toctree-checkbox-51" name="toctree-checkbox-51" role="switch" type="checkbox"/><label for="toctree-checkbox-51"><div class="visually-hidden">Toggle navigation of Clients</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.clients.ai_agent_client.html">AI Agent Client</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.core.html">Core</a><input class="toctree-checkbox" id="toctree-checkbox-46" name="toctree-checkbox-46" role="switch" type="checkbox"/><label for="toctree-checkbox-46"><div class="visually-hidden">Toggle navigation of Core</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.core.html">Core</a><input class="toctree-checkbox" id="toctree-checkbox-52" name="toctree-checkbox-52" role="switch" type="checkbox"/><label for="toctree-checkbox-52"><div class="visually-hidden">Toggle navigation of Core</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.core.agent_loader.html">Agent Loader</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.core.agents.html">Agents</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.entities.html">Entities</a><input class="toctree-checkbox" id="toctree-checkbox-47" name="toctree-checkbox-47" role="switch" type="checkbox"/><label for="toctree-checkbox-47"><div class="visually-hidden">Toggle navigation of Entities</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.entities.html">Entities</a><input class="toctree-checkbox" id="toctree-checkbox-53" name="toctree-checkbox-53" role="switch" type="checkbox"/><label for="toctree-checkbox-53"><div class="visually-hidden">Toggle navigation of Entities</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.entities.ai_agent.html">AI Agent</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.utils.html">Utils</a><input class="toctree-checkbox" id="toctree-checkbox-48" name="toctree-checkbox-48" role="switch" type="checkbox"/><label for="toctree-checkbox-48"><div class="visually-hidden">Toggle navigation of Utils</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.utils.html">Utils</a><input class="toctree-checkbox" id="toctree-checkbox-54" name="toctree-checkbox-54" role="switch" type="checkbox"/><label for="toctree-checkbox-54"><div class="visually-hidden">Toggle navigation of Utils</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.utils.constants.html">Constants</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ibm_watsonx_gov.agent_catalog.utils.notebook_utils.html">Notebook Utils</a></li>
 </ul>
@@ -696,7 +729,7 @@ a row is selected, the contexts will be listed with each attribution highlighted
       
     </aside>
   </div>
-</div><script src="../_static/documentation_options.js?v=1f29e9d3"></script>
+</div><script src="../_static/documentation_options.js?v=8ca9e7a0"></script>
     <script src="../_static/doctools.js?v=9bcbadda"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/scripts/furo.js?v=5fa4622c"></script>

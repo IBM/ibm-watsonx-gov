@@ -1,0 +1,7 @@
+Input Token Count Decorator
+===========================
+
+.. automodule:: ibm_watsonx_gov.metrics.input_token_count.input_token_count_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:
