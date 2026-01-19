@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Base Evaluator" href="ibm_watsonx_gov.evaluators.base_evaluator.html" /><link rel="prev" title="Evaluators" href="ibm_watsonx_gov.evaluators.html" />
 
     <!-- Generated with Sphinx 8.1.3 and Furo 2024.08.06 -->
-        <title>Agentic Evaluator - IBM watsonx.governance SDK 1.3.2 documentation</title>
+        <title>Agentic Evaluator - IBM watsonx.governance SDK 1.4.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../_static/autodoc_pydantic.css" />
@@ -167,7 +167,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../index.html"><div class="brand">IBM watsonx.governance SDK 1.3.2 documentation</div></a>
+      <a href="../index.html"><div class="brand">IBM watsonx.governance SDK 1.4.0 documentation</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -191,7 +191,7 @@
       <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
   
   
-  <span class="sidebar-brand-text">IBM watsonx.governance SDK 1.3.2 documentation</span>
+  <span class="sidebar-brand-text">IBM watsonx.governance SDK 1.4.0 documentation</span>
   
 </a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
@@ -1033,7 +1033,7 @@
 <span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The input token count field in span attributes.&quot;</span><span class="p">,</span>
 <span class="w">               </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                  </span><span class="p">[</span>
-<span class="w">                     </span><span class="s2">&quot;prompt_tokens&quot;</span>
+<span class="w">                     </span><span class="s2">&quot;input_tokens&quot;</span>
 <span class="w">                  </span><span class="p">]</span>
 <span class="w">               </span><span class="p">],</span>
 <span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Input Token Count Field&quot;</span>
@@ -1051,12 +1051,12 @@
 <span class="w">                  </span><span class="p">}</span>
 <span class="w">               </span><span class="p">],</span>
 <span class="w">               </span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">                  </span><span class="s2">&quot;completion_tokens&quot;</span>
+<span class="w">                  </span><span class="s2">&quot;output_tokens&quot;</span>
 <span class="w">               </span><span class="p">],</span>
 <span class="w">               </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The output token count field in span attributes.&quot;</span><span class="p">,</span>
 <span class="w">               </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                  </span><span class="p">[</span>
-<span class="w">                     </span><span class="s2">&quot;completion_tokens&quot;</span>
+<span class="w">                     </span><span class="s2">&quot;output_tokens&quot;</span>
 <span class="w">                  </span><span class="p">]</span>
 <span class="w">               </span><span class="p">],</span>
 <span class="w">               </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Output Token Count Field&quot;</span>
@@ -1180,7 +1180,7 @@
 <span class="w">                        </span><span class="s2">&quot;generated_text&quot;</span>
 <span class="w">                     </span><span class="p">],</span>
 <span class="w">                     </span><span class="nt">&quot;output_token_count_fields&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">                        </span><span class="s2">&quot;completion_tokens&quot;</span>
+<span class="w">                        </span><span class="s2">&quot;output_tokens&quot;</span>
 <span class="w">                     </span><span class="p">],</span>
 <span class="w">                     </span><span class="nt">&quot;prompt_field&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;model_prompt&quot;</span><span class="p">,</span>
 <span class="w">                     </span><span class="nt">&quot;record_id_field&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;record_id&quot;</span><span class="p">,</span>
@@ -1990,7 +1990,7 @@
 <span class="w">                  </span><span class="nt">&quot;model_usage_detail_fields&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span>
 <span class="w">                  </span><span class="nt">&quot;input_token_count_fields&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span>
 <span class="w">                  </span><span class="nt">&quot;output_token_count_fields&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">                     </span><span class="s2">&quot;completion_tokens&quot;</span>
+<span class="w">                     </span><span class="s2">&quot;output_tokens&quot;</span>
 <span class="w">                  </span><span class="p">],</span>
 <span class="w">                  </span><span class="nt">&quot;status_field&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;status&quot;</span><span class="p">,</span>
 <span class="w">                  </span><span class="nt">&quot;user_id_field&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;user_id&quot;</span><span class="p">,</span>
@@ -5254,7 +5254,7 @@ If an existing experiment with the same name is found, it will be reused based o
         <div class="bottom-of-page">
           <div class="left-details">
             <div class="copyright">
-                Copyright &#169; 2025, IBM
+                Copyright &#169; 2025, 2026 IBM
             </div>
             Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
             
@@ -5345,7 +5345,7 @@ If an existing experiment with the same name is found, it will be reused based o
       
     </aside>
   </div>
-</div><script src="../_static/documentation_options.js?v=8ca9e7a0"></script>
+</div><script src="../_static/documentation_options.js?v=9172181d"></script>
     <script src="../_static/doctools.js?v=9bcbadda"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/scripts/furo.js?v=5fa4622c"></script>
