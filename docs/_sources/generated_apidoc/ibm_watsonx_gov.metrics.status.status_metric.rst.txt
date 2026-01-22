@@ -1,0 +1,7 @@
+Status Metric
+=============
+
+.. automodule:: ibm_watsonx_gov.metrics.status.status_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

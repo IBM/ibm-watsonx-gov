@@ -16,16 +16,20 @@ Subpackages
    ibm_watsonx_gov.metrics.answer_similarity
    ibm_watsonx_gov.metrics.average_precision
    ibm_watsonx_gov.metrics.context_relevance
+   ibm_watsonx_gov.metrics.cost
+   ibm_watsonx_gov.metrics.duration
    ibm_watsonx_gov.metrics.evasiveness
    ibm_watsonx_gov.metrics.faithfulness
    ibm_watsonx_gov.metrics.hap
    ibm_watsonx_gov.metrics.harm
    ibm_watsonx_gov.metrics.harm_engagement
    ibm_watsonx_gov.metrics.hit_rate
+   ibm_watsonx_gov.metrics.input_token_count
    ibm_watsonx_gov.metrics.jailbreak
    ibm_watsonx_gov.metrics.llm_validation
    ibm_watsonx_gov.metrics.llmaj
    ibm_watsonx_gov.metrics.ndcg
+   ibm_watsonx_gov.metrics.output_token_count
    ibm_watsonx_gov.metrics.pii
    ibm_watsonx_gov.metrics.profanity
    ibm_watsonx_gov.metrics.prompt_safety_risk
@@ -33,6 +37,7 @@ Subpackages
    ibm_watsonx_gov.metrics.retrieval_precision
    ibm_watsonx_gov.metrics.sexual_content
    ibm_watsonx_gov.metrics.social_bias
+   ibm_watsonx_gov.metrics.status
    ibm_watsonx_gov.metrics.text_grade_level
    ibm_watsonx_gov.metrics.text_reading_ease
    ibm_watsonx_gov.metrics.tool_call_accuracy
@@ -42,6 +47,7 @@ Subpackages
    ibm_watsonx_gov.metrics.topic_relevance
    ibm_watsonx_gov.metrics.unethical_behavior
    ibm_watsonx_gov.metrics.unsuccessful_requests
+   ibm_watsonx_gov.metrics.user_id
    ibm_watsonx_gov.metrics.violence
 
 Submodules

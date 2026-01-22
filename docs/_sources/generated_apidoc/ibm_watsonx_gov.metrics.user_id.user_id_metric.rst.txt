@@ -1,0 +1,7 @@
+User Id Metric
+==============
+
+.. automodule:: ibm_watsonx_gov.metrics.user_id.user_id_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:

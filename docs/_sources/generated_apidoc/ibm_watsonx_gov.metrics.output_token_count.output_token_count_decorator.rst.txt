@@ -1,0 +1,7 @@
+Output Token Count Decorator
+============================
+
+.. automodule:: ibm_watsonx_gov.metrics.output_token_count.output_token_count_decorator
+   :members:
+   :undoc-members:
+   :show-inheritance:

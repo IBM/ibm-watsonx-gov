@@ -1,0 +1,7 @@
+Output Token Count Metric
+=========================
+
+.. automodule:: ibm_watsonx_gov.metrics.output_token_count.output_token_count_metric
+   :members:
+   :undoc-members:
+   :show-inheritance:
